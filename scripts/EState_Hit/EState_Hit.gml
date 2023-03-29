@@ -1,4 +1,4 @@
-function EState_Hit() {
+	function EState_Hit() {
 	//Just hit
 	if (hitNow)
 	{

@@ -1,16 +1,16 @@
 function PState_Free(){
 	var move = key_right - key_left; //calculate movements
 
+	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
+
 	hsp = move * walksp; //move speed
 
 	vsp += grv;
+	
 
 	/**jumping**/
-	if (place_meeting(x,y+1,Owall)) and (key_jump) {
-	    vsp = -4.5;
-	}
-	else if (place_meeting(x,y+1,OPlatform)) and (key_jump) {
-	    vsp = -4.5;
+	if (place_meeting(x,y+1,Owall) || place_meeting(x,y+1,OPlatform)) and (key_jump) {
+	    vsp = -6;
 	}
 
 	/*sprinting (run faster)
@@ -33,7 +33,7 @@ function PState_Free(){
 	x = x + hsp;
 
 	/**platform vertical collision**/
-	if (place_meeting(x,y+vsp,Owall)) or (place_meeting(x,y+vsp,OPlatform))
+	if (place_meeting(x,y+vsp,Owall) or (place_meeting(x,y+vsp,OPlatform)))
 	{
 		while (!place_meeting(x,y+sign(vsp),Owall)) and (!place_meeting(x,y+sign(vsp),OPlatform))
 		{
@@ -42,13 +42,15 @@ function PState_Free(){
 		vsp = 0;
 	}
 	y = y + vsp;
-
+	
+	
 	/**animations**/
-	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))
+	
+	if (!on_ground)
 	{
-		sprite_index = SKingAir;	
+		sprite_index = SKingAir;
 		image_speed = 0;
-	}
+	} 
 	else
 	{
 		image_speed = 1;
@@ -61,7 +63,6 @@ function PState_Free(){
 			sprite_index = SKingRun;
 		}
 	}
+	if(key_atk and on_ground){ state = PSTATE.ATTACK_SLASH;}
 	if (hsp != 0) image_xscale = sign(hsp);
-	
-	if (key_atk) state = PSTATE.ATTACK_SLASH;
 }
