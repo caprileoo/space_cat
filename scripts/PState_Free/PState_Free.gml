@@ -63,6 +63,12 @@ function PState_Free(){
 			sprite_index = SKingRun;
 		}
 	}
+<<<<<<< Updated upstream
 	if(key_atk and on_ground){ state = PSTATE.ATTACK_SLASH;}
 	if (hsp != 0) image_xscale = sign(hsp);
+=======
+	if (hsp != 0) image_xscale = sign(hsp); //cat sprite turn around 
+	
+	if (key_atk) state = PSTATE.ATTACK_SLASH;
+>>>>>>> Stashed changes
 }
