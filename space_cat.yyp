@@ -74,6 +74,7 @@
     {"id":{"name":"SSmolFlag","path":"sprites/SSmolFlag/SSmolFlag.yy",},},
     {"id":{"name":"Lv2","path":"rooms/Lv2/Lv2.yy",},},
     {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},},
+    {"id":{"name":"Lv5","path":"rooms/Lv5/Lv5.yy",},},
     {"id":{"name":"EState_Dead","path":"scripts/EState_Dead/EState_Dead.yy",},},
     {"id":{"name":"OKing","path":"objects/OKing/OKing.yy",},},
     {"id":{"name":"PState_Free","path":"scripts/PState_Free/PState_Free.yy",},},
@@ -106,6 +107,7 @@
     {"roomId":{"name":"Lv2","path":"rooms/Lv2/Lv2.yy",},},
     {"roomId":{"name":"Lv3","path":"rooms/Lv3/Lv3.yy",},},
     {"roomId":{"name":"Lv4","path":"rooms/Lv4/Lv4.yy",},},
+    {"roomId":{"name":"Lv5","path":"rooms/Lv5/Lv5.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

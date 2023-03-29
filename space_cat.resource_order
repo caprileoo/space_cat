@@ -52,6 +52,7 @@
     {"name":"OLvEnd","order":12,"path":"objects/OLvEnd/OLvEnd.yy",},
     {"name":"SSmolFlag","order":4,"path":"sprites/SSmolFlag/SSmolFlag.yy",},
     {"name":"Lv2","order":3,"path":"rooms/Lv2/Lv2.yy",},
+    {"name":"Lv5","order":7,"path":"rooms/Lv5/Lv5.yy",},
     {"name":"Swall","order":1,"path":"sprites/Swall/Swall.yy",},
     {"name":"SPlatform","order":5,"path":"sprites/SPlatform/SPlatform.yy",},
     {"name":"SPigHit","order":3,"path":"sprites/SPigHit/SPigHit.yy",},
