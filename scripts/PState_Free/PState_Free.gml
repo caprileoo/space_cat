@@ -10,8 +10,11 @@ function PState_Free(){
 
 	/**jumping**/
 	if (place_meeting(x,y+1,Owall) || place_meeting(x,y+1,OPlatform)) and (key_jump) {
-	    vsp = -6;
+	    vsp = -7;
 	}
+	
+	/**dev mode**/
+	if(key_dev) vsp -= 0.5;
 
 	/*sprinting (run faster)
 	if (key_sprint_hold && mana >= 2) { //Sprint when hold shift
@@ -63,12 +66,8 @@ function PState_Free(){
 			sprite_index = SKingRun;
 		}
 	}
-<<<<<<< Updated upstream
+
 	if(key_atk and on_ground){ state = PSTATE.ATTACK_SLASH;}
-	if (hsp != 0) image_xscale = sign(hsp);
-=======
+
 	if (hsp != 0) image_xscale = sign(hsp); //cat sprite turn around 
-	
-	if (key_atk) state = PSTATE.ATTACK_SLASH;
->>>>>>> Stashed changes
 }

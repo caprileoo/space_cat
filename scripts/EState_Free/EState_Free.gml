@@ -1,6 +1,24 @@
 function EState_Free() {
-	vsp += grv;
+	if (point_distance(x, y, target.x, target.y) <= detectionRadius) {
+		moveDirection = sign(target.x - x); // Move towards the target
+		hsp = moveDirection; //divide = low speed | multiply = high speed
+	} else {
+		moveTimer++;
+	
+		if (moveTimer >= moveDuration) {
+			moveDirection *= -1; // Change direction
+			moveTimer = 0; // Reset timer
+		}
+	
+		if (place_meeting(x + hsp, y, Owall)) {
+			// If there is a wall collision, chagne direction
+			moveDirection *= -1; // Change direction
+		}
+		hsp = moveDirection / 2; //divide = low speed | multiply = high speed
+	}
 
+	vsp += grv;
+	
 	/**platform horizontal collision**/
 	if (place_meeting(x+hsp,y,Owall)) or (place_meeting(x+hsp,y,OPlatform))
 	{
@@ -24,7 +42,7 @@ function EState_Free() {
 	y = y + vsp;
 
 	/**animations**/
-	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))
+	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
 	{
 		sprite_index = SPigIdle;	
 		image_speed = 0;
@@ -41,5 +59,6 @@ function EState_Free() {
 			sprite_index = SPigRun;
 		}
 	}
-	if (hsp != 0) image_xscale = sign(hsp);
+	
+	if (hsp != 0) image_xscale = -sign(hsp);
 }

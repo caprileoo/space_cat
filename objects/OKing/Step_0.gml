@@ -4,12 +4,14 @@ if(hascontrol) {
 	key_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_up); //Press
 	//key_sprint_hold = keyboard_check(vk_shift); //Hold
 	key_atk = keyboard_check_pressed(ord("K")) or keyboard_check_pressed(ord("L")); //Attack
+	key_dev = keyboard_check(ord("J"));
 }
 else {
 	key_right = 0
 	key_left = 0
 	key_jump = 0
 	key_atk = 0
+	key_dev = 0
 }
 switch(state)
 {

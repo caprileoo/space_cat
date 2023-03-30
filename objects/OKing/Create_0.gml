@@ -8,7 +8,6 @@ hp = 6;
 hascontrol = true;
 
 state = PSTATE.FREE;
-attack = false;
 hitByAttack = ds_list_create();
 	
 enum PSTATE
