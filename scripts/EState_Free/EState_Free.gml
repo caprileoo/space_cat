@@ -10,7 +10,9 @@ function EState_Free() {
 		// If there is a wall collision, chagne direction
 		moveDirection *= -1; // Change direction
 	}
-	hsp = moveDirection / 2; //divide = low speed | multiply = high speed
+	hsp = moveDirection; //divide = low speed | multiply = high speed
+	
+	show_debug_message("free speed  {0}", hsp);
 
 	vsp += grv;
 	
@@ -56,7 +58,6 @@ function EState_Free() {
 	}
 	
 	if (hsp != 0) image_xscale = -sign(hsp);
-	show_debug_message("chilling");
 	state = ESTATE.STATUS;
 }
 
