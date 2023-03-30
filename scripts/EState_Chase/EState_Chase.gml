@@ -1,17 +1,8 @@
-function EState_Free() {
-	moveTimer++;
+function EState_Chase(){
+	moveDirection = sign(target.x - x); // Move towards the target
 	
-	if (moveTimer >= moveDuration) {
-		moveDirection *= -1; // Change direction
-		moveTimer = 0; // Reset timer
-	}
+	hsp = moveDirection; //divide = low speed | multiply = high speed
 	
-	if (place_meeting(x + hsp, y, Owall)) {
-		// If there is a wall collision, chagne direction
-		moveDirection *= -1; // Change direction
-	}
-	hsp = moveDirection / 2; //divide = low speed | multiply = high speed
-
 	vsp += grv;
 	
 	/**platform horizontal collision**/
@@ -56,7 +47,6 @@ function EState_Free() {
 	}
 	
 	if (hsp != 0) image_xscale = -sign(hsp);
-	show_debug_message("chilling");
+	show_debug_message("Chasing target!");
 	state = ESTATE.STATUS;
 }
-

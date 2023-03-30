@@ -67,7 +67,7 @@ function PState_Free(){
 		}
 	}
 
-	if(key_atk and on_ground){ state = PSTATE.ATTACK_SLASH;}
+	if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
 
 	if (hsp != 0) image_xscale = sign(hsp); //cat sprite turn around 
 }

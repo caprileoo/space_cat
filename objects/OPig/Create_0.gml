@@ -8,7 +8,7 @@ moveDuration = room_speed * 3; // 3 seconds
 
 hitNow = false;
 frameCount = 0;
-state = ESTATE.FREE;
+state = ESTATE.STATUS;
 hp = 6;
 
 
@@ -17,7 +17,9 @@ target = instance_nearest(x, y, OKing);
 
 enum ESTATE
 {
+	STATUS,
 	FREE,
+	CHASE,
 	HIT,
 	DEAD
 }
