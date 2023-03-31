@@ -1,4 +1,5 @@
 function PState_Free(){
+	#region Movements
 	var move = key_right - key_left; //calculate movements
 
 	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
@@ -6,12 +7,13 @@ function PState_Free(){
 	hsp = move * walksp; //move speed
 
 	vsp += grv;
-	
+	#endregion
 
-	/**jumping**/
+	#region Jumping
 	if (place_meeting(x,y+1,Owall) || place_meeting(x,y+1,OPlatform)) and (key_jump) {
-	    vsp = -7;
+	    vsp = -5;
 	}
+	#endregion
 	
 	/**dev mode**/
 	if(key_dev) vsp -= 0.5;
@@ -25,6 +27,7 @@ function PState_Free(){
 	}*/
 
 	/**platform horizontal collision**/
+	#region Collisions
 	if (place_meeting(x+hsp,y,Owall)) or (place_meeting(x+hsp,y,OPlatform))
 	{
 		while (!place_meeting(x+sign(hsp),y,Owall)) and(!place_meeting(x+sign(hsp),y,OPlatform))
@@ -45,10 +48,10 @@ function PState_Free(){
 		vsp = 0;
 	}
 	y = y + vsp;
+	#endregion
 	
 	
-	/**animations**/
-	
+	#region Animations
 	if (!on_ground)
 	{
 		sprite_index = SKingAir;
@@ -69,5 +72,6 @@ function PState_Free(){
 
 	if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
 
-	if (hsp != 0) image_xscale = sign(hsp); //cat sprite turn around 
+	if (hsp != 0) image_xscale = sign(hsp); //player sprite turn around
+	#endregion
 }
