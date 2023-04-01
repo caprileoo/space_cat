@@ -17,7 +17,7 @@
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Decos","order":10,"path":"folders/Sprites/Decos.yy",},
-    {"name":"King","order":5,"path":"folders/Sprites/King.yy",},
+    {"name":"Cats","order":5,"path":"folders/Sprites/Cats.yy",},
     {"name":"Pigs","order":11,"path":"folders/Sprites/Pigs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},

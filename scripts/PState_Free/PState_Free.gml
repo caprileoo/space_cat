@@ -11,7 +11,7 @@ function PState_Free(){
 
 	#region Jumping
 	if (place_meeting(x,y+1,Owall) || place_meeting(x,y+1,OPlatform)) and (key_jump) {
-	    vsp = -5;
+	    vsp = -4;
 	}
 	#endregion
 	
