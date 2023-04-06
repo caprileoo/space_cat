@@ -11,8 +11,6 @@ function EState_Free() {
 		moveDirection *= -1; // Change direction
 	}
 	hsp = moveDirection; //divide = low speed | multiply = high speed
-	
-	show_debug_message("free speed  {0}", hsp);
 
 	vsp += grv;
 	
@@ -57,7 +55,7 @@ function EState_Free() {
 		}
 	}
 	
-	if (hsp != 0) image_xscale = -sign(hsp);
+	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around
 	state = ESTATE.STATUS;
 }
 

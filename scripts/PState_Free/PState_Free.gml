@@ -1,8 +1,7 @@
 function PState_Free(){
+	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
 	#region Movements
 	var move = key_right - key_left; //calculate movements
-
-	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
 
 	hsp = move * walksp; //move speed
 
@@ -73,5 +72,6 @@ function PState_Free(){
 	if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
 
 	if (hsp != 0) image_xscale = sign(hsp); //player sprite turn around
+	show_debug_message(image_xscale);
 	#endregion
 }

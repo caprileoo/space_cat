@@ -3,8 +3,6 @@ function EState_Chase(){
 	
 	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
 	
-	show_debug_message("chase speed  {0}", hsp);
-	
 	vsp += grv;
 	
 	/**platform horizontal collision**/
@@ -48,6 +46,6 @@ function EState_Chase(){
 		}
 	}
 	
-	if (hsp != 0) image_xscale = -sign(hsp);
+	if (hsp != 0) image_xscale = sign(hsp);
 	state = ESTATE.STATUS;
 }

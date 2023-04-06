@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ProcessAttack",
+  "name": "PlayerHit",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

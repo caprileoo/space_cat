@@ -1,4 +1,4 @@
-	function EState_Hit() {
+function EState_Hit() {
 	//Just hit
 	if (hitNow)
 	{
@@ -12,8 +12,6 @@
 	if (frameCount > 20) 
 	{
 		frameCount = 0;
-		state = ESTATE.FREE;
+		state = ESTATE.STATUS;
 	}
-
-
 }
