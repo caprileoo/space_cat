@@ -1,7 +1,7 @@
 if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
 	key_right = keyboard_check(vk_right) or keyboard_check(ord("D")); //Hold
-	key_jump = keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_up); //Press
+	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Press
 	//key_sprint_hold = keyboard_check(vk_shift); //Hold
 	key_atk = keyboard_check_pressed(ord("K")) or keyboard_check_pressed(ord("L")); //Attack
 	key_dev = keyboard_check(ord("J"));
