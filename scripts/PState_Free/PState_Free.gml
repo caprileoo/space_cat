@@ -1,5 +1,5 @@
 function PState_Free(){
-    var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
+	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
     #region Movements
     var move = key_right - key_left; //calculate movements
 
@@ -14,13 +14,17 @@ function PState_Free(){
     #endregion
 	
 	#region Jumping
+	vsp += grv;
 	if(key_jump and on_ground){
 		vsp = j_velocity;
-		if(vsp = max_vsp){
+		if(!key_jump){
 			vsp += stopping_grv;
+			if (vsp > max_vsp) vsp = max_vsp;
+		} else{
+			vsp += grv;
+			if (vsp > max_vsp) vsp = max_vsp;
 		}
 	}
-	vsp += grv;
 	#endregion
 
     #region Collisions
