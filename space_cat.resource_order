@@ -12,7 +12,9 @@
     {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Enemy State","order":14,"path":"folders/Scripts/Enemy State.yy",},
+    {"name":"EnemyProcessATK","order":20,"path":"folders/Scripts/EnemyProcessATK.yy",},
     {"name":"Player States","order":15,"path":"folders/Scripts/Player States.yy",},
+    {"name":"PlayerProcessATK","order":19,"path":"folders/Scripts/PlayerProcessATK.yy",},
     {"name":"Sequences","order":9,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":5,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
@@ -21,8 +23,6 @@
     {"name":"Pigs","order":11,"path":"folders/Sprites/Pigs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"PlayerProcessATK","order":19,"path":"folders/Scripts/PlayerProcessATK.yy",},
-    {"name":"EnemyProcessATK","order":20,"path":"folders/Scripts/EnemyProcessATK.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SWindow2","order":7,"path":"sprites/SWindow2/SWindow2.yy",},
