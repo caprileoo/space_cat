@@ -2,8 +2,9 @@ if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
 	key_right = keyboard_check(vk_right) or keyboard_check(ord("D")); //Hold
 	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Press
-	key_atk = keyboard_check_pressed(ord("K")) or keyboard_check_pressed(ord("L")); //Attack
-	key_jet = keyboard_check(ord("J"));
+	key_atk = keyboard_check_pressed(ord("K")) ; //Slash Attack
+	key_jet = keyboard_check(ord("J")); //Jetpack
+	key_shoot = keyboard_check_pressed(ord("L")); //Shoot Attack
 }
 else {
 	key_right = 0
