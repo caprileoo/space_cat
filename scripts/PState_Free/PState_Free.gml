@@ -1,5 +1,13 @@
 function PState_Free(){
 	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
+	vsp += grv;
+	
+	#region Fuel Regen
+	if (fuel < max_fuel and on_ground and !key_jet) {
+		fuel += 5;
+	}
+	#endregion
+	
     #region Movements
     var move = key_right - key_left; //calculate movements
 
@@ -14,7 +22,6 @@ function PState_Free(){
     #endregion
 	
 	#region Jumping
-	vsp += grv;
 	if(key_jump and on_ground){
 		vsp = j_velocity;
 		if(!key_jump){
@@ -25,6 +32,24 @@ function PState_Free(){
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
 	}
+	#endregion
+	
+	#region Jet
+	if(key_jet and fuel > 0){
+		vsp = j_velocity / 2;
+		if(!key_jet){
+			vsp += stopping_grv;
+			if (vsp > max_vsp) vsp = max_vsp;
+		} else{
+			vsp += grv;
+			fuel -= 5;
+			if (vsp > max_vsp) vsp = max_vsp;
+		}
+	}
+	#endregion
+	
+	#region Fuel Regen
+	
 	#endregion
 
     #region Collisions
@@ -69,11 +94,8 @@ function PState_Free(){
         }
     }
 
-    if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
-
     if (hsp != 0) image_xscale = sign(hsp); //player sprite turn around
     #endregion
-	
-	/**dev mode**/
-    if(key_dev) vsp -= 0.5;
+
+	show_debug_message(fuel);
 }
