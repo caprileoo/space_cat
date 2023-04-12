@@ -108,13 +108,13 @@ function PState_Free(){
 	        charge = max_charge;
 	    }
 	} else {
-	    if (charge > 0) {
+	    if (charge > 16) {
 	        var bullet = instance_create_layer(x, y, "Instances", OPlasma);
 			bullet.direction = dir;
 	        bullet.speed = 10;
 	        bullet.image_xscale = charge / max_charge;
 	        bullet.image_yscale = charge / max_charge;
-	        charge = 0;
+	        charge = 16; //charge values should be all same
 	    }
 	}
 	#endregion
