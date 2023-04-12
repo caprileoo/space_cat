@@ -118,5 +118,4 @@ function PState_Free(){
 	    }
 	}
 	#endregion
-	show_debug_message(image_xscale);
 }
