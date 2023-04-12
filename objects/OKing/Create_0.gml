@@ -9,6 +9,7 @@ max_walksp = 3; //maximum walking speed
 fuel = 300;
 max_fuel = 300;
 
+
 //solve for grv dynamically
 j_height = 68;
 time_to_apex = 28;
