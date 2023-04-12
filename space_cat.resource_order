@@ -23,6 +23,8 @@
     {"name":"Pigs","order":11,"path":"folders/Sprites/Pigs.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
+    {"name":"Items","order":14,"path":"folders/Sprites/Items.yy",},
+    {"name":"Items","order":14,"path":"folders/Objects/Items.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SWindow2","order":7,"path":"sprites/SWindow2/SWindow2.yy",},
