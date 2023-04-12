@@ -47,10 +47,6 @@ function PState_Free(){
 		}
 	}
 	#endregion
-	
-	#region Fuel Regen
-	
-	#endregion
 
     #region Collisions
     if (place_meeting(x+hsp,y,Owall)) or (place_meeting(x+hsp,y,OPlatform))
@@ -96,6 +92,24 @@ function PState_Free(){
 
     if (hsp != 0) image_xscale = sign(hsp); //player sprite turn around
     #endregion
+
+	#region Atack
+	if(key_atk) state = PSTATE.ATTACK_SLASH;
+	
+	if (key_plasma) {
+		charge += 1;
+		if (charge > max_charge) {
+			charge = max_charge;
+		}
+	} else {
+		if (charge > 0) {
+			var bullet = instance_create_layer(x, y, "Instances", obj_plasma);
+			bullet.image_xscale = charge / max_charge;
+			bullet.image_yscale = charge / max_charge;
+			charge = 0;
+		}
+	}
+	#endregion
 
 	show_debug_message(fuel);
 }

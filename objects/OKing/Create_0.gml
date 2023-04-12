@@ -23,10 +23,15 @@ hitNow = false;
 frameCount = 0;
 hp = 6;
 
+//Plasma
+charge = 0;
+max_charge = 100;
+
 enum PSTATE
 {
     FREE,
     ATTACK_SLASH,
+	ATTACK_PLASMA,
     HIT,
     DEAD
 }
