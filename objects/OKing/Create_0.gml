@@ -1,6 +1,7 @@
 hascontrol = true;
 
 /**Physics**/
+dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
 max_vsp = 4;
@@ -32,7 +33,6 @@ enum PSTATE
 {
     FREE,
     ATTACK_SLASH,
-	ATTACK_PLASMA,
     HIT,
     DEAD
 }

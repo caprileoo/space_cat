@@ -17,6 +17,12 @@ function PState_Free(){
     } else {
         walksp = 2.5;
     }
+	
+	if (key_right) {
+		dir = 0;
+	} else if (key_left) {
+		dir = 180;
+	}
 
     hsp = move * walksp; //move speed
     #endregion
@@ -94,22 +100,23 @@ function PState_Free(){
     #endregion
 
 	#region Atack
-	if(key_atk) state = PSTATE.ATTACK_SLASH;
+	if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
 	
 	if (key_plasma) {
-		charge += 1;
-		if (charge > max_charge) {
-			charge = max_charge;
-		}
+	    charge += 1;
+	    if (charge > max_charge) {
+	        charge = max_charge;
+	    }
 	} else {
-		if (charge > 0) {
-			var bullet = instance_create_layer(x, y, "Instances", obj_plasma);
-			bullet.image_xscale = charge / max_charge;
-			bullet.image_yscale = charge / max_charge;
-			charge = 0;
-		}
+	    if (charge > 0) {
+	        var bullet = instance_create_layer(x, y, "Instances", OPlasma);
+			bullet.direction = dir;
+	        bullet.speed = 10;
+	        bullet.image_xscale = charge / max_charge;
+	        bullet.image_yscale = charge / max_charge;
+	        charge = 0;
+	    }
 	}
 	#endregion
-
-	show_debug_message(fuel);
+	show_debug_message(image_xscale);
 }

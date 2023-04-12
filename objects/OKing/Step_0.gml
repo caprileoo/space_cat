@@ -11,6 +11,7 @@ else {
 	key_left = 0
 	key_jump = 0
 	key_atk = 0
+	key_plasma = 0
 	key_jet = 0
 }
 switch(state)
