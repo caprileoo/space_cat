@@ -84,6 +84,7 @@
     {"id":{"name":"SSmolFlag","path":"sprites/SSmolFlag/SSmolFlag.yy",},},
     {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},},
     {"id":{"name":"EState_Dead","path":"scripts/EState_Dead/EState_Dead.yy",},},
+    {"id":{"name":"SGun","path":"sprites/SGun/SGun.yy",},},
     {"id":{"name":"OKing","path":"objects/OKing/OKing.yy",},},
     {"id":{"name":"PState_Free","path":"scripts/PState_Free/PState_Free.yy",},},
     {"id":{"name":"Swall","path":"sprites/Swall/Swall.yy",},},

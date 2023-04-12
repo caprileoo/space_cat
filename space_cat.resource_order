@@ -58,6 +58,7 @@
     {"name":"EState_Free","order":1,"path":"scripts/EState_Free/EState_Free.yy",},
     {"name":"OLvEnd","order":12,"path":"objects/OLvEnd/OLvEnd.yy",},
     {"name":"SSmolFlag","order":4,"path":"sprites/SSmolFlag/SSmolFlag.yy",},
+    {"name":"SGun","order":1,"path":"sprites/SGun/SGun.yy",},
     {"name":"Swall","order":1,"path":"sprites/Swall/Swall.yy",},
     {"name":"SPlatform","order":5,"path":"sprites/SPlatform/SPlatform.yy",},
     {"name":"SPigHit","order":3,"path":"sprites/SPigHit/SPigHit.yy",},
