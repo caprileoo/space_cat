@@ -4,7 +4,7 @@ if(hascontrol) {
 	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Press
 	key_atk = keyboard_check_pressed(ord("K")); //Attack
 	key_plasma = keyboard_check(ord("L")); //Plasma Attack
-	key_jet = keyboard_check(ord("J"));
+	key_jet = keyboard_check(ord("J")); //Jet
 }
 else {
 	key_right = 0
@@ -17,7 +17,6 @@ switch(state)
 {
 	case PSTATE.FREE: PState_Free(); break;
 	case PSTATE.ATTACK_SLASH: PState_Atk_Slash(); break;
-	case PSTATE.ATTACK_PLASMA: PState_Atk_Plasma(); break;
 	case PSTATE.HIT: PState_Hit(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }

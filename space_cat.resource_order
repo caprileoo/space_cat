@@ -66,7 +66,6 @@
     {"name":"LVMenu","order":6,"path":"rooms/LVMenu/LVMenu.yy",},
     {"name":"SLedge","order":2,"path":"sprites/SLedge/SLedge.yy",},
     {"name":"OLedge","order":2,"path":"objects/OLedge/OLedge.yy",},
-    {"name":"PState_Atk_Plasma","order":4,"path":"scripts/PState_Atk_Plasma/PState_Atk_Plasma.yy",},
     {"name":"OTrans","order":4,"path":"objects/OTrans/OTrans.yy",},
     {"name":"SPigRun","order":2,"path":"sprites/SPigRun/SPigRun.yy",},
     {"name":"SKingAtk","order":3,"path":"sprites/SKingAtk/SKingAtk.yy",},

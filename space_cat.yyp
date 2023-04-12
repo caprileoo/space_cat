@@ -95,7 +95,6 @@
     {"id":{"name":"SLedge","path":"sprites/SLedge/SLedge.yy",},},
     {"id":{"name":"PlayerHit","path":"scripts/PlayerHit/PlayerHit.yy",},},
     {"id":{"name":"OLedge","path":"objects/OLedge/OLedge.yy",},},
-    {"id":{"name":"PState_Atk_Plasma","path":"scripts/PState_Atk_Plasma/PState_Atk_Plasma.yy",},},
     {"id":{"name":"OTrans","path":"objects/OTrans/OTrans.yy",},},
     {"id":{"name":"SPigRun","path":"sprites/SPigRun/SPigRun.yy",},},
     {"id":{"name":"SKingAtk","path":"sprites/SKingAtk/SKingAtk.yy",},},
