@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SKingAir",
-  "bbox_bottom": 36,
-  "bbox_left": 3,
-  "bbox_right": 25,
-  "bbox_top": 3,
+  "bbox_bottom": 37,
+  "bbox_left": 4,
+  "bbox_right": 27,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a9b971c5-15ab-400e-8c3f-a034d19400f8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51232456-6892-4e6d-bcf8-71d8f11d11ce",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 39,
+  "height": 43,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0c568a64-0915-4bf0-bc5d-d8a1793238fb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c06b1580-1acc-49ff-8c0d-bfbc12ceb795","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a9b971c5-15ab-400e-8c3f-a034d19400f8","path":"sprites/SKingAir/SKingAir.yy",},},},"Disabled":false,"id":"0a068710-8960-43fd-9061-2ae7bf7653b3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"51232456-6892-4e6d-bcf8-71d8f11d11ce","path":"sprites/SKingAir/SKingAir.yy",},},},"Disabled":false,"id":"14f83c16-4f14-4fec-9380-dd08b6bb8bbd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 30,
+  "width": 34,
 }
