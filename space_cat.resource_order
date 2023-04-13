@@ -74,6 +74,7 @@
     {"name":"OTrans","order":4,"path":"objects/OTrans/OTrans.yy",},
     {"name":"SPigRun","order":2,"path":"sprites/SPigRun/SPigRun.yy",},
     {"name":"SKingAtk","order":3,"path":"sprites/SKingAtk/SKingAtk.yy",},
+    {"name":"SPlasmaHB","order":2,"path":"sprites/SPlasmaHB/SPlasmaHB.yy",},
     {"name":"SPigDed","order":5,"path":"sprites/SPigDed/SPigDed.yy",},
     {"name":"Stile","order":2,"path":"sprites/Stile/Stile.yy",},
     {"name":"PState_Hit","order":2,"path":"scripts/PState_Hit/PState_Hit.yy",},

@@ -105,6 +105,7 @@
     {"id":{"name":"OTrans","path":"objects/OTrans/OTrans.yy",},},
     {"id":{"name":"SPigRun","path":"sprites/SPigRun/SPigRun.yy",},},
     {"id":{"name":"SKingAtk","path":"sprites/SKingAtk/SKingAtk.yy",},},
+    {"id":{"name":"SPlasmaHB","path":"sprites/SPlasmaHB/SPlasmaHB.yy",},},
     {"id":{"name":"SPigDed","path":"sprites/SPigDed/SPigDed.yy",},},
     {"id":{"name":"Stile","path":"sprites/Stile/Stile.yy",},},
     {"id":{"name":"PState_Hit","path":"scripts/PState_Hit/PState_Hit.yy",},},
