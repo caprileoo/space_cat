@@ -102,20 +102,26 @@ function PState_Free(){
 	#region Atack
 	if(key_atk and on_ground) state = PSTATE.ATTACK_SLASH;
 	
-	if (key_plasma) {
-	    charge += 1;
-	    if (charge > max_charge) {
-	        charge = max_charge;
-	    }
+	if(key_plasma){
+		state = PSTATE.CHARGE;
 	} else {
-	    if (charge > 16) {
-	        var bullet = instance_create_layer(x, y, "Instances", OPlasma);
-			bullet.direction = dir;
-	        bullet.speed = 5;
-	        bullet.image_xscale = charge / max_charge;
-	        bullet.image_yscale = charge / max_charge;
-	        charge = 16; //charge values should be all same
-	    }
+		state = PSTATE.RELEASE;
 	}
+	
+	//if (key_plasma) {
+	//    charge += 1;
+	//    if (charge > max_charge) {
+	//        charge = max_charge;
+	//    }
+	//} else {
+	//    if (charge > 16) {
+	//        var bullet = instance_create_layer(x, y, "Instances", OPlasma);
+	//		bullet.direction = dir;
+	//        bullet.speed = 5;
+	//        bullet.image_xscale = charge / max_charge;
+	//        bullet.image_yscale = charge / max_charge;
+	//        charge = 16; //charge values should be all same
+	//    }
+	//}
 	#endregion
 }

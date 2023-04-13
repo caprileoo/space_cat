@@ -33,6 +33,8 @@ enum PSTATE
 {
     FREE,
     ATTACK_SLASH,
+	CHARGE,
+	RELEASE,
     HIT,
     DEAD
 }

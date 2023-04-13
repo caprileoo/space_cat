@@ -17,6 +17,8 @@ else {
 switch(state)
 {
 	case PSTATE.FREE: PState_Free(); break;
+	case PSTATE.CHARGE: PState_Charge(); break;
+	case PSTATE.RELEASE: PState_Release(); break;
 	case PSTATE.ATTACK_SLASH: PState_Atk_Slash(); break;
 	case PSTATE.HIT: PState_Hit(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
