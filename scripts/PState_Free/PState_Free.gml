@@ -1,5 +1,4 @@
 function PState_Free(){
-	show_debug_message("roaming");
 	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
 	vsp += grv;
 	

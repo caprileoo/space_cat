@@ -2,7 +2,8 @@ function EState_Hit() {
 	//Just hit
 	if (hitNow)
 	{
-		sprite_index = SPigHit
+		show_debug_message("ouch");
+		sprite_index = SPigHit;
 		image_index = 0;
 		hitNow = false;
 		frameCount = 0;

@@ -1,5 +1,4 @@
 function PState_Atk_Slash(){
-	show_debug_message("Attacking");
 	ProcessAttack(SKingAtk,SKingAtkHB);
 	if (animation_end())
 	{

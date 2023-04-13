@@ -1,5 +1,4 @@
 function PState_Release(){
-	show_debug_message("Bam || chargetime = {0}", plasma_charge_time);
 	if (plasma_charge_time > 0) {
 		var plasma;
 	    if (plasma_charge_time > 10) {
