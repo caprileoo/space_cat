@@ -52,6 +52,7 @@
     {"id":{"name":"OBigFlag","path":"objects/OBigFlag/OBigFlag.yy",},},
     {"id":{"name":"SCatFall","path":"sprites/SCatFall/SCatFall.yy",},},
     {"id":{"name":"STrig","path":"sprites/STrig/STrig.yy",},},
+    {"id":{"name":"ProcessAttackBurst","path":"scripts/ProcessAttackBurst/ProcessAttackBurst.yy",},},
     {"id":{"name":"SBigPlasma","path":"sprites/SBigPlasma/SBigPlasma.yy",},},
     {"id":{"name":"OMenu","path":"objects/OMenu/OMenu.yy",},},
     {"id":{"name":"SDoor","path":"sprites/SDoor/SDoor.yy",},},

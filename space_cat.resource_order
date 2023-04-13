@@ -32,6 +32,7 @@
     {"name":"OBigFlag","order":3,"path":"objects/OBigFlag/OBigFlag.yy",},
     {"name":"SCatFall","order":5,"path":"sprites/SCatFall/SCatFall.yy",},
     {"name":"STrig","order":12,"path":"sprites/STrig/STrig.yy",},
+    {"name":"ProcessAttackBurst","order":2,"path":"scripts/ProcessAttackBurst/ProcessAttackBurst.yy",},
     {"name":"SBigPlasma","order":5,"path":"sprites/SBigPlasma/SBigPlasma.yy",},
     {"name":"OMenu","order":3,"path":"objects/OMenu/OMenu.yy",},
     {"name":"SDoor","order":1,"path":"sprites/SDoor/SDoor.yy",},
