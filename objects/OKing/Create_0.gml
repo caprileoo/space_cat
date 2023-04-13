@@ -26,8 +26,7 @@ frameCount = 0;
 hp = 6;
 
 //Plasma
-charge = 16;
-max_charge = 50;
+plasma_charge_time = 0;
 
 enum PSTATE
 {
