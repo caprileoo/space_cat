@@ -4,7 +4,7 @@ if(hascontrol) {
 	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Press
 	key_atk = keyboard_check_pressed(ord("K")); //Attack
 	key_plasma = keyboard_check(ord("L")); //Plasma Attack
-	key_jet = keyboard_check(ord("J")); //Jet
+	key_jet = keyboard_check(ord("J")); //Jet 
 }
 else {
 	key_right = 0
