@@ -70,6 +70,7 @@
     {"id":{"name":"SBigFlag","path":"sprites/SBigFlag/SBigFlag.yy",},},
     {"id":{"name":"OWindow1","path":"objects/OWindow1/OWindow1.yy",},},
     {"id":{"name":"PState_Dead","path":"scripts/PState_Dead/PState_Dead.yy",},},
+    {"id":{"name":"OBigPlasma","path":"objects/OBigPlasma/OBigPlasma.yy",},},
     {"id":{"name":"EState_Chase","path":"scripts/EState_Chase/EState_Chase.yy",},},
     {"id":{"name":"SPlasma","path":"sprites/SPlasma/SPlasma.yy",},},
     {"id":{"name":"OSmolFlag","path":"objects/OSmolFlag/OSmolFlag.yy",},},

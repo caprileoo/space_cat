@@ -1,10 +1,7 @@
 function PState_Charge(){
 	show_debug_message("Charging");
-	charge += 1;
-	if (charge > max_charge) {
-		charge = max_charge;
-	}
-	if(charge >= 1){
-		state = PSTATE.FREE;
+	plasma_charge_time += 1;
+	if(!key_plasma){
+		state = PSTATE.RELEASE;
 	}
 }

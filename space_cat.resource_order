@@ -47,6 +47,7 @@
     {"name":"SBigFlag","order":3,"path":"sprites/SBigFlag/SBigFlag.yy",},
     {"name":"OWindow1","order":5,"path":"objects/OWindow1/OWindow1.yy",},
     {"name":"PState_Dead","order":3,"path":"scripts/PState_Dead/PState_Dead.yy",},
+    {"name":"OBigPlasma","order":1,"path":"objects/OBigPlasma/OBigPlasma.yy",},
     {"name":"EState_Chase","order":3,"path":"scripts/EState_Chase/EState_Chase.yy",},
     {"name":"OSmolFlag","order":7,"path":"objects/OSmolFlag/OSmolFlag.yy",},
     {"name":"ProcessAttack","order":1,"path":"scripts/ProcessAttack/ProcessAttack.yy",},
