@@ -1,4 +1,5 @@
 function EState_Atk(){
+	show_debug_message("Attack");
 	EnemyProcessAttack(SKingAtk,SKingAtkHB);
 	if (animation_end())
 	{

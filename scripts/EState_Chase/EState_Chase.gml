@@ -1,10 +1,12 @@
 function EState_Chase(){
+	show_debug_message("Chase");
 	moveDirection = sign(target.x - x); // Move towards the target
 	
 	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
 	
 	vsp += grv;
 	
+	#region Collision
 	/**platform horizontal collision**/
 	if (place_meeting(x+hsp,y,Owall)) or (place_meeting(x+hsp,y,OPlatform))
 	{
@@ -26,8 +28,9 @@ function EState_Chase(){
 		vsp = 0;
 	}
 	y = y + vsp;
+	#endregion
 
-	/**animations**/
+	#region Animation
 	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
 	{
 		sprite_index = SPigIdle;	
@@ -45,6 +48,7 @@ function EState_Chase(){
 			sprite_index = SPigRun;
 		}
 	}
+	#endregion
 	
 	if (hsp != 0) image_xscale = sign(hsp);
 	state = ESTATE.STATUS;

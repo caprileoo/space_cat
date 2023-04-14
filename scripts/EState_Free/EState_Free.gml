@@ -1,6 +1,10 @@
 function EState_Free() {
-	moveTimer++;
+	show_debug_message("Roaming");
 	
+	vsp += grv;
+	
+	#region Roaming
+	moveTimer++;
 	if (moveTimer >= moveDuration) {
 		moveDirection *= -1; // Change direction
 		moveTimer = 0; // Reset timer
@@ -11,9 +15,9 @@ function EState_Free() {
 		moveDirection *= -1; // Change direction
 	}
 	hsp = moveDirection; //divide = low speed | multiply = high speed
-
-	vsp += grv;
+	#endregion
 	
+	#region Collision
 	/**platform horizontal collision**/
 	if (place_meeting(x+hsp,y,Owall)) or (place_meeting(x+hsp,y,OPlatform))
 	{
@@ -35,8 +39,9 @@ function EState_Free() {
 		vsp = 0;
 	}
 	y = y + vsp;
+	#endregion
 
-	/**animations**/
+	#region Animation
 	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
 	{
 		sprite_index = SPigIdle;	
@@ -54,6 +59,7 @@ function EState_Free() {
 			sprite_index = SPigRun;
 		}
 	}
+	#endregion
 	
 	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around
 	state = ESTATE.STATUS;
