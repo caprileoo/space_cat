@@ -73,6 +73,7 @@
     {"name":"SWindow1","order":6,"path":"sprites/SWindow1/SWindow1.yy",},
     {"name":"STitle","order":13,"path":"sprites/STitle/STitle.yy",},
     {"name":"LVMenu","order":6,"path":"rooms/LVMenu/LVMenu.yy",},
+    {"name":"SPigAtk","order":6,"path":"sprites/SPigAtk/SPigAtk.yy",},
     {"name":"SLedge","order":2,"path":"sprites/SLedge/SLedge.yy",},
     {"name":"OLedge","order":2,"path":"objects/OLedge/OLedge.yy",},
     {"name":"OTrans","order":4,"path":"objects/OTrans/OTrans.yy",},

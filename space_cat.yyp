@@ -103,6 +103,7 @@
     {"id":{"name":"STitle","path":"sprites/STitle/STitle.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
+    {"id":{"name":"SPigAtk","path":"sprites/SPigAtk/SPigAtk.yy",},},
     {"id":{"name":"SLedge","path":"sprites/SLedge/SLedge.yy",},},
     {"id":{"name":"PlayerHit","path":"scripts/PlayerHit/PlayerHit.yy",},},
     {"id":{"name":"OLedge","path":"objects/OLedge/OLedge.yy",},},
