@@ -1,7 +1,7 @@
-cam = view_camera[0];
-follow = OKing.id;
+target = OKing;
 
-view_w_half = camera_get_view_width(cam) * 0.5;
-view_h_half = camera_get_view_height(cam) * 0.5;
+cam_width = camera_get_view_width(view_camera[0]);
+cam_height = camera_get_view_height(view_camera[0]);
+
 xTo = xstart;
 yTo = ystart;
