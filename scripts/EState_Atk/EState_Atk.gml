@@ -1,6 +1,6 @@
 function EState_Atk(){
 	show_debug_message("Attack");
-	EnemyProcessAttack(SPigAtk,SKingAtkHB);
+	EnemyProcessAttack(SPigAtk,SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;

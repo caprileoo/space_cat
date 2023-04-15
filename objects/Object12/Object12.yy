@@ -27,13 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SKingAtkHB",
-    "path": "sprites/SKingAtkHB/SKingAtkHB.yy",
-  },
-  "spriteMaskId": {
-    "name": "SKingAtkHB",
-    "path": "sprites/SKingAtkHB/SKingAtkHB.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }

@@ -1,5 +1,5 @@
 function PState_Atk_Slash(){
-	ProcessAttack(SKingAtk,SKingAtkHB);
+	ProcessAttack(SCatSlash,SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;
