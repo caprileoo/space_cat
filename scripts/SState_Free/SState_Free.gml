@@ -1,9 +1,24 @@
-function EState_Chase(){
-	moveDirection = sign(target.x - x); // Move towards the target
-	
-	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
+function EState_Free() {
+	show_debug_message("Roaming");
 	
 	vsp += grv;
+	
+	#region Roaming
+	moveTimer++;
+	if (moveTimer >= moveDuration) {
+		moveDirection *= -1; // Change direction
+		moveTimer = 0; // Reset timer
+	}
+	
+	if (place_meeting(x + hsp, y, Owall)) {
+		// If there is a wall collision, chagne direction
+		moveDirection *= -1; // Change direction
+	}
+	waitTimer++;
+	if(waitTimer >= wait_free) {
+		hsp = moveDirection; //divide = low speed | multiply = high speed
+	}
+	#endregion
 	
 	#region Collision
 	/**platform horizontal collision**/
@@ -49,6 +64,7 @@ function EState_Chase(){
 	}
 	#endregion
 	
-	if (hsp != 0) image_xscale = sign(hsp);
-	state = ESTATE.STATUS;
+	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around
+	state = SSTATE.STATUS;
 }
+

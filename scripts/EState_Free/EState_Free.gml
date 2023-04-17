@@ -1,6 +1,4 @@
 function EState_Free() {
-	show_debug_message("Roaming");
-	
 	vsp += grv;
 	
 	#region Roaming

@@ -1,5 +1,4 @@
 function EState_Status(){
-	show_debug_message("Processing");
 	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
 	
 	#region Collision

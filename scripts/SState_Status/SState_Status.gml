@@ -1,9 +1,6 @@
-function EState_Chase(){
-	moveDirection = sign(target.x - x); // Move towards the target
-	
-	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
-	
-	vsp += grv;
+function EState_Status(){
+	show_debug_message("Processing");
+	var on_ground = place_meeting(x,y+1,Owall) or (place_meeting(x,y+1,OPlatform));
 	
 	#region Collision
 	/**platform horizontal collision**/
@@ -49,6 +46,11 @@ function EState_Chase(){
 	}
 	#endregion
 	
-	if (hsp != 0) image_xscale = sign(hsp);
-	state = ESTATE.STATUS;
+	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around
+	
+	if (point_distance(x, y, target.x, target.y) <= detectionRadius) {
+		if(point_distance(x, y, target.x, target.y) <= detectionRadius - 80 and on_ground){
+			state = SSTATE.ATK;
+		} else state = SSTATE.CHASE;
+	} else state = SSTATE.FREE;
 }

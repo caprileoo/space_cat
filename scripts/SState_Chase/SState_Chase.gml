@@ -1,7 +1,11 @@
 function EState_Chase(){
+	show_debug_message("Chase");
 	moveDirection = sign(target.x - x); // Move towards the target
 	
-	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
+	waitTimer++;
+	if(waitTimer >= wait_chase) {
+		hsp = moveDirection * 2; //divide = low speed | multiply = high speed
+	}
 	
 	vsp += grv;
 	
@@ -50,5 +54,5 @@ function EState_Chase(){
 	#endregion
 	
 	if (hsp != 0) image_xscale = sign(hsp);
-	state = ESTATE.STATUS;
+	state = SSTATE.STATUS;
 }
