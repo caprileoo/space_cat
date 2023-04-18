@@ -44,7 +44,6 @@
     {"name":"OCam","order":2,"path":"objects/OCam/OCam.yy",},
     {"name":"animation_end","order":8,"path":"scripts/animation_end/animation_end.yy",},
     {"name":"SPigIdle","order":1,"path":"sprites/SPigIdle/SPigIdle.yy",},
-    {"name":"Object12","order":11,"path":"objects/Object12/Object12.yy",},
     {"name":"EState_Atk","order":5,"path":"scripts/EState_Atk/EState_Atk.yy",},
     {"name":"EnemyProcessAttack","order":1,"path":"scripts/EnemyProcessAttack/EnemyProcessAttack.yy",},
     {"name":"SKingRun","order":2,"path":"sprites/SKingRun/SKingRun.yy",},
