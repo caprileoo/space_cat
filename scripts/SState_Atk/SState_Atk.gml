@@ -1,4 +1,4 @@
-function EState_Atk(){
+function SState_Atk(){
 	show_debug_message("Attack");
 	EnemyProcessAttack(SPigAtk,SCatSlashHB);
 	if (animation_end())

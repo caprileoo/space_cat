@@ -1,4 +1,4 @@
-function EState_Chase(){
+function SState_Chase(){
 	show_debug_message("Chase");
 	moveDirection = sign(target.x - x); // Move towards the target
 	

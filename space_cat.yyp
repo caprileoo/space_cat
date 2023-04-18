@@ -123,6 +123,7 @@
     {"id":{"name":"PState_Hit","path":"scripts/PState_Hit/PState_Hit.yy",},},
     {"id":{"name":"OTitle","path":"objects/OTitle/OTitle.yy",},},
     {"id":{"name":"SState_Free","path":"scripts/SState_Free/SState_Free.yy",},},
+    {"id":{"name":"SCheeseWall","path":"sprites/SCheeseWall/SCheeseWall.yy",},},
     {"id":{"name":"SSleepyPig","path":"sprites/SSleepyPig/SSleepyPig.yy",},},
     {"id":{"name":"OBox","path":"objects/OBox/OBox.yy",},},
   ],

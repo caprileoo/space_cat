@@ -1,4 +1,4 @@
-function EState_Dead() {
+function SState_Dead() {
 	if (sprite_index != SPigDed)
 	{
 		sprite_index = SPigDed;
