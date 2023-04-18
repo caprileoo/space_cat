@@ -7,8 +7,8 @@ vsp = 0; //vertical speed
 max_vsp = 4;
 walksp = 0.5; //walking speed
 max_walksp = 3; //maximum walking speed
-fuel = 300;
-max_fuel = 300;
+fuel = 10000;
+max_fuel = 10000;
 
 
 //solve for grv dynamically
