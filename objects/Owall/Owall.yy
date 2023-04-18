@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SCheeseWall",
-    "path": "sprites/SCheeseWall/SCheeseWall.yy",
+    "name": "Swall",
+    "path": "sprites/Swall/Swall.yy",
   },
   "spriteMaskId": {
     "name": "Swall",

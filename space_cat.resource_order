@@ -28,6 +28,7 @@
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"CheeseSet","order":1,"path":"tilesets/CheeseSet/CheeseSet.yy",},
     {"name":"SWindow2","order":7,"path":"sprites/SWindow2/SWindow2.yy",},
     {"name":"OPig","order":1,"path":"objects/OPig/OPig.yy",},
     {"name":"OBigFlag","order":3,"path":"objects/OBigFlag/OBigFlag.yy",},
@@ -91,6 +92,6 @@
     {"name":"PState_Hit","order":2,"path":"scripts/PState_Hit/PState_Hit.yy",},
     {"name":"OTitle","order":13,"path":"objects/OTitle/OTitle.yy",},
     {"name":"SState_Free","order":3,"path":"scripts/SState_Free/SState_Free.yy",},
-    {"name":"SCheeseWall","order":15,"path":"sprites/SCheeseWall/SCheeseWall.yy",},
+    {"name":"SCheeseTiles","order":15,"path":"sprites/SCheeseTiles/SCheeseTiles.yy",},
   ],
 }

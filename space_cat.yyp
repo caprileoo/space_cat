@@ -46,6 +46,7 @@
     "IDEVersion": "2023.2.1.75",
   },
   "resources": [
+    {"id":{"name":"CheeseSet","path":"tilesets/CheeseSet/CheeseSet.yy",},},
     {"id":{"name":"OPigSleep","path":"objects/OPigSleep/OPigSleep.yy",},},
     {"id":{"name":"SWindow2","path":"sprites/SWindow2/SWindow2.yy",},},
     {"id":{"name":"EnemyHit","path":"scripts/EnemyHit/EnemyHit.yy",},},
@@ -123,7 +124,7 @@
     {"id":{"name":"PState_Hit","path":"scripts/PState_Hit/PState_Hit.yy",},},
     {"id":{"name":"OTitle","path":"objects/OTitle/OTitle.yy",},},
     {"id":{"name":"SState_Free","path":"scripts/SState_Free/SState_Free.yy",},},
-    {"id":{"name":"SCheeseWall","path":"sprites/SCheeseWall/SCheeseWall.yy",},},
+    {"id":{"name":"SCheeseTiles","path":"sprites/SCheeseTiles/SCheeseTiles.yy",},},
     {"id":{"name":"SSleepyPig","path":"sprites/SSleepyPig/SSleepyPig.yy",},},
     {"id":{"name":"OBox","path":"objects/OBox/OBox.yy",},},
   ],
