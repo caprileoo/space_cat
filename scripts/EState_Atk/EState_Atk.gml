@@ -4,7 +4,7 @@ function EState_Atk(){
 	{
 		hsp = 0;
 		vsp = 0;
-		sprite_index = OPig;
+		sprite_index = SPigIdle;
 		state = ESTATE.STATUS;
 	}
 }
