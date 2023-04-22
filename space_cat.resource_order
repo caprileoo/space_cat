@@ -24,9 +24,9 @@
     {"name":"Decos","order":10,"path":"folders/Sprites/Decos.yy",},
     {"name":"Items","order":14,"path":"folders/Sprites/Items.yy",},
     {"name":"Pigs","order":11,"path":"folders/Sprites/Pigs.yy",},
+    {"name":"Slimes","order":16,"path":"folders/Sprites/Slimes.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Slimes","order":16,"path":"folders/Sprites/Slimes.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"CheeseSet","order":1,"path":"tilesets/CheeseSet/CheeseSet.yy",},
@@ -59,6 +59,7 @@
     {"name":"SState_Chase","order":1,"path":"scripts/SState_Chase/SState_Chase.yy",},
     {"name":"EState_Chase","order":3,"path":"scripts/EState_Chase/EState_Chase.yy",},
     {"name":"OSmolFlag","order":7,"path":"objects/OSmolFlag/OSmolFlag.yy",},
+    {"name":"OSlimeCorpse","order":3,"path":"objects/OSlimeCorpse/OSlimeCorpse.yy",},
     {"name":"ProcessAttack","order":1,"path":"scripts/ProcessAttack/ProcessAttack.yy",},
     {"name":"EState_Status","order":4,"path":"scripts/EState_Status/EState_Status.yy",},
     {"name":"PState_Charge","order":4,"path":"scripts/PState_Charge/PState_Charge.yy",},

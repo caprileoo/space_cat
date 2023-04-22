@@ -10,7 +10,6 @@ function animation_end() {
 	//returns true if the animation will loop this step.
 
 	//Script courtesy of PixellatedPope & Minty Python from the GameMaker subreddit discord 
-	//https://www.reddit.com/r/gamemaker/wiki/discord
 
 	var _sprite=sprite_index;
 	var _image=image_index;
