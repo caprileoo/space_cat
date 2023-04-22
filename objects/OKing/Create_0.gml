@@ -7,25 +7,29 @@ vsp = 0; //vertical speed
 max_vsp = 4;
 walksp = 0.5; //walking speed
 max_walksp = 3; //maximum walking speed
-fuel = 10000;
-max_fuel = 10000;
-
-
-//solve for grv dynamically
 coyote_time = 0;
 coyote_time_max = 15;
+
+//solve for grv dynamically (without grav_bender)
 j_height = 68;
 time_to_apex = 28;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
 
+//solve for grv dynamically (with grav_bender)
+j_height_bender = 108;
+time_to_apex_bender = 48;
+grv_bender = (2 * j_height_bender) / power(time_to_apex_bender, 2);
+j_velocity_bender = -abs(grv_bender) * time_to_apex_bender;
+stopping_grv_bender = grv_bender + 0.35;
+
 //Player's States
 state = PSTATE.FREE;
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
-hp = 6;
+hp = 100;
 
 //Plasma
 plasma_charge_time = 0;
@@ -33,6 +37,7 @@ plasma_charge_time = 0;
 enum PSTATE
 {
     FREE,
+	LOW_GRAV,
     ATTACK_SLASH,
 	CHARGE,
 	RELEASE,
@@ -94,21 +99,15 @@ function jumping(){
 	}
 }
 
-function fuel_regen(){
-	if (fuel < max_fuel and (on_ground(Owall) or on_ground(OPlatform)) and !key_jet) {
-		fuel += 5;
-	}
-}
-
-function jet(){
-	if(key_jet and fuel > 0){
-		vsp = j_velocity / 2;
-		if(!key_jet){
-			vsp += stopping_grv;
+function grav_bender(){
+	if(check_jump()){
+		vsp = j_velocity_bender;
+		coyote_time = 0;
+		if(!key_jump){
+			vsp += stopping_grv_bender;
 			if (vsp > max_vsp) vsp = max_vsp;
 		} else{
-			vsp += grv;
-			fuel -= 5;
+			vsp += grv_bender;
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
 	}

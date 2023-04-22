@@ -1,6 +1,6 @@
 function SState_Atk(){
 	show_debug_message("Attack");
-	EnemyProcessAttack(SPigAtk,SCatSlashHB);
+	SlimeProcessAttack(SPigAtk,SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;

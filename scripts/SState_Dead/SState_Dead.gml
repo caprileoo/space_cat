@@ -1,10 +1,10 @@
 function SState_Dead() {
-	if (sprite_index != SPigDed)
+	if (sprite_index != SSlimeDed)
 	{
-		sprite_index = SPigDed;
+		sprite_index = SSlimeDed;
 		image_index = 0;
 	}
 
-	if (animation_end()) sprite_index = SPigDed;
+	if (animation_end()) instance_change(OSlimeCorpse, true);
 
 }

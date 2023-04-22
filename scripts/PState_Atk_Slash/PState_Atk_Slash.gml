@@ -1,5 +1,6 @@
 function PState_Atk_Slash(){
-	ProcessAttack(SCatSlash,SCatSlashHB);
+	ProcessAttackToSlime(SCatSlash,SCatSlashHB);
+	ProcessAttackToMouse(SCatSlash, SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;

@@ -9,7 +9,7 @@ moveDuration = room_speed * 3; // 3 seconds
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
-hp = 6;
+hp = 20;
 state = ESTATE.STATUS;
 
 detectionRadius = 100;

@@ -1,11 +1,11 @@
-function PState_Free(){
-	vsp += grv;
+function PState_Low_Grav(){
+	vsp += grv_bender;
 	
 	moving();
 	get_dir();
 
 	coyotetime();
-	jumping();
+	grav_bender();
 
 
 	move_n_collide(Owall);
@@ -17,5 +17,5 @@ function PState_Free(){
 	shing();
 	pew();
 	
-	if(key_grav) state = PSTATE.LOW_GRAV;
+	if(key_grav) state = PSTATE.FREE;
 }

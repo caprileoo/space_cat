@@ -1,5 +1,5 @@
 function EState_Atk(){
-	EnemyProcessAttack(SPigAtk,SCatSlashHB);
+	MouseProcessAttack(SPigAtk,SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;

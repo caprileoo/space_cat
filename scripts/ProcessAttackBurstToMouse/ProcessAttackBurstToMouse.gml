@@ -1,4 +1,6 @@
-function EnemyProcessAttack(argument0, argument1){
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function ProcessAttackBurstToMouse(argument0, argument1){
 	//Start of the attack
 	if (sprite_index != argument0)
 	{
@@ -10,7 +12,7 @@ function EnemyProcessAttack(argument0, argument1){
 	//Use attack hitbox & check for hits
 	mask_index = argument1;
 	var hitByAttackNow = ds_list_create()
-	var hits = instance_place_list(x,y,OKing,hitByAttackNow,false);
+	var hits = instance_place_list(x,y,OPig,hitByAttackNow,false);
 	if (hits > 0)
 	{
 		for (var i = 0; i < hits; i++)
@@ -22,11 +24,11 @@ function EnemyProcessAttack(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					PlayerHit(2);
+					EnemyHit(20);
 				}
 			}
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = SPigIdle;
+	mask_index = sKing;
 }

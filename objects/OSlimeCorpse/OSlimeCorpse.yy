@@ -28,12 +28,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SSlimeDed_test",
-    "path": "sprites/SSlimeDed_test/SSlimeDed_test.yy",
+    "name": "SSlimeDed",
+    "path": "sprites/SSlimeDed/SSlimeDed.yy",
   },
   "spriteMaskId": {
-    "name": "SSlimeDed_test",
-    "path": "sprites/SSlimeDed_test/SSlimeDed_test.yy",
+    "name": "SSlimeDed",
+    "path": "sprites/SSlimeDed/SSlimeDed.yy",
   },
   "visible": true,
 }

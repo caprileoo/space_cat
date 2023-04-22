@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "EnemyProcessAttack",
+  "name": "ProcessAttackToSlime",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "EnemyProcessATK",
-    "path": "folders/Scripts/EnemyProcessATK.yy",
+    "name": "PlayerProcessATK",
+    "path": "folders/Scripts/PlayerProcessATK.yy",
   },
 }
