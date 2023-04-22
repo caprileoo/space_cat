@@ -32,9 +32,6 @@
     "name": "SSlimeIdle",
     "path": "sprites/SSlimeIdle/SSlimeIdle.yy",
   },
-  "spriteMaskId": {
-    "name": "SSlimeIdle",
-    "path": "sprites/SSlimeIdle/SSlimeIdle.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

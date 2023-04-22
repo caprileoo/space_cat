@@ -111,6 +111,7 @@
     {"id":{"name":"SState_Dead","path":"scripts/SState_Dead/SState_Dead.yy",},},
     {"id":{"name":"SKingAir","path":"sprites/SKingAir/SKingAir.yy",},},
     {"id":{"name":"SWindow1","path":"sprites/SWindow1/SWindow1.yy",},},
+    {"id":{"name":"SSlimeAtk","path":"sprites/SSlimeAtk/SSlimeAtk.yy",},},
     {"id":{"name":"STitle","path":"sprites/STitle/STitle.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},

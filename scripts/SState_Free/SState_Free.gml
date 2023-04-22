@@ -1,10 +1,8 @@
 function SState_Free() {
-	show_debug_message("Roaming");
-	
 	vsp += grv;
 	
 	roaming();
-	
+	show_debug_message("Roam: {0}", hsp);
 	move_n_collide(Owall);
 	move_n_collide(OPlatform);
 	update();
