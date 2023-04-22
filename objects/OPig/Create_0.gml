@@ -1,11 +1,18 @@
 hsp = 0;
-vsp = 0;
-grv = 0.3;
+vsp = 0; //vertical speed
+max_vsp = 4;
 moveDirection = 1; // -1 for left, 1 for right
 moveTimer = 0;
 moveDuration = room_speed * 3; // 3 seconds
 
+//solve for grv dynamically
+j_height = 30;
+time_to_apex = 10;
+grv = (2 * j_height) / power(time_to_apex, 2);
+j_velocity = -abs(grv) * time_to_apex;
+stopping_grv = grv + 0.35;
 
+//Hit
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
@@ -30,7 +37,7 @@ function on_ground(_obj){
 }
 
 function hitwall(_obj){
-	return place_meeting(x + hsp, y, _obj);
+	return place_meeting(x + sign(hsp), y, _obj);
 }
 
 function move_n_collide(_obj){	
@@ -57,6 +64,19 @@ function move_n_collide(_obj){
 function update(){
 	x = x + hsp;
 	y = y + vsp;
+}
+
+function jump(){
+	if(on_ground(Owall) and hitwall(Owall)) {
+		vsp = j_velocity;
+		if(!hitwall(Owall)){
+			vsp += stopping_grv;
+			if (vsp > max_vsp) vsp = max_vsp;
+		} else{
+			vsp += grv;
+			if (vsp > max_vsp) vsp = max_vsp;
+		}
+	}
 }
 
 function move_n_chase(){
