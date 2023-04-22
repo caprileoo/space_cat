@@ -5,7 +5,7 @@ function SState_Atk(){
 	{
 		hsp = 0;
 		vsp = 0;
-		sprite_index = SPigIdle;
+		sprite_index = SSlimeIdle;
 		state = SSTATE.STATUS;
 	}
 }

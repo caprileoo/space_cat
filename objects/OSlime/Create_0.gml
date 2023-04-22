@@ -103,7 +103,7 @@ function roaming(){
 function animation(){
 	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
 	{
-		sprite_index = SPigIdle;	
+		sprite_index = SSlimeIdle;	
 		image_speed = 0;
 	}
 	else
@@ -111,11 +111,11 @@ function animation(){
 		image_speed = 1;
 		if (hsp == 0)
 		{
-			sprite_index = SPigIdle;
+			sprite_index = SSlimeIdle;
 		}
 		else
 		{
-			sprite_index = SPigRun;
+			sprite_index = SSlimeMove;
 		}
 	}
 	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around

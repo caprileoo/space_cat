@@ -29,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPigIdle",
-    "path": "sprites/SPigIdle/SPigIdle.yy",
+    "name": "SSlimeIdle",
+    "path": "sprites/SSlimeIdle/SSlimeIdle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "SSlimeIdle",
+    "path": "sprites/SSlimeIdle/SSlimeIdle.yy",
+  },
   "visible": true,
 }

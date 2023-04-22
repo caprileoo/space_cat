@@ -3,7 +3,7 @@ function SState_Hit() {
 	if (hitNow)
 	{
 		show_debug_message("ouch");
-		sprite_index = SPigHit;
+		sprite_index = SSlimeHit;
 		image_index = 0;
 		hitNow = false;
 		frameCount = 0;
