@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Cats",
-    "path": "folders/Sprites/Cats.yy",
+    "name": "Hit Boxes",
+    "path": "folders/Sprites/Hit Boxes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
