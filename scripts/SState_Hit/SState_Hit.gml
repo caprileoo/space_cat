@@ -2,7 +2,6 @@ function SState_Hit() {
 	//Just hit
 	if (hitNow)
 	{
-		show_debug_message("ouch");
 		sprite_index = SSlimeHit;
 		image_index = 0;
 		hitNow = false;
