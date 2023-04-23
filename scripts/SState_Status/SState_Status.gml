@@ -1,6 +1,6 @@
 function SState_Status(){
 	vsp += grv;
-	show_debug_message("Processing");
+	
 	move_n_collide(Owall);
 	move_n_collide(OPlatform);
 	update()
