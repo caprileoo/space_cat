@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OPlasma",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "OCheesePlasma",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -30,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPlasma",
-    "path": "sprites/SPlasma/SPlasma.yy",
+    "name": "SCheesePlasma",
+    "path": "sprites/SCheesePlasma/SCheesePlasma.yy",
   },
   "spriteMaskId": {
-    "name": "SPlasma",
-    "path": "sprites/SPlasma/SPlasma.yy",
+    "name": "SCheesePlasmaHB",
+    "path": "sprites/SCheesePlasmaHB/SCheesePlasmaHB.yy",
   },
   "visible": true,
 }
