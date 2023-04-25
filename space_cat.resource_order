@@ -68,7 +68,6 @@
     {"name":"ProcessAttackToMouse","order":1,"path":"scripts/ProcessAttackToMouse/ProcessAttackToMouse.yy",},
     {"name":"RState_Status","order":4,"path":"scripts/RState_Status/RState_Status.yy",},
     {"name":"PState_Charge","order":4,"path":"scripts/PState_Charge/PState_Charge.yy",},
-    {"name":"RState_Wait","order":6,"path":"scripts/RState_Wait/RState_Wait.yy",},
     {"name":"Lv_Test","order":2,"path":"rooms/Lv_Test/Lv_Test.yy",},
     {"name":"OWindow2","order":6,"path":"objects/OWindow2/OWindow2.yy",},
     {"name":"OPlatform","order":4,"path":"objects/OPlatform/OPlatform.yy",},

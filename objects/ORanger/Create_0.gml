@@ -21,11 +21,13 @@ state = RSTATE.STATUS;
 
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
+burst_count = 0;
+burst_timer = 0;
+fire_timer = 0;
 
 enum RSTATE
 {
 	STATUS,
-	WAIT,
 	FREE,
 	CHASE,
 	ATK,

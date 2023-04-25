@@ -92,7 +92,6 @@
     {"id":{"name":"ProcessAttackToMouse","path":"scripts/ProcessAttackToMouse/ProcessAttackToMouse.yy",},},
     {"id":{"name":"RState_Status","path":"scripts/RState_Status/RState_Status.yy",},},
     {"id":{"name":"PState_Charge","path":"scripts/PState_Charge/PState_Charge.yy",},},
-    {"id":{"name":"RState_Wait","path":"scripts/RState_Wait/RState_Wait.yy",},},
     {"id":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"id":{"name":"OWindow2","path":"objects/OWindow2/OWindow2.yy",},},
     {"id":{"name":"OPlatform","path":"objects/OPlatform/OPlatform.yy",},},
