@@ -37,7 +37,6 @@
     {"name":"OBigFlag","order":3,"path":"objects/OBigFlag/OBigFlag.yy",},
     {"name":"SCatFall","order":5,"path":"sprites/SCatFall/SCatFall.yy",},
     {"name":"SState_Hit","order":4,"path":"scripts/SState_Hit/SState_Hit.yy",},
-    {"name":"ORangerBullet","order":3,"path":"objects/ORangerBullet/ORangerBullet.yy",},
     {"name":"STrig","order":12,"path":"sprites/STrig/STrig.yy",},
     {"name":"FState_Dead","order":4,"path":"scripts/FState_Dead/FState_Dead.yy",},
     {"name":"ProcessAttackBurstToMouse","order":2,"path":"scripts/ProcessAttackBurstToMouse/ProcessAttackBurstToMouse.yy",},

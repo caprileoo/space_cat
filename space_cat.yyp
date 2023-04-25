@@ -56,7 +56,6 @@
     {"id":{"name":"OBigFlag","path":"objects/OBigFlag/OBigFlag.yy",},},
     {"id":{"name":"SCatFall","path":"sprites/SCatFall/SCatFall.yy",},},
     {"id":{"name":"SState_Hit","path":"scripts/SState_Hit/SState_Hit.yy",},},
-    {"id":{"name":"ORangerBullet","path":"objects/ORangerBullet/ORangerBullet.yy",},},
     {"id":{"name":"STrig","path":"sprites/STrig/STrig.yy",},},
     {"id":{"name":"FState_Dead","path":"scripts/FState_Dead/FState_Dead.yy",},},
     {"id":{"name":"ProcessAttackBurstToMouse","path":"scripts/ProcessAttackBurstToMouse/ProcessAttackBurstToMouse.yy",},},
