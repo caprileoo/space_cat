@@ -1,10 +1,6 @@
 function RState_Atk(){
 	hsp = 0;
 	vsp = 0;
-	move_n_collide(Owall);
-	move_n_collide(OPlatform);
-	update();
-	animation();
 	if (fire_timer >= room_speed / 4) { // 1 second interval between each bullet
 	    if(burst_count < 3){
 	        var bullet;
@@ -26,4 +22,8 @@ function RState_Atk(){
 	} else {
 	    fire_timer ++;
 	}
+	move_n_collide(Owall);
+	move_n_collide(OPlatform);
+	update();
+	animation();
 }
