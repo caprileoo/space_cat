@@ -1,5 +1,5 @@
 if (place_meeting(x,y,OCat)) {
-	RangerProcessAttack(SPlasma,SPlasmaHB);
+	RangerProcessAttack(SCheesePlasma,SCheesePlasmaHB);
 	// Reset the bullet's horizontal and vertical speed
 	hsp = 0;
 	vsp = 0;
