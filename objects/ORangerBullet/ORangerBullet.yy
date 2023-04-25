@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "space_cat",
-    "path": "space_cat.yyp",
+    "name": "Bullets",
+    "path": "folders/Objects/Bullets.yy",
   },
   "parentObjectId": null,
   "persistent": false,

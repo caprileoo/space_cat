@@ -1,7 +1,7 @@
 function RState_Atk(){
 	var bullet;
 	for(var i = 0; i< 3; i++){
-		bullet = instance_create_layer(x,y,"Instances",ORangerBullet);
+		bullet = instance_create_layer(x,y,"Instances",OCheesePlasma);
 		get_dir();
 		bullet.direction = dir;
 		bullet.speed = 5;
