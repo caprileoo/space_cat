@@ -6,7 +6,7 @@ function PState_Release(){
 	    } else {
 	        plasma = instance_create_layer(x, y, "Instances", OPlasma);
 	    }
-		get_dir()
+		get_dir();
 		plasma.direction = dir;
 		plasma.speed = 5;
 	    plasma_charge_time = 0;

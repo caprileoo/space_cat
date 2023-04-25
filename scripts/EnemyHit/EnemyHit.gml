@@ -4,11 +4,11 @@ function EnemyHit(argument0) {
 	hp -= _damage;
 	if (hp > 0)
 	{
-		state = ESTATE.HIT;
+		state = RSTATE.HIT;
 		hitNow = true;
 	}
 	else
 	{
-		state = ESTATE.DEAD;
+		state = RSTATE.DEAD;
 	}
 }

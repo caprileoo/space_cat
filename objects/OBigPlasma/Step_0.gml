@@ -1,4 +1,4 @@
-if (place_meeting(x,y,OPig)) {
+if (place_meeting(x,y,ORanger)) {
 	// Apply damage to the pig
 	ProcessAttackBurstToMouse(SBigPlasma,SBigPlasmaHB);  
 	// Reset the bullet's horizontal and vertical speed

@@ -16,7 +16,7 @@ hp = 10;
 state = SSTATE.STATUS;
 
 detectionRadius = 100;
-target = instance_nearest(x, y, OKing);
+target = instance_nearest(x, y, OCat);
 
 enum SSTATE
 {

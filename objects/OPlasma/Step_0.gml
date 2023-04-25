@@ -1,4 +1,4 @@
-if (place_meeting(x,y,OPig)) {
+if (place_meeting(x,y,ORanger)) {
 	ProcessAttackToMouse(SPlasma,SPlasmaHB);
 	// Reset the bullet's horizontal and vertical speed
 	hsp = 0;
