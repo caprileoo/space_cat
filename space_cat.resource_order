@@ -22,12 +22,12 @@
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Cats","order":5,"path":"folders/Sprites/Cats.yy",},
     {"name":"Decos","order":10,"path":"folders/Sprites/Decos.yy",},
+    {"name":"Hit Boxes","order":17,"path":"folders/Sprites/Hit Boxes.yy",},
     {"name":"Items","order":14,"path":"folders/Sprites/Items.yy",},
     {"name":"Pigs","order":11,"path":"folders/Sprites/Pigs.yy",},
     {"name":"Slimes","order":16,"path":"folders/Sprites/Slimes.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
-    {"name":"Hit Boxes","order":17,"path":"folders/Sprites/Hit Boxes.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"CheeseSet","order":1,"path":"tilesets/CheeseSet/CheeseSet.yy",},
