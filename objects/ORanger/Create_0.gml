@@ -124,5 +124,5 @@ function animation(){
             sprite_index = SPigRun;
         }
     }
-    image_xscale = moveDirection; //enemy sprite turn around
+    image_xscale = moveDirection; //ranged enemy sprite turn around
 }
