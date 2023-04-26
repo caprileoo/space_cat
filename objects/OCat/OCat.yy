@@ -30,12 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sKing",
-    "path": "sprites/sKing/sKing.yy",
+    "name": "sCat",
+    "path": "sprites/sCat/sCat.yy",
   },
   "spriteMaskId": {
-    "name": "sKing",
-    "path": "sprites/sKing/sKing.yy",
+    "name": "sCat",
+    "path": "sprites/sCat/sCat.yy",
   },
   "visible": true,
 }

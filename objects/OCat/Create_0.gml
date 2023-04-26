@@ -136,7 +136,7 @@ function on_ground(_obj){
 function animation(){
 	if (!on_ground(Owall) and !on_ground(OPlatform))
     {
-        sprite_index = SKingAir;
+        sprite_index = sCatAir;
         image_speed = 0;
     }
     else
@@ -144,11 +144,11 @@ function animation(){
         image_speed = 1;
         if (hsp == 0)
         {
-            sprite_index = sKing;
+            sprite_index = sCat;
         }
         else
         {
-            sprite_index = SKingRun;
+            sprite_index = sCatRun;
         }
     }
 

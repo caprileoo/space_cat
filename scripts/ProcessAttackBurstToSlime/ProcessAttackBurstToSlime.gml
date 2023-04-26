@@ -30,5 +30,5 @@ function ProcessAttackBurstToSlime(argument0, argument1){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = sKing;
+	mask_index = sCat;
 }
