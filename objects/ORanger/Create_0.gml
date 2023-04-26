@@ -29,7 +29,6 @@ enum RSTATE
 {
 	STATUS,
 	FREE,
-	CHASE,
 	ATK,
 	HIT,
 	DEAD
@@ -92,7 +91,7 @@ function jump(_obj){
 
 function move_n_chase(){
 	moveDirection = sign(target.x - x); // Move towards the target
-	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
+	hsp = moveDirection; //divide = low speed | multiply = high speed
 }
 
 function roaming(){
@@ -125,5 +124,5 @@ function animation(){
             sprite_index = SPigRun;
         }
     }
-    if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around
+    image_xscale = moveDirection; //enemy sprite turn around
 }

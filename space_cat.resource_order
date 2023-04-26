@@ -60,7 +60,6 @@
     {"name":"PState_Dead","order":3,"path":"scripts/PState_Dead/PState_Dead.yy",},
     {"name":"OBigPlasma","order":1,"path":"objects/OBigPlasma/OBigPlasma.yy",},
     {"name":"SState_Chase","order":1,"path":"scripts/SState_Chase/SState_Chase.yy",},
-    {"name":"RState_Chase","order":3,"path":"scripts/RState_Chase/RState_Chase.yy",},
     {"name":"OSmolFlag","order":7,"path":"objects/OSmolFlag/OSmolFlag.yy",},
     {"name":"SSlimeHB","order":3,"path":"sprites/SSlimeHB/SSlimeHB.yy",},
     {"name":"OSlimeCorpse","order":3,"path":"objects/OSlimeCorpse/OSlimeCorpse.yy",},

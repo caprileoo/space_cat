@@ -82,7 +82,6 @@
     {"id":{"name":"PState_Dead","path":"scripts/PState_Dead/PState_Dead.yy",},},
     {"id":{"name":"OBigPlasma","path":"objects/OBigPlasma/OBigPlasma.yy",},},
     {"id":{"name":"SState_Chase","path":"scripts/SState_Chase/SState_Chase.yy",},},
-    {"id":{"name":"RState_Chase","path":"scripts/RState_Chase/RState_Chase.yy",},},
     {"id":{"name":"SPlasma","path":"sprites/SPlasma/SPlasma.yy",},},
     {"id":{"name":"OSmolFlag","path":"objects/OSmolFlag/OSmolFlag.yy",},},
     {"id":{"name":"SSlimeHB","path":"sprites/SSlimeHB/SSlimeHB.yy",},},
