@@ -7,6 +7,7 @@ function RState_Atk(){
 	        bullet = instance_create_layer(x,y,"Instances",OCheesePlasma);
 	        get_dir();
 	        bullet.direction = dir;
+			bullet.image_xscale = (dir == 0) ? -1 : 1;
 	        bullet.speed = 5;
 	        burst_count ++;
 	        fire_timer = 0;
