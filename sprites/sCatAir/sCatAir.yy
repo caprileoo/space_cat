@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "sCatAir",
   "bbox_bottom": 37,
-  "bbox_left": 4,
+  "bbox_left": 5,
   "bbox_right": 27,
   "bbox_top": 4,
   "bboxMode": 0,
