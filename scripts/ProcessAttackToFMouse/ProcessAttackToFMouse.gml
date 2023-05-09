@@ -1,4 +1,4 @@
-function ProcessAttackToMouse(argument0, argument1) {
+function ProcessAttackToFMouse(argument0, argument1) {
 	//Start of the attack
 	if (sprite_index != argument0)
 	{
@@ -22,7 +22,7 @@ function ProcessAttackToMouse(argument0, argument1) {
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					EnemyHit(10);
+					FighterMouseHit(10);
 				}
 			}
 		}

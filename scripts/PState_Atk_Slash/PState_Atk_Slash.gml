@@ -1,6 +1,7 @@
 function PState_Atk_Slash(){
 	ProcessAttackToSlime(SCatSlash,SCatSlashHB);
-	ProcessAttackToMouse(SCatSlash, SCatSlashHB);
+	ProcessAttackToFMouse(SCatSlash, SCatSlashHB);
+	ProcessAttackToRMouse(SCatSlash, SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;
