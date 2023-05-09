@@ -1,4 +1,5 @@
 function SState_Free() {
+	show_debug_message("Roaming")
 	vsp += grv;
 	
 	roaming();

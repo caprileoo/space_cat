@@ -1,4 +1,5 @@
 function SState_Atk(){
+	show_debug_message("Attacking")
 	SlimeProcessAttack(SSlimeAtk,SSlimeHB);
 	if (animation_end())
 	{

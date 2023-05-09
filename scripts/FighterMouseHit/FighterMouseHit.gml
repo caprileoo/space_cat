@@ -12,4 +12,5 @@ function FighterMouseHit(argument0){
 	else
 	{
 		state = FSTATE.DEAD;
+	}
 }

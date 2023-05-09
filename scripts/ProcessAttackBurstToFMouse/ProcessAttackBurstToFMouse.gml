@@ -24,7 +24,7 @@ function ProcessAttackBurstToFMouse(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					EnemyHit(20);
+					FighterMouseHit(20);
 				}
 			}
 		}

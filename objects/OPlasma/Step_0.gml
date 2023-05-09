@@ -1,5 +1,13 @@
 if (place_meeting(x,y,ORanger)) {
-	ProcessAttackToMouse(SPlasma,SPlasmaHB);
+	ProcessAttackToRMouse(SPlasma,SPlasmaHB);
+	// Reset the bullet's horizontal and vertical speed
+	hsp = 0;
+	vsp = 0;
+	// Destroy the bullet instance
+	instance_destroy();
+} 
+if (place_meeting(x,y,OFighter)) {
+	ProcessAttackToFMouse(SPlasma,SPlasmaHB);
 	// Reset the bullet's horizontal and vertical speed
 	hsp = 0;
 	vsp = 0;

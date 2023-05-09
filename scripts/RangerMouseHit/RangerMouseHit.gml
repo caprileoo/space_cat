@@ -1,4 +1,4 @@
-function EnemyHit(argument0) {
+function RangerMouseHit(argument0) {
 	var _damage = argument0;
 
 	hp -= _damage;

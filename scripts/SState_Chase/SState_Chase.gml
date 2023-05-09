@@ -1,4 +1,5 @@
 function SState_Chase(){
+	show_debug_message("Chasing")
 	vsp += grv;
 	
 	move_n_chase();

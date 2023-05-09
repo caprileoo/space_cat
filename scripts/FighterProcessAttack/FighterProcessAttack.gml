@@ -22,7 +22,7 @@ function FighterProcessAttack(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					PlayerHit(15);
+					PlayerHit(10);
 				}
 			}
 		}
