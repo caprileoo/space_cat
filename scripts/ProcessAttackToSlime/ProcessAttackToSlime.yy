@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerProcessATK",
-    "path": "folders/Scripts/PlayerProcessATK.yy",
+    "name": "Slime",
+    "path": "folders/Scripts/PlayerProcessATK/Slime.yy",
   },
 }

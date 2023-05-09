@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ProcessAttackBurstToSlime",
+  "name": "FighterMouseHit",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Slime",
-    "path": "folders/Scripts/PlayerProcessATK/Slime.yy",
+    "name": "Fighter",
+    "path": "folders/Scripts/EnemyProcessATK/Fighter.yy",
   },
 }

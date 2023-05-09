@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "ProcessAttackToMouse",
+  "name": "ProcessAttackToFMouse",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerProcessATK",
-    "path": "folders/Scripts/PlayerProcessATK.yy",
+    "name": "FMouse",
+    "path": "folders/Scripts/PlayerProcessATK/FMouse.yy",
   },
 }

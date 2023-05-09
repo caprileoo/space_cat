@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "EnemyHit",
+  "name": "ProcessAttackBurstToRMouse",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "EnemyProcessATK",
-    "path": "folders/Scripts/EnemyProcessATK.yy",
+    "name": "RMouse",
+    "path": "folders/Scripts/PlayerProcessATK/RMouse.yy",
   },
 }

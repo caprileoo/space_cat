@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "EnemyProcessATK",
-    "path": "folders/Scripts/EnemyProcessATK.yy",
+    "name": "Ranger",
+    "path": "folders/Scripts/EnemyProcessATK/Ranger.yy",
   },
 }

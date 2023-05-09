@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "EnemyProcessATK",
-    "path": "folders/Scripts/EnemyProcessATK.yy",
+    "name": "Slime",
+    "path": "folders/Scripts/EnemyProcessATK/Slime.yy",
   },
 }
