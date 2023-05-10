@@ -6,7 +6,7 @@ moveTimer = 0;
 moveDuration = room_speed * 3; // 3 seconds
 
 //solve for grv dynamically
-j_height = 30;
+j_height = 40;
 time_to_apex = 10;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
@@ -76,14 +76,14 @@ function update(){
 }
 
 function jump(){
-	if(hitwall(Owall)) {
-		isJumping = true;
+	if(on_ground(Owall) and hitwall(Owall)) {
 		vsp = j_velocity;
-		if(!hitwall(Owall)){
+		if(!on_ground(Owall)){
 			isJumping = false;
 			vsp += stopping_grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		} else{
+			isJumping = true;
 			vsp += grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
