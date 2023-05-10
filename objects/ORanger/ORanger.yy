@@ -29,12 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPigIdle",
-    "path": "sprites/SPigIdle/SPigIdle.yy",
+    "name": "Sprite40",
+    "path": "sprites/Sprite40/Sprite40.yy",
   },
   "spriteMaskId": {
-    "name": "SPigIdle",
-    "path": "sprites/SPigIdle/SPigIdle.yy",
+    "name": "SFMouseIdle",
+    "path": "sprites/SFMouseIdle/SFMouseIdle.yy",
   },
   "visible": true,
 }

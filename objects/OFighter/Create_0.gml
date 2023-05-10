@@ -11,6 +11,7 @@ time_to_apex = 10;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
+isJumping = false;
 
 //Hit
 hitByAttack = ds_list_create();
@@ -33,11 +34,11 @@ enum FSTATE
 }
 image_index = irandom(10);
 function on_ground(_obj){
-	return place_meeting(x,y+1,_obj);
+	return place_meeting(x,y + 1,_obj);
 }
 
 function hitwall(_obj){
-	return place_meeting(x + sign(hsp), y, _obj);
+	return place_meeting(x + 1, y, _obj);
 }
 
 function get_dir(){
@@ -74,10 +75,12 @@ function update(){
 	y = y + vsp;
 }
 
-function jump(_obj){
-	if(on_ground(_obj) and hitwall(_obj)) {
+function jump(){
+	if(hitwall(Owall)) {
+		isJumping = true;
 		vsp = j_velocity;
-		if(!hitwall(_obj)){
+		if(!hitwall(Owall)){
+			isJumping = false;
 			vsp += stopping_grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		} else{
@@ -111,21 +114,26 @@ function roaming(){
 }
 
 function animation(){
-	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
+	if (!on_ground(Owall) and !on_ground(OPlatform))	
 	{
-		sprite_index = SPigIdle;	
-		image_speed = 0;
+		if(isJumping = true){ //i need something to check if the mouse is using the jump() function
+			sprite_index = SFMouseJump
+			image_speed = 0;
+		} else{
+			sprite_index = SFMouseFall;	
+			image_speed = 0;
+		}
 	}
 	else
 	{
 		image_speed = 1;
 		if (hsp == 0)
 		{
-			sprite_index = SPigIdle;
+			sprite_index = SFMouseIdle;
 		}
 		else
 		{
-			sprite_index = SPigRun;
+			sprite_index = SFMouseRun;
 		}
 	}
 	if (hsp != 0) image_xscale = sign(hsp); //enemy sprite turn around

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SMouseJump",
+  "name": "SFMouseJump",
   "bbox_bottom": 34,
   "bbox_left": 6,
   "bbox_right": 27,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Pigs",
-    "path": "folders/Sprites/Pigs.yy",
+    "name": "Fighter Mouse",
+    "path": "folders/Sprites/Mouses/Fighter Mouse.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SMouseJump",
+    "name": "SFMouseJump",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bf2b52ae-179b-4362-a70f-9a83f85d717c","path":"sprites/SMouseJump/SMouseJump.yy",},},},"Disabled":false,"id":"2154bdd8-fe34-4745-95cd-979885bfbdb5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bf2b52ae-179b-4362-a70f-9a83f85d717c","path":"sprites/SFMouseJump/SFMouseJump.yy",},},},"Disabled":false,"id":"2154bdd8-fe34-4745-95cd-979885bfbdb5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

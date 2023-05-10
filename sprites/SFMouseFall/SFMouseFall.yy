@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SMouseFall",
+  "name": "SFMouseFall",
   "bbox_bottom": 35,
   "bbox_left": 6,
   "bbox_right": 27,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Pigs",
-    "path": "folders/Sprites/Pigs.yy",
+    "name": "Fighter Mouse",
+    "path": "folders/Sprites/Mouses/Fighter Mouse.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SMouseFall",
+    "name": "SFMouseFall",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4ea9b619-8900-4b6c-a4ed-8290f8a7af79","path":"sprites/SMouseFall/SMouseFall.yy",},},},"Disabled":false,"id":"c72fd85a-e0db-4140-876d-76af8cb54106","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4ea9b619-8900-4b6c-a4ed-8290f8a7af79","path":"sprites/SFMouseFall/SFMouseFall.yy",},},},"Disabled":false,"id":"c72fd85a-e0db-4140-876d-76af8cb54106","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

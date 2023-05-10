@@ -1,6 +1,5 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function FState_Free(){
+	show_debug_message("Roaming");
 	vsp += grv;
 	roaming();
 	move_n_collide(Owall);

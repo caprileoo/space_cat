@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SFMouseIdle",
+    "path": "sprites/SFMouseIdle/SFMouseIdle.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
