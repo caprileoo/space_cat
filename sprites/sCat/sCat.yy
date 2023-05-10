@@ -56,8 +56,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Cats",
-    "path": "folders/Sprites/Cats.yy",
+    "name": "Cat",
+    "path": "folders/Sprites/Cat.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

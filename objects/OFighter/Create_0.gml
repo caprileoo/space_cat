@@ -92,7 +92,7 @@ function jump(){
 
 function move_n_chase(){
 	moveDirection = sign(target.x - x); // Move towards the target
-	hsp = moveDirection * 2; //divide = low speed | multiply = high speed
+	hsp = moveDirection * 1.3; //divide = low speed | multiply = high speed
 }
 
 function roaming(){
