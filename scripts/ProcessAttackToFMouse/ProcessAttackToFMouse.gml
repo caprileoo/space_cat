@@ -10,7 +10,7 @@ function ProcessAttackToFMouse(argument0, argument1) {
 	//Use attack hitbox & check for hits
 	mask_index = argument1;
 	var hitByAttackNow = ds_list_create()
-	var hits = instance_place_list(x,y,ORanger,hitByAttackNow,false);
+	var hits = instance_place_list(x,y,OFighter,hitByAttackNow,false);
 	if (hits > 0)
 	{
 		for (var i = 0; i < hits; i++)
