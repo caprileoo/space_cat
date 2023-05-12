@@ -77,17 +77,16 @@ function update(){
 
 function jump(){
 	if(on_ground(Owall) and hitwall(Owall)) {
+		isJumping = true;
 		vsp = j_velocity;
 		if(!on_ground(Owall)){
-			isJumping = false;
 			vsp += stopping_grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		} else{
-			isJumping = true;
 			vsp += grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
-	}
+	} else isJumping = false;
 }
 
 function move_n_chase(){
@@ -116,7 +115,7 @@ function roaming(){
 function animation(){
 	if (!on_ground(Owall) and !on_ground(OPlatform))	
 	{
-		if(isJumping = true){ //i need something to check if the mouse is using the jump() function
+		if(isJumping = true){
 			sprite_index = SFMouseJump
 			image_speed = 0;
 		} else{

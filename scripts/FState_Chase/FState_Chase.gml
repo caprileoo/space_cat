@@ -1,5 +1,5 @@
 function FState_Chase(){
-	show_debug_message("Chasing");
+	show_debug_message(isJumping);
 	vsp += grv;
 	jump();
 	move_n_chase();
