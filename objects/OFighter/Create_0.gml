@@ -6,12 +6,11 @@ moveTimer = 0;
 moveDuration = room_speed * 3; // 3 seconds
 
 //solve for grv dynamically
-j_height = 40;
+j_height = 60;
 time_to_apex = 20; //jump time
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
-isJumping = false;
 
 //Hit
 hitByAttack = ds_list_create();
@@ -77,7 +76,6 @@ function update(){
 
 function jump(){
 	if(on_ground(Owall) and hitwall(Owall)) {
-		isJumping = true;
 		vsp = j_velocity;
 		if(!on_ground(Owall)){
 			vsp += stopping_grv;
@@ -86,7 +84,7 @@ function jump(){
 			vsp += grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
-	} else isJumping = false;
+	}
 }
 
 function move_n_chase(){
@@ -113,18 +111,15 @@ function roaming(){
 }
 
 function animation(){
-	if (!on_ground(Owall) and !on_ground(OPlatform))	
-	{
-		if(isJumping = true){
-			show_debug_message("wahoo");
+	if (!on_ground(Owall) and !on_ground(OPlatform)){
+		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = SFMouseJump;
 			image_speed = 0;
-		} else{
-			show_debug_message("AAA")
+		} else {
 			sprite_index = SFMouseFall;	
 			image_speed = 0;
 		}
-	}
+	} 
 	else
 	{
 		image_speed = 1;
