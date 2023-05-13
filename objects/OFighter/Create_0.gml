@@ -7,7 +7,7 @@ moveDuration = room_speed * 3; // 3 seconds
 
 //solve for grv dynamically
 j_height = 40;
-time_to_apex = 10;
+time_to_apex = 20; //jump time
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
@@ -116,9 +116,11 @@ function animation(){
 	if (!on_ground(Owall) and !on_ground(OPlatform))	
 	{
 		if(isJumping = true){
-			sprite_index = SFMouseJump
+			show_debug_message("wahoo");
+			sprite_index = SFMouseJump;
 			image_speed = 0;
 		} else{
+			show_debug_message("AAA")
 			sprite_index = SFMouseFall;	
 			image_speed = 0;
 		}
