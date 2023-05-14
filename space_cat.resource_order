@@ -94,6 +94,7 @@
     {"name":"SFMouseFall","order":1,"path":"sprites/SFMouseFall/SFMouseFall.yy",},
     {"name":"SPlatform","order":5,"path":"sprites/SPlatform/SPlatform.yy",},
     {"name":"SFMouseHit","order":4,"path":"sprites/SFMouseHit/SFMouseHit.yy",},
+    {"name":"f_title","order":1,"path":"fonts/f_title/f_title.yy",},
     {"name":"SState_Dead","order":2,"path":"scripts/SState_Dead/SState_Dead.yy",},
     {"name":"sCatAir","order":1,"path":"sprites/sCatAir/sCatAir.yy",},
     {"name":"SWindow1","order":6,"path":"sprites/SWindow1/SWindow1.yy",},

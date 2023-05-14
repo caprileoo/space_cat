@@ -130,6 +130,7 @@
     {"id":{"name":"SPlatform","path":"sprites/SPlatform/SPlatform.yy",},},
     {"id":{"name":"SBigPlasmaHB","path":"sprites/SBigPlasmaHB/SBigPlasmaHB.yy",},},
     {"id":{"name":"SFMouseHit","path":"sprites/SFMouseHit/SFMouseHit.yy",},},
+    {"id":{"name":"f_title","path":"fonts/f_title/f_title.yy",},},
     {"id":{"name":"SBox","path":"sprites/SBox/SBox.yy",},},
     {"id":{"name":"SState_Dead","path":"scripts/SState_Dead/SState_Dead.yy",},},
     {"id":{"name":"sCatAir","path":"sprites/sCatAir/sCatAir.yy",},},
