@@ -5,6 +5,6 @@ function FState_Dead(){
 		image_index = 0;
 	}
 
-	if (animation_end()) sprite_index = SPigDed;
+	if (animation_end()) instance_change(OFMouseCorpse, true);
 
 }

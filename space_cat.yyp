@@ -151,6 +151,7 @@
     {"id":{"name":"OTrans","path":"objects/OTrans/OTrans.yy",},},
     {"id":{"name":"ProcessAttackToSlime","path":"scripts/ProcessAttackToSlime/ProcessAttackToSlime.yy",},},
     {"id":{"name":"OSlime","path":"objects/OSlime/OSlime.yy",},},
+    {"id":{"name":"OFMouseCorpse","path":"objects/OFMouseCorpse/OFMouseCorpse.yy",},},
     {"id":{"name":"SlimeHit","path":"scripts/SlimeHit/SlimeHit.yy",},},
     {"id":{"name":"SFMouseRun","path":"sprites/SFMouseRun/SFMouseRun.yy",},},
     {"id":{"name":"SPlasmaHB","path":"sprites/SPlasmaHB/SPlasmaHB.yy",},},
