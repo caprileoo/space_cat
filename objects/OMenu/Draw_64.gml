@@ -12,7 +12,7 @@ for (var i = 0; i < menu_items; i++)
 		var col = make_color_rgb(255,255,255);
 	}
 	else {
-		var col = make_color_rgb(240,120,96);
+		var col = make_color_rgb(232,156,0);
 	}
 	var xx = menu_x;
 	var yy = menu_y - (menu_itemheight * (i * 1.5));
