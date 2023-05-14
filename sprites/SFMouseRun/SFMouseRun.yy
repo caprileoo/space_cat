@@ -29,7 +29,7 @@
   "origin": 4,
   "parent": {
     "name": "Fighter Mouse",
-    "path": "folders/Sprites/Mouses/Fighter Mouse.yy",
+    "path": "folders/Sprites/Enemies/Mouses/Fighter Mouse.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

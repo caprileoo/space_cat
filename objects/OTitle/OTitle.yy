@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Decos",
+    "path": "folders/Objects/Decos.yy",
   },
   "parentObjectId": null,
   "persistent": false,

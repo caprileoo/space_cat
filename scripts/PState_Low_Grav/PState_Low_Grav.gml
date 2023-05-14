@@ -9,7 +9,6 @@ function PState_Low_Grav(){
 
 
 	move_n_collide(Owall);
-	move_n_collide(OPlatform);
 	update();
 
 	animation();

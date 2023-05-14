@@ -26,7 +26,6 @@ function RState_Atk(){
 	hsp = 0;
 	vsp = 0;
 	move_n_collide(Owall);
-	move_n_collide(OPlatform);
 	update();
 	animation();
 }

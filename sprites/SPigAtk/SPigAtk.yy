@@ -30,7 +30,7 @@
   "origin": 9,
   "parent": {
     "name": "Mouses",
-    "path": "folders/Sprites/Mouses.yy",
+    "path": "folders/Sprites/Enemies/Mouses.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

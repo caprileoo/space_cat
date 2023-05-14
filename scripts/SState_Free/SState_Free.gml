@@ -3,7 +3,7 @@ function SState_Free() {
 	
 	roaming();
 	move_n_collide(Owall);
-	move_n_collide(OPlatform);
+
 	update();
 	
 	animation();

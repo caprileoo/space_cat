@@ -3,7 +3,6 @@ function PState_Charge(){
 	vsp = 0;
 	
 	move_n_collide(Owall);
-	move_n_collide(OPlatform);
 	update();
 
 	animation();

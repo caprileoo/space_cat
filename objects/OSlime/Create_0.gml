@@ -101,7 +101,7 @@ function roaming(){
 }
 
 function animation(){
-	if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform))	
+	if (!place_meeting(x,y+1,Owall))
 	{
 		sprite_index = SSlimeIdle;	
 		image_speed = 0;

@@ -9,7 +9,6 @@ function PState_Free(){
 
 
 	move_n_collide(Owall);
-	move_n_collide(OPlatform);
 	update();
 
 	animation();

@@ -111,7 +111,7 @@ function roaming(){
 }
 
 function animation(){
-	if (!on_ground(Owall) and !on_ground(OPlatform)){
+	if (!on_ground(Owall)){
 		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = SFMouseJump;
 			image_speed = 0;

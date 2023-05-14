@@ -113,7 +113,7 @@ function roaming(){
 }
 
 //function animation(){
-//    if (!place_meeting(x,y+1,Owall)) and (!place_meeting(x,y+1,OPlatform)) {
+//    if (!place_meeting(x,y+1,Owall)) {
 //        sprite_index = SFMouseIdle;    
 //        image_speed = 0;
 //    } else {

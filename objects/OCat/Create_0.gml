@@ -114,11 +114,11 @@ function grav_bender(){
 }
 
 function shing(){
-	if(key_atk and (on_ground(Owall) or on_ground(OPlatform))) state = PSTATE.ATTACK_SLASH;
+	if(key_atk and (on_ground(Owall))) state = PSTATE.ATTACK_SLASH;
 }
 
 function pew(){
-	if(key_plasma and (on_ground(Owall) or on_ground(OPlatform))) state = PSTATE.CHARGE;
+	if(key_plasma and (on_ground(Owall))) state = PSTATE.CHARGE;
 }
 
 function get_dir(){
@@ -134,7 +134,7 @@ function on_ground(_obj){
 }
 
 function animation(){
-	if (!on_ground(Owall) and !on_ground(OPlatform))
+	if (!on_ground(Owall))
     {
         sprite_index = sCatAir;
         image_speed = 0;
@@ -157,7 +157,7 @@ function animation(){
 
 function coyotetime(){
 	if(coyote_time > 0) coyote_time --;
-	if (on_ground(Owall) or on_ground(OPlatform)){
+	if (on_ground(Owall)){
 		coyote_time = coyote_time_max;
 	}
 }

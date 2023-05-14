@@ -52,7 +52,7 @@
   "origin": 4,
   "parent": {
     "name": "Slimes",
-    "path": "folders/Sprites/Slimes.yy",
+    "path": "folders/Sprites/Enemies/Slimes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
