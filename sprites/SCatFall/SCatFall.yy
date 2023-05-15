@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SCatFall",
-  "bbox_bottom": 38,
-  "bbox_left": 5,
-  "bbox_right": 27,
-  "bbox_top": 5,
+  "bbox_bottom": 32,
+  "bbox_left": 4,
+  "bbox_right": 24,
+  "bbox_top": 3,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"537d6bbe-04e8-4d80-a39a-600a5cba0d34",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4bdd0f8f-6803-49b8-9870-0136ff8079a1",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 42,
+  "height": 36,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5eec7820-6f25-4e6a-a611-806410a91c9e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7410d707-8ef1-4c74-a314-76da4eaf268b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"537d6bbe-04e8-4d80-a39a-600a5cba0d34","path":"sprites/SCatFall/SCatFall.yy",},},},"Disabled":false,"id":"47a6a8bb-dff1-41de-ae18-c6294e3a797a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4bdd0f8f-6803-49b8-9870-0136ff8079a1","path":"sprites/SCatFall/SCatFall.yy",},},},"Disabled":false,"id":"e3baedc5-991b-4c49-b7f0-8a24f1bdc523","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 34,
+  "width": 29,
 }
