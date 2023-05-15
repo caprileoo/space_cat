@@ -140,11 +140,11 @@ function animation(){
 		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = sCatAir;
 			image_speed = 0;
-		} else if(vsp > 0) {
+		} else if(vsp > 0 and vsp < 2.0) {
+			sprite_index = SCatMidAir;
+			image_speed = 0;		
+		} else if(vsp > 2.0) {
 			sprite_index = SCatFall;	
-			image_speed = 0;
-		} else if(vsp = 0){
-			sprite_index = SCatMidAir;	
 			image_speed = 0;
 		}
     }

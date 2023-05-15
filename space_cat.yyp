@@ -84,6 +84,7 @@
     {"id":{"name":"Sprite41","path":"sprites/Sprite41/Sprite41.yy",},},
     {"id":{"name":"RState_Atk","path":"scripts/RState_Atk/RState_Atk.yy",},},
     {"id":{"name":"RangerProcessAttack","path":"scripts/RangerProcessAttack/RangerProcessAttack.yy",},},
+    {"id":{"name":"SCatMidAir","path":"sprites/SCatMidAir/SCatMidAir.yy",},},
     {"id":{"name":"sCatRun","path":"sprites/sCatRun/sCatRun.yy",},},
     {"id":{"name":"PState_Atk_Slash","path":"scripts/PState_Atk_Slash/PState_Atk_Slash.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},

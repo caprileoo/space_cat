@@ -58,6 +58,7 @@
     {"name":"Sprite41","order":2,"path":"sprites/Sprite41/Sprite41.yy",},
     {"name":"RState_Atk","order":5,"path":"scripts/RState_Atk/RState_Atk.yy",},
     {"name":"RangerProcessAttack","order":1,"path":"scripts/RangerProcessAttack/RangerProcessAttack.yy",},
+    {"name":"SCatMidAir","order":7,"path":"sprites/SCatMidAir/SCatMidAir.yy",},
     {"name":"sCatRun","order":2,"path":"sprites/sCatRun/sCatRun.yy",},
     {"name":"PState_Atk_Slash","order":6,"path":"scripts/PState_Atk_Slash/PState_Atk_Slash.yy",},
     {"name":"SSlimeMove","order":1,"path":"sprites/SSlimeMove/SSlimeMove.yy",},
