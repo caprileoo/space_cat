@@ -4,6 +4,7 @@ hascontrol = true;
 dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
+fall_speed = 0;
 max_vsp = 4;
 walksp = 0.5; //walking speed
 max_walksp = 3; //maximum walking speed
@@ -139,8 +140,11 @@ function animation(){
 		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = sCatAir;
 			image_speed = 0;
-		} else {
+		} else if(vsp > 0) {
 			sprite_index = SCatFall;	
+			image_speed = 0;
+		} else if(vsp = 0){
+			sprite_index = SCatMidAir;	
 			image_speed = 0;
 		}
     }
@@ -169,4 +173,21 @@ function coyotetime(){
 
 function check_jump(){
 	return coyote_time > 0 and key_jump;
+}
+	
+function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {
+    // check if the object is falling
+    if (vsp > 0) {
+        // increase the fall speed
+        fall_speed += vsp;
+    } else {
+        // if the object is not falling, reset the fall speed
+        fall_speed = 0;
+    }
+
+    // check if the fall speed exceeds the maximum fall speed
+    if (fall_speed > _max_fall_speed) {
+        // apply fall damage based on the fall speed and fall damage rate
+        hp -= fall_speed * _fall_damage_rate;
+    }
 }
