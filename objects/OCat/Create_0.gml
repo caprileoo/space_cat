@@ -136,8 +136,13 @@ function on_ground(_obj){
 function animation(){
 	if (!on_ground(Owall))
     {
-        sprite_index = sCatAir;
-        image_speed = 0;
+		if(vsp < 0){ //jump when vsp is negative
+			sprite_index = sCatAir;
+			image_speed = 0;
+		} else {
+			sprite_index = SCatFall;	
+			image_speed = 0;
+		}
     }
     else
     {
