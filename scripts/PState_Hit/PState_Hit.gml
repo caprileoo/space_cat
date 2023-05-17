@@ -4,7 +4,7 @@ function PState_Hit(){
 	//Just hit
 	if (hitNow)
 	{
-		sprite_index = sCat;
+		sprite_index = SCatHit;
 		image_index = 0;
 		hitNow = false;
 		//frameCount = 0;
