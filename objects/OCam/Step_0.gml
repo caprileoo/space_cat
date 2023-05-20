@@ -2,7 +2,7 @@
 if not (instance_exists(target)) exit;
 
 x = lerp(x, target.x, 0.1);
-y = lerp(y, target.y - cam_height/6, 0.1);
+y = lerp(y, target.y - cam_height/6, 0.015); //last value for how sensitive the cam will move vertically
 
 // Edge detector
 x = clamp(x, cam_width/2, room_width - cam_width/2);

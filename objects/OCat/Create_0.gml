@@ -13,7 +13,7 @@ coyote_time_max = 15;
 
 //solve for grv dynamically (without grav_bender)
 j_height = 68;
-time_to_apex = 28;
+time_to_apex = 20;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
