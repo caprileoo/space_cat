@@ -4,19 +4,22 @@ hascontrol = true;
 dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
-fall_speed = 0;
 max_vsp = 4;
-walksp = 0.5; //walking speed
-max_walksp = 3; //maximum walking speed
+
+walksp = 2.75; //walking speed
+accel_time = 6 // accelerate time in frame
+deccel_time = 3 //deccelerate time in frame
+
 coyote_time = 0;
 coyote_time_max = 15;
 
 //solve for grv dynamically (without grav_bender)
-j_height = 68;
-time_to_apex = 20;
+j_height = 70;
+time_to_apex = 32;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
+fall_speed = 0; //for fall damage
 
 //solve for grv dynamically (with grav_bender)
 j_height_bender = 108;
@@ -48,6 +51,14 @@ enum PSTATE
 
 image_index = irandom(10);
 
+function approach(_start, _end, _shift){
+	if (_start < _end) {
+		return min(_start + _shift, _end); 
+	} else {
+		return max(_start - _shift, _end);
+	}
+}
+
 function move_n_collide(_obj){	
     if (place_meeting(x+hsp,y,_obj))
     {
@@ -75,15 +86,12 @@ function update(){
 }
 
 function moving(){
-	var move = key_right - key_left; //calculate movements
+	var move = key_right - key_left;
 
-    if (move != 0) {
-        walksp += 0.1;
-        walksp = min(walksp, max_walksp);
-    } else {
-        walksp = 2.5;
-    }
-	hsp = move * walksp; //move speed
+	if (key_right ^ key_left){
+		hsp = approach(hsp, move * walksp, walksp / accel_time)
+	}
+	else hsp = approach(hsp, 0, walksp / deccel_time)
 }
 
 function jumping(){
@@ -97,6 +105,9 @@ function jumping(){
 			vsp += grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		}
+	} else {
+		vsp += grv;
+		if (vsp > max_vsp) vsp = max_vsp;
 	}
 }
 
@@ -135,6 +146,7 @@ function on_ground(_obj){
 }
 
 function animation(){
+	var move = key_right - key_left;
 	if (!on_ground(Owall))
     {
 		if(vsp < 0){ //jump when vsp is negative
@@ -160,8 +172,7 @@ function animation(){
             sprite_index = sCatRun;
         }
     }
-
-    if (hsp != 0) image_xscale = sign(hsp); //player sprite turn around
+	if (move != 0) image_xscale = move;
 }
 
 function coyotetime(){
@@ -176,18 +187,13 @@ function check_jump(){
 }
 	
 function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {
-    // check if the object is falling
     if (vsp > 0) {
-        // increase the fall speed
         fall_speed += vsp;
     } else {
-        // if the object is not falling, reset the fall speed
         fall_speed = 0;
     }
 
-    // check if the fall speed exceeds the maximum fall speed
     if (fall_speed > _max_fall_speed) {
-        // apply fall damage based on the fall speed and fall damage rate
         hp -= fall_speed * _fall_damage_rate;
     }
 }

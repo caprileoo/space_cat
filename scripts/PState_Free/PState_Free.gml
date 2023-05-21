@@ -1,6 +1,4 @@
 function PState_Free(){
-	//show_debug_message(fall_speed);
-	show_debug_message(vsp);
 	vsp += grv;
 	
 	moving();
