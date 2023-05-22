@@ -14,22 +14,15 @@ coyote_time = 0;
 coyote_time_max = 15;
 
 //solve for grv dynamically (without grav_bender)
-j_height = 70;
-time_to_apex = 32;
+j_height = 43;
+time_to_apex = 23;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
 fall_speed = 0; //for fall damage
 
-//solve for grv dynamically (with grav_bender)
-j_height_bender = 108;
-time_to_apex_bender = 48;
-grv_bender = (2 * j_height_bender) / power(time_to_apex_bender, 2);
-j_velocity_bender = -abs(grv_bender) * time_to_apex_bender;
-stopping_grv_bender = grv_bender + 0.35;
-
 //Player's States
-state = PSTATE.FREE;
+state = PSTATE.IDLE;
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
@@ -40,7 +33,10 @@ plasma_charge_time = 0;
 
 enum PSTATE
 {
-    FREE,
+    IDLE,
+	WALK,
+	RISING,
+	FALLING,
 	LOW_GRAV,
     ATTACK_SLASH,
 	CHARGE,
@@ -59,10 +55,10 @@ function approach(_start, _end, _shift){
 	}
 }
 
-function move_n_collide(_obj){	
-    if (place_meeting(x+hsp,y,_obj))
+function move_n_collide(){	
+    if (place_meeting(x+hsp,y,Owall))
     {
-        while (!place_meeting(x+sign(hsp),y,_obj))
+        while (!place_meeting(x+sign(hsp),y,Owall))
         {
             x = x + sign(hsp);
         }
@@ -70,9 +66,9 @@ function move_n_collide(_obj){
     }
 
     /**platform vertical collision**/
-    if (place_meeting(x,y+vsp,_obj))
+    if (place_meeting(x,y+vsp,Owall))
     {
-        while (!place_meeting(x,y+sign(vsp),_obj))
+        while (!place_meeting(x,y+sign(vsp),Owall))
         {
             y += sign(vsp);
         }
@@ -94,43 +90,12 @@ function moving(){
 	else hsp = approach(hsp, 0, walksp / deccel_time)
 }
 
-function jumping(){
-	if(check_jump()){
-		vsp = j_velocity;
-		coyote_time = 0;
-		if(!key_jump){
-			vsp += stopping_grv;
-			if (vsp > max_vsp) vsp = max_vsp;
-		} else{
-			vsp += grv;
-			if (vsp > max_vsp) vsp = max_vsp;
-		}
-	} else {
-		vsp += grv;
-		if (vsp > max_vsp) vsp = max_vsp;
-	}
-}
-
-function grav_bender(){
-	if(check_jump()){
-		vsp = j_velocity_bender;
-		coyote_time = 0;
-		if(!key_jump){
-			vsp += stopping_grv_bender;
-			if (vsp > max_vsp) vsp = max_vsp;
-		} else{
-			vsp += grv_bender;
-			if (vsp > max_vsp) vsp = max_vsp;
-		}
-	}
-}
-
 function shing(){
-	if(key_atk and (on_ground(Owall))) state = PSTATE.ATTACK_SLASH;
+	if(key_atk and (on_ground())) state = PSTATE.ATTACK_SLASH;
 }
 
 function pew(){
-	if(key_plasma and (on_ground(Owall))) state = PSTATE.CHARGE;
+	if(key_plasma and (on_ground())) state = PSTATE.CHARGE;
 }
 
 function get_dir(){
@@ -141,13 +106,13 @@ function get_dir(){
 	}
 }
 
-function on_ground(_obj){
-	return place_meeting(x,y+1,_obj);
+function on_ground(){
+	return place_meeting(x,y + 1,Owall);
 }
 
 function animation(){
 	var move = key_right - key_left;
-	if (!on_ground(Owall))
+	if (!on_ground())
     {
 		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = sCatAir;
@@ -177,13 +142,13 @@ function animation(){
 
 function coyotetime(){
 	if(coyote_time > 0) coyote_time --;
-	if (on_ground(Owall)){
+	if (on_ground()){
 		coyote_time = coyote_time_max;
 	}
 }
 
 function check_jump(){
-	return coyote_time > 0 and key_jump;
+	return coyote_time > 0 and key_jump and on_ground();
 }
 	
 function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {

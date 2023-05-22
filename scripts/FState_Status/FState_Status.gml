@@ -5,7 +5,7 @@ function FState_Status(){
 	animation();
 	
 	if (point_distance(x, y, target.x, target.y) <= detectionRadius) {
-		if(point_distance(x, y, target.x, target.y) <= detectionRadius - 80 and (on_ground(Owall))){
+		if(point_distance(x, y, target.x, target.y) <= detectionRadius - 80 and (on_ground())){
 			state = FSTATE.ATK;
 		} else state = FSTATE.CHASE;
 	} else state = FSTATE.FREE;

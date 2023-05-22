@@ -28,8 +28,8 @@ enum SSTATE
 	DEAD
 }
 image_index = irandom(10);
-function on_ground(_obj){
-	return place_meeting(x,y+1,_obj);
+function on_ground(){
+	return place_meeting(x,y+1,Owall);
 }
 
 function hitwall(_obj){

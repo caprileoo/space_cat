@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PState_Free",
+  "name": "PState_Idle",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player States",
-    "path": "folders/Scripts/Player States.yy",
+    "name": "Movement",
+    "path": "folders/Scripts/Player States/Movement.yy",
   },
 }

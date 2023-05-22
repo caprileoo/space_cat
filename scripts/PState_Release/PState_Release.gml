@@ -10,6 +10,6 @@ function PState_Release(){
 		plasma.direction = dir;
 		plasma.speed = 5;
 	    plasma_charge_time = 0;
-		state = PSTATE.FREE;
+		state = PSTATE.IDLE;
 	}
 }

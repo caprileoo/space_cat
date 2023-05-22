@@ -16,7 +16,10 @@ else {
 }
 switch(state)
 {
-	case PSTATE.FREE: PState_Free(); break;
+	case PSTATE.IDLE: PState_Idle(); break;
+	case PSTATE.WALK: PState_Walk(); break;
+	case PSTATE.RISING: PState_Rising(); break;
+	case PSTATE.FALLING: PState_Falling(); break;
 	case PSTATE.LOW_GRAV: PState_Low_Grav(); break;
 	case PSTATE.CHARGE: PState_Charge(); break;
 	case PSTATE.RELEASE: PState_Release(); break;

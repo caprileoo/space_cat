@@ -15,5 +15,5 @@ function PState_Hit(){
 	//	frameCount = 0;
 	//	state = PSTATE.FREE;
 	//}
-	state = PSTATE.FREE;
+	state = PSTATE.IDLE;
 }

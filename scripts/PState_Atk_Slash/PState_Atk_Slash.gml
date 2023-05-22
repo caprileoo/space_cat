@@ -7,6 +7,6 @@ function PState_Atk_Slash(){
 		hsp = 0;
 		vsp = 0;
 		sprite_index = sCat;
-		state = PSTATE.FREE;
+		state = PSTATE.IDLE;
 	}
 }

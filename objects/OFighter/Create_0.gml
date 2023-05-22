@@ -32,8 +32,8 @@ enum FSTATE
 	DEAD
 }
 image_index = irandom(10);
-function on_ground(_obj){
-	return place_meeting(x,y + 1,_obj);
+function on_ground(){
+	return place_meeting(x,y + 1,Owall);
 }
 
 function hitwall(_obj){
@@ -75,9 +75,9 @@ function update(){
 }
 
 function jump(){
-	if(on_ground(Owall) and hitwall(Owall)) {
+	if(on_ground() and hitwall(Owall)) {
 		vsp = j_velocity;
-		if(!on_ground(Owall)){
+		if(!on_ground()){
 			vsp += stopping_grv;
 			if (vsp > max_vsp) vsp = max_vsp;
 		} else{
@@ -111,7 +111,7 @@ function roaming(){
 }
 
 function animation(){
-	if (!on_ground(Owall)){
+	if (!on_ground()){
 		if(vsp < 0){ //jump when vsp is negative
 			sprite_index = SFMouseJump;
 			image_speed = 0;
