@@ -1,5 +1,5 @@
 function PState_Idle(){
-	show_debug_message("idle");
+	show_debug_message(on_ground());
 	var move = key_right - key_left;
 	vsp += grv;
 	
