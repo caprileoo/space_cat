@@ -35,7 +35,7 @@ enum RSTATE
 }
 image_index = irandom(10);
 function on_ground(){
-	return place_meeting(x,y+1,Owall);
+	return place_meeting(x,y,Owall);
 }
 
 function hitwall(_obj){
