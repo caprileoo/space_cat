@@ -1,5 +1,5 @@
 function PState_Walk(){
-	show_debug_message("walk");
+	show_debug_message("walking");
 	var move = key_right - key_left;
 	
 	if(move == 0 and hsp == 0){
@@ -22,5 +22,4 @@ function PState_Walk(){
 	animation();
 	shing();
 	pew();
-	//while(place_meeting(x, y, Owall)) y--
 }

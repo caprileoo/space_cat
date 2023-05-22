@@ -1,10 +1,6 @@
 function PState_Rising(){
 	show_debug_message("rising");
 	vsp = j_velocity;
-	coyote_time = 0;
-	
-	moving();
-	coyotetime();
 	
 	if(!key_jump){
 		vsp += stopping_grv;
@@ -18,9 +14,9 @@ function PState_Rising(){
 		state = PSTATE.FALLING;
 	}
 	
+	moving();
 	get_dir();
 	move_n_collide();
 	update();
 	animation();
-	//while(place_meeting(x, y, Owall)) y--
 }

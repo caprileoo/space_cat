@@ -1,7 +1,11 @@
 function PState_Falling(){
-	show_debug_message("Falling");
+	show_debug_message("falling");
 	var move = key_right - key_left;
+
 	moving();
+	//coyote_time = 0;
+	//coyotetime();
+
 	vsp += grv;
 	if (vsp > max_vsp) vsp = max_vsp;
 	
@@ -15,5 +19,4 @@ function PState_Falling(){
 	move_n_collide();
 	update();
 	animation();
-	//while(place_meeting(x, y, Owall)) y--
 }

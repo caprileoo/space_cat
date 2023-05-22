@@ -20,7 +20,6 @@ switch(state)
 	case PSTATE.WALK: PState_Walk(); break;
 	case PSTATE.RISING: PState_Rising(); break;
 	case PSTATE.FALLING: PState_Falling(); break;
-	case PSTATE.LOW_GRAV: PState_Low_Grav(); break;
 	case PSTATE.CHARGE: PState_Charge(); break;
 	case PSTATE.RELEASE: PState_Release(); break;
 	case PSTATE.ATTACK_SLASH: PState_Atk_Slash(); break;
