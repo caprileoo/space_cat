@@ -22,10 +22,10 @@ function PState_Falling(){
 			state = PSTATE.WALK;
 		}
 	}
-	//if(vsp >= 0) sprite_index = SCatFall;
 	
 	get_dir();
 	move_n_collide();
+	sprite_index = SCatFall;
 	
 	while(place_meeting(x, y, Owall)) y--;
 }
