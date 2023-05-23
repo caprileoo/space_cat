@@ -1,14 +1,20 @@
 function PState_Idle(){
 	show_debug_message("idle")
-	var move = key_right - key_left;
+	
+	hsp = 0;
+	vsp = 0;
+	pre_idle = true;
 	vsp += grv;
+	var move = key_right - key_left;
 	
 	if(move != 0){
 		state = PSTATE.WALK;
 	}
 	
 	if(check_jump()){
+		vsp = j_velocity;
 		state = PSTATE.RISING;
+		pre_idle = false;
 	}
 	
 	if(!on_ground()){
@@ -17,8 +23,7 @@ function PState_Idle(){
 	
 	get_dir();
 	move_n_collide();
-	update();
-	animation();
 	shing();
 	pew();
+	sprite_index = sCat;
 }

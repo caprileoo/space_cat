@@ -111,7 +111,6 @@
     {"name":"SPlasmaHB","order":1,"path":"sprites/SPlasmaHB/SPlasmaHB.yy",},
     {"name":"SPigDed","order":5,"path":"sprites/SPigDed/SPigDed.yy",},
     {"name":"FState_Chase","order":1,"path":"scripts/FState_Chase/FState_Chase.yy",},
-    {"name":"PState_Low_Grav","order":7,"path":"scripts/PState_Low_Grav/PState_Low_Grav.yy",},
     {"name":"OCheesePlasma","order":2,"path":"objects/OCheesePlasma/OCheesePlasma.yy",},
     {"name":"PState_Hit","order":1,"path":"scripts/PState_Hit/PState_Hit.yy",},
     {"name":"OTitle","order":8,"path":"objects/OTitle/OTitle.yy",},

@@ -1,10 +1,17 @@
 function PState_Falling(){
 	show_debug_message("falling");
+	
 	var move = key_right - key_left;
+	if (move != 0) image_xscale = move;
+	
+	if (pre_move = true or pre_idle = true){
+		if (++can_jump_timer < coyote_time and key_jump){
+			state = PSTATE.RISING;
+			can_jump_timer = 0;
+		}
+	}
 
 	moving();
-	//coyote_time = 0;
-	//coyotetime();
 
 	vsp += grv;
 	if (vsp > max_vsp) vsp = max_vsp;
@@ -12,11 +19,14 @@ function PState_Falling(){
 	if(on_ground()){
 		if(move == 0){
 			state = PSTATE.IDLE;
-		} else state = PSTATE.WALK;
+		} else {
+			state = PSTATE.WALK;
+		}
 	}
 	
 	get_dir();
 	move_n_collide();
-	update();
-	animation();
+	
+	sprite_index = SCatFall;
+	while(place_meeting(x, y, Owall)) y--;
 }

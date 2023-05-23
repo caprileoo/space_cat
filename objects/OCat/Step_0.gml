@@ -1,10 +1,9 @@
 if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
 	key_right = keyboard_check(vk_right) or keyboard_check(ord("D")); //Hold
-	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Press
-	key_atk = keyboard_check_pressed(ord("K")); //Attack
-	key_plasma = keyboard_check(ord("L")); //Plasma Attack
-	key_grav = keyboard_check_pressed(ord("J")); //Jet 
+	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Hold
+	key_atk = keyboard_check_pressed(ord("K")); //Press
+	key_plasma = keyboard_check(ord("L")); //Hold
 }
 else {
 	key_right = 0
@@ -12,7 +11,6 @@ else {
 	key_jump = 0
 	key_atk = 0
 	key_plasma = 0
-	key_grav = 0
 }
 switch(state)
 {

@@ -154,7 +154,6 @@
     {"id":{"name":"SSlimeIdle","path":"sprites/SSlimeIdle/SSlimeIdle.yy",},},
     {"id":{"name":"SPigDed","path":"sprites/SPigDed/SPigDed.yy",},},
     {"id":{"name":"FState_Chase","path":"scripts/FState_Chase/FState_Chase.yy",},},
-    {"id":{"name":"PState_Low_Grav","path":"scripts/PState_Low_Grav/PState_Low_Grav.yy",},},
     {"id":{"name":"OCheesePlasma","path":"objects/OCheesePlasma/OCheesePlasma.yy",},},
     {"id":{"name":"PState_Hit","path":"scripts/PState_Hit/PState_Hit.yy",},},
     {"id":{"name":"OTitle","path":"objects/OTitle/OTitle.yy",},},

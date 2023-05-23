@@ -3,7 +3,7 @@ function SState_Chase(){
 	
 	move_n_chase();
 
-	move_n_collide(Owall);
+	move_n_collide();
 	update();
 	
 	animation();

@@ -48,10 +48,10 @@ function get_dir(){
 	}
 }
 
-function move_n_collide(_obj){	
-    if (place_meeting(x+hsp,y,_obj))
+function move_n_collide(){	
+    if (place_meeting(x+hsp,y,Owall))
     {
-        while (!place_meeting(x+sign(hsp),y,_obj))
+        while (!place_meeting(x+sign(hsp),y,Owall))
         {
             x = x + sign(hsp);
         }
@@ -61,7 +61,7 @@ function move_n_collide(_obj){
     /**platform vertical collision**/
     if (place_meeting(x,y+vsp,_obj))
     {
-        while (!place_meeting(x,y+sign(vsp),_obj))
+        while (!place_meeting(x,y+sign(vsp),Owall))
         {
             y += sign(vsp);
         }

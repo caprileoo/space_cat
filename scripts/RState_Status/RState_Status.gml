@@ -1,7 +1,7 @@
 function RState_Status(){
 	show_debug_message("Processing");
 	vsp += grv;
-	move_n_collide(Owall);
+	move_n_collide();
 	update();
 	animation();
 	

@@ -1,6 +1,6 @@
 function FState_Status(){
 	vsp += grv;
-	move_n_collide(Owall);
+	move_n_collide();
 	update();
 	animation();
 	

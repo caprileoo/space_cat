@@ -1,6 +1,9 @@
 function PState_Rising(){
-	show_debug_message("rising");
-	vsp = j_velocity;
+	show_debug_message(vsp);
+	
+	var move = key_right - key_left;
+	if (move != 0) image_xscale = move;
+	moving();
 	
 	if(!key_jump){
 		vsp += stopping_grv;
@@ -11,12 +14,13 @@ function PState_Rising(){
 	}
 	
 	if(vsp >= 0){
+		sprite_index = SCatMidAir;
 		state = PSTATE.FALLING;
 	}
 	
-	moving();
 	get_dir();
 	move_n_collide();
-	update();
-	animation();
+	
+	sprite_index = sCatAir;
+	while(place_meeting(x, y, Owall)) y--;
 }
