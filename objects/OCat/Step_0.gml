@@ -24,4 +24,3 @@ switch(state)
 	case PSTATE.HIT: PState_Hit(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }
-

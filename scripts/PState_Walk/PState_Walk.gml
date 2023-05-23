@@ -1,10 +1,11 @@
 function PState_Walk(){
+	show_debug_message("walking");
 	
 	var move = key_right - key_left;
 	
+	pre_walk = true;
+	
 	if(move == 0 and hsp == 0){
-		hsp = 0;
-		vsp = 0;
 		state = PSTATE.IDLE;
 	}
 	
@@ -14,11 +15,10 @@ function PState_Walk(){
 	if(check_jump()){
 		vsp = j_velocity;
 		state = PSTATE.RISING;
+		pre_walk = false;
 	}
 	
 	if(!on_ground()){
-		image_index = 0;
-		pre_move = true;
 		state = PSTATE.FALLING;
 	}
 	

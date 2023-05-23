@@ -58,6 +58,36 @@ function on_ground(){
 function check_jump(){
 	return key_jump and on_ground();
 }
+
+//function animation(){
+//	var move = key_right - key_left;
+//	if (!on_ground())
+//    {
+//		if(vsp < 0){ //jump when vsp is negative
+//			sprite_index = sCatAir;
+//			image_speed = 0;
+//		} else if(vsp > 0 and vsp < 2.0) {
+//			sprite_index = SCatMidAir;
+//			image_speed = 0;		
+//		} else if(vsp > 2.0) {
+//			sprite_index = SCatFall;	
+//			image_speed = 0;
+//		}
+//    }
+//    else
+//    {
+//        image_speed = 1;
+//        if (hsp == 0)
+//        {
+//            sprite_index = sCat;
+//        }
+//        else
+//        {
+//            sprite_index = sCatRun;
+//        }
+//    }
+//	if (move != 0) image_xscale = move;
+//}
 	
 //function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {
 //    if (vsp > 0) {
@@ -69,4 +99,11 @@ function check_jump(){
 //    if (fall_speed > _max_fall_speed) {
 //        hp -= fall_speed * _fall_damage_rate;
 //    }
+//}
+
+//function coyotetime(){
+//	if(coyote_time > 0) coyote_time --;
+//	if (on_ground()){
+//		coyote_time = coyote_time_max;
+//	}
 //}
