@@ -4,7 +4,7 @@ function PState_Rising(){
 	if (move != 0) image_xscale = move;
 	moving();
 	
-	//sprite_index = sCatAir;
+	sprite_index = sCatAir;
 	if(!key_jump){
 		vsp += stopping_grv;
 		if (vsp > max_vsp) vsp = max_vsp;
@@ -14,7 +14,7 @@ function PState_Rising(){
 	}
 	
 	if(vsp >= 0){
-		//sprite_index = SCatMidAir;
+		sprite_index = SCatMidAir;
 		state = PSTATE.FALLING;
 	}
 	
