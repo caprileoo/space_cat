@@ -1,11 +1,11 @@
 function PState_Idle(){
 	
-	hsp = 0;
-	vsp = 0;
-	vsp += grv;
+	sprite_index = sCat;
+	
 	var move = key_right - key_left;
 	
 	if(move != 0){
+		image_index = 0;
 		state = PSTATE.WALK;
 	}
 	
@@ -15,6 +15,7 @@ function PState_Idle(){
 	}
 	
 	if(!on_ground()){
+		image_index = 0;
 		state = PSTATE.FALLING;
 	}
 	
@@ -22,5 +23,4 @@ function PState_Idle(){
 	move_n_collide();
 	shing();
 	pew();
-	sprite_index = sCat;
 }
