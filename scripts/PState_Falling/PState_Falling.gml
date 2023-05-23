@@ -1,15 +1,14 @@
 function PState_Falling(){
-	show_debug_message("falling");
 	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
 	
-	if (pre_move = true or pre_idle = true){
-		if (++can_jump_timer < coyote_time and key_jump){
-			state = PSTATE.RISING;
-			can_jump_timer = 0;
-		}
-	}
+	//if (pre_move = true){
+	//	if (++can_jump_timer < coyote_time and key_jump){
+	//		state = PSTATE.RISING;
+	//		can_jump_timer = 0;
+	//	}
+	//}
 
 	moving();
 
@@ -23,10 +22,10 @@ function PState_Falling(){
 			state = PSTATE.WALK;
 		}
 	}
+	//if(vsp >= 0) sprite_index = SCatFall;
 	
 	get_dir();
 	move_n_collide();
 	
-	sprite_index = SCatFall;
 	while(place_meeting(x, y, Owall)) y--;
 }

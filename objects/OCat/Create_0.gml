@@ -30,7 +30,6 @@ frameCount = 0;
 hp = 100;
 
 //state management
-pre_idle = false;
 pre_move = false;
 
 //Plasma
