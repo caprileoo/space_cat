@@ -11,8 +11,8 @@ accel_time = 6 // accelerate time in frame
 deccel_time = 3 //deccelerate time in frame
 
 //coyote time
-can_jump_timer = 0
-coyote_time = 15
+can_jump_timer = 0;
+coyote_time = 15;
 
 //solve for grv dynamically (without grav_bender)
 j_height = 48;
@@ -30,7 +30,6 @@ frameCount = 0;
 hp = 100;
 
 //state management
-pre_idle = false;
 pre_move = false;
 
 //Plasma
