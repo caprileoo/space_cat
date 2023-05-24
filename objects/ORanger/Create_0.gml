@@ -38,8 +38,8 @@ function on_ground(){
 	return place_meeting(x,y,Owall);
 }
 
-function hitwall(_obj){
-	return place_meeting(x + sign(hsp), y, _obj);
+function hitwall(){
+	return place_meeting(x + sign(hsp), y, Owall);
 }
 
 function get_dir(){
@@ -76,19 +76,6 @@ function update(){
 	y = y + vsp;
 }
 
-function jump(_obj){
-	if(on_ground() and hitwall(_obj)) {
-		vsp = j_velocity;
-		if(!hitwall(_obj)){
-			vsp += stopping_grv;
-			if (vsp > max_vsp) vsp = max_vsp;
-		} else{
-			vsp += grv;
-			if (vsp > max_vsp) vsp = max_vsp;
-		}
-	}
-}
-
 function move_n_chase(){
 	moveDirection = sign(target.x - x); // Move towards the target
 	hsp = moveDirection; //divide = low speed | multiply = high speed
@@ -101,7 +88,7 @@ function roaming(){
 		moveTimer = 0; // Reset timer
 	}
 	
-	if(hitwall(Owall)){
+	if(hitwall()){
 		moveDirection *= 1; //Change direction
 	}
 	

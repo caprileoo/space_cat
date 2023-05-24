@@ -1,6 +1,7 @@
 function PState_Idle(){
 	
 	sprite_index = sCat;
+	if(key_plasma) pew();
 	
 	var move = key_right - key_left;
 	
@@ -23,4 +24,5 @@ function PState_Idle(){
 	move_n_collide();
 	shing();
 	pew();
+	reload();
 }

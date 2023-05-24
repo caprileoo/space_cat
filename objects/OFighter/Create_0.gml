@@ -36,8 +36,8 @@ function on_ground(){
 	return place_meeting(x,y + 1,Owall);
 }
 
-function hitwall(_obj){
-	return place_meeting(x + 1, y, _obj);
+function hitwall(){
+	return place_meeting(x + 1, y, Owall);
 }
 
 function get_dir(){
@@ -59,7 +59,7 @@ function move_n_collide(){
     }
 
     /**platform vertical collision**/
-    if (place_meeting(x,y+vsp,_obj))
+    if (place_meeting(x,y+vsp,Owall))
     {
         while (!place_meeting(x,y+sign(vsp),Owall))
         {
@@ -75,7 +75,7 @@ function update(){
 }
 
 function jump(){
-	if(on_ground() and hitwall(Owall)) {
+	if(on_ground() and hitwall()) {
 		vsp = j_velocity;
 		if(!on_ground()){
 			vsp += stopping_grv;
@@ -99,7 +99,7 @@ function roaming(){
 		moveTimer = 0; // Reset timer
 	}
 	
-	if(hitwall(Owall)){
+	if(hitwall()){
 		moveDirection *= 1; //Change direction
 	}
 	

@@ -1,8 +1,8 @@
-function approach(_start, _end, _shift){
-	if (_start < _end) {
-		return min(_start + _shift, _end); 
+function approach(argument0, argument1, argument2){
+	if (argument0 < argument1) {
+		return min(argument0 + argument2, argument1); 
 	} else {
-		return max(_start - _shift, _end);
+		return max(argument0 - argument2, argument1);
 	}
 }
 
@@ -26,21 +26,35 @@ function move_n_collide(){
 	}
 }
 
+function hitwall(){
+	return place_meeting(x + 1, y, Owall);
+}
+
 function moving(){
 	var move = key_right - key_left;
 
-	if (key_right ^ key_left){
+	if (key_right xor key_left){
 		hsp = approach(hsp, move * walksp, walksp / accel_time)
 	}
 	else hsp = approach(hsp, 0, walksp / deccel_time)
 }
 
 function shing(){
-	if(key_atk and (on_ground())) state = PSTATE.ATTACK_SLASH;
+	if (key_atk and on_ground()) state = PSTATE.ATTACK_SLASH;
+}
+
+function reload(){
+	if(key_reload){
+		energy = 5;
+	}
 }
 
 function pew(){
-	if(key_plasma and (on_ground())) state = PSTATE.CHARGE;
+	if (key_plasma and on_ground()){ 
+		hsp = 0;
+		vsp = 0;
+		state = PSTATE.CHARGE;
+	}
 }
 
 function get_dir(){

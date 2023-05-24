@@ -34,6 +34,7 @@ pre_move = false;
 
 //Plasma
 plasma_charge_time = 0;
+energy = 5;
 
 enum PSTATE
 {

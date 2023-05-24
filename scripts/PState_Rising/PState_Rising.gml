@@ -22,5 +22,7 @@ function PState_Rising(){
 	
 	get_dir();
 	move_n_collide();
-	while(place_meeting(x, y, Owall)) y--;
+	shing();
+	pew();
+	reload();
 }
