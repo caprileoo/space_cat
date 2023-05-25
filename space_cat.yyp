@@ -94,6 +94,7 @@
     {"id":{"name":"PState_Atk_Slash","path":"scripts/PState_Atk_Slash/PState_Atk_Slash.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
     {"id":{"name":"SSlimeMove","path":"sprites/SSlimeMove/SSlimeMove.yy",},},
+    {"id":{"name":"SPigAtkFront","path":"sprites/SPigAtkFront/SPigAtkFront.yy",},},
     {"id":{"name":"SCheesePlasma","path":"sprites/SCheesePlasma/SCheesePlasma.yy",},},
     {"id":{"name":"PState_Dead","path":"scripts/PState_Dead/PState_Dead.yy",},},
     {"id":{"name":"Sedge","path":"sprites/Sedge/Sedge.yy",},},

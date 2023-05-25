@@ -66,6 +66,7 @@
     {"name":"SCatMidAir","order":7,"path":"sprites/SCatMidAir/SCatMidAir.yy",},
     {"name":"sCatRun","order":2,"path":"sprites/sCatRun/sCatRun.yy",},
     {"name":"SSlimeMove","order":1,"path":"sprites/SSlimeMove/SSlimeMove.yy",},
+    {"name":"SPigAtkFront","order":7,"path":"sprites/SPigAtkFront/SPigAtkFront.yy",},
     {"name":"SCheesePlasma","order":6,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"OBigPlasma","order":1,"path":"objects/OBigPlasma/OBigPlasma.yy",},
     {"name":"SState_Chase","order":1,"path":"scripts/SState_Chase/SState_Chase.yy",},
