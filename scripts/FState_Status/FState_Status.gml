@@ -6,7 +6,7 @@ function FState_Status(){
 	
 	if (point_distance(x, y, target.x, target.y) <= detectionRadius) {
 		if(point_distance(x, y, target.x, target.y) <= detectionRadius - 80 and (on_ground())){
-			state = FSTATE.ATK;
+			state = FSTATE.LEFTATK;
 		} else state = FSTATE.CHASE;
 	} else state = FSTATE.FREE;
 }

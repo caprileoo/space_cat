@@ -56,8 +56,8 @@
   },
   "origin": 4,
   "parent": {
-    "name": "Fighter Mouse",
-    "path": "folders/Sprites/Enemies/Mouses/Fighter Mouse.yy",
+    "name": "Movement",
+    "path": "folders/Sprites/Enemies/Mouses/Fighter Mouse/Movement.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

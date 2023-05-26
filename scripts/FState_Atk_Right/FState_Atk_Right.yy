@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "FState_Dead",
+  "name": "FState_Atk_Right",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

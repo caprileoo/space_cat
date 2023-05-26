@@ -26,8 +26,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Fighter Mouse",
-    "path": "folders/Sprites/Enemies/Mouses/Fighter Mouse.yy",
+    "name": "Status",
+    "path": "folders/Sprites/Enemies/Mouses/Fighter Mouse/Status.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -1,5 +1,5 @@
-function FState_Atk(){
-	FighterProcessAttack(SPigAtk,SCatSlashHB);
+function FState_Atk_Right(){
+	FighterProcessAttack(SFMouseAtkRight,SCatSlashHB);
 	if (animation_end())
 	{
 		hsp = 0;
