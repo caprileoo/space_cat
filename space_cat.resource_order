@@ -47,6 +47,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"CheeseSet","order":1,"path":"tilesets/CheeseSet/CheeseSet.yy",},
+    {"name":"Room3","order":8,"path":"rooms/Room3/Room3.yy",},
     {"name":"ORanger","order":1,"path":"objects/ORanger/ORanger.yy",},
     {"name":"SCatFall","order":5,"path":"sprites/SCatFall/SCatFall.yy",},
     {"name":"SFMouseJump","order":2,"path":"sprites/SFMouseJump/SFMouseJump.yy",},
