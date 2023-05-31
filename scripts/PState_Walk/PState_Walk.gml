@@ -1,9 +1,8 @@
 function PState_Walk(){
 	
 	sprite_index = sCatRun;
-
 	
-	if(key_plasma) pew();
+	pew();
 	
 	var move = key_right - key_left;
 	
@@ -28,9 +27,7 @@ function PState_Walk(){
 		state = PSTATE.FALLING;
 	}
 	
-	get_dir();
 	move_n_collide();
 	shing();
-	pew();
 	reload();
 }

@@ -31,10 +31,13 @@ hp = 100;
 
 //state management
 pre_move = false;
+pre_idle = false;
 
 //Plasma
 plasma_charge_time = 0;
-energy = 5;
+energy = 3;
+max_energy = 3;
+reload_time = 0;
 
 enum PSTATE
 {

@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
+  ],
 }
