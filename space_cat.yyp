@@ -119,6 +119,7 @@
     {"id":{"name":"RState_Free","path":"scripts/RState_Free/RState_Free.yy",},},
     {"id":{"name":"OLvEnd","path":"objects/OLvEnd/OLvEnd.yy",},},
     {"id":{"name":"PState_Release","path":"scripts/PState_Release/PState_Release.yy",},},
+    {"id":{"name":"Lv_Tutorial","path":"rooms/Lv_Tutorial/Lv_Tutorial.yy",},},
     {"id":{"name":"FighterProcessAttack","path":"scripts/FighterProcessAttack/FighterProcessAttack.yy",},},
     {"id":{"name":"SState_Atk","path":"scripts/SState_Atk/SState_Atk.yy",},},
     {"id":{"name":"f_menu","path":"fonts/f_menu/f_menu.yy",},},
@@ -169,6 +170,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
     {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
+    {"roomId":{"name":"Lv_Tutorial","path":"rooms/Lv_Tutorial/Lv_Tutorial.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

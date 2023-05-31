@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"Lv_Tutorial","order":1,"path":"rooms/Lv_Tutorial/Lv_Tutorial.yy",},
+  ],
 }
