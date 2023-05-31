@@ -39,20 +39,20 @@ function moving(){
 	else hsp = approach(hsp, 0, walksp / deccel_time)
 }
 
+function reload(){
+	if(!key_plasma and ++reload_time = room_speed * 2){
+		energy += 1;
+		reload_time = 0;
+		if(energy >= max_energy) energy = max_energy;
+	}
+}
+
 function shing(){
 	if (key_atk and on_ground()) state = PSTATE.ATTACK_SLASH;
 }
 
-function reload(){
-	if(key_reload){
-		energy = 5;
-	}
-}
-
 function pew(){
-	if (key_plasma and on_ground()){ 
-		hsp = 0;
-		vsp = 0;
+	if (key_plasma and on_ground()){
 		state = PSTATE.CHARGE;
 	}
 }
@@ -72,6 +72,10 @@ function on_ground(){
 function check_jump(){
 	return key_jump and on_ground();
 }
+
+//function on_ground_specific(_obj){
+//	return place_meeting(x,y + 1,_obj);
+//}
 	
 //function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {
 //    if (vsp > 0) {

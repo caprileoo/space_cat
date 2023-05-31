@@ -4,7 +4,6 @@ if(hascontrol) {
 	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Hold
 	key_atk = keyboard_check_pressed(ord("K")); //Press
 	key_plasma = keyboard_check(ord("L")); //Hold
-	key_reload = keyboard_check_pressed(ord("O")); //Press
 }
 else {
 	key_right = 0

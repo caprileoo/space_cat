@@ -2,13 +2,16 @@ function PState_Falling(){
 	
 	sprite_index = SCatFall;
 	
+	pew();
+	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
 	
-	if (pre_move == true){
+	if (pre_move == true or pre_idle = true){
 		if (++can_jump_timer < coyote_time and key_jump){
 			vsp = j_velocity;
 			pre_move = false;
+			pre_idle = false;
 			state = PSTATE.RISING;
 		}
 	}
@@ -19,8 +22,9 @@ function PState_Falling(){
 	if (vsp > max_vsp) vsp = max_vsp;
 	
 	if(on_ground()){
-		can_jump_timer = 0;
+		pre_idle = false;
 		pre_move = false;
+		can_jump_timer = 0;
 		if(move == 0){
 			hsp = 0;
 			vsp = 0;
@@ -32,9 +36,7 @@ function PState_Falling(){
 		}
 	}
 	
-	get_dir();
 	move_n_collide();
 	shing();
-	pew();
 	reload();
 }

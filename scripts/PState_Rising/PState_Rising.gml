@@ -2,6 +2,8 @@ function PState_Rising(){
 	
 	sprite_index = sCatAir;
 	
+	pew();
+	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
 	moving();
@@ -20,9 +22,7 @@ function PState_Rising(){
 		state = PSTATE.FALLING;
 	}
 	
-	get_dir();
 	move_n_collide();
 	shing();
-	pew();
 	reload();
 }
