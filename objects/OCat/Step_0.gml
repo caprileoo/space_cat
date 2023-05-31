@@ -25,4 +25,6 @@ switch(state)
 	case PSTATE.DEAD: PState_Dead(); break;
 }
 
-show_debug_message(energy);
+show_debug_message("Pre_Idle {0}", pre_idle);
+show_debug_message("Pre_Walk {0}", pre_move);
+show_debug_message("Can_Jump_Timer {0}", can_jump_timer);

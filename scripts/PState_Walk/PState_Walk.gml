@@ -25,7 +25,7 @@ function PState_Walk(){
 		image_index = 0;
 		pre_move = true;
 		state = PSTATE.FALLING;
-	}
+	} else pre_move = false;
 	
 	move_n_collide();
 	shing();

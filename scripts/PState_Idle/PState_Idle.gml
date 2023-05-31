@@ -20,7 +20,7 @@ function PState_Idle(){
 		image_index = 0;
 		pre_idle = true;
 		state = PSTATE.FALLING;
-	}
+	} else pre_idle = false;
 	
 	move_n_collide();
 	shing();

@@ -12,6 +12,7 @@ function PState_Falling(){
 			vsp = j_velocity;
 			pre_move = false;
 			pre_idle = false;
+			can_jump_timer = 0;
 			state = PSTATE.RISING;
 		}
 	}
