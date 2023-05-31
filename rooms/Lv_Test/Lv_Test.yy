@@ -108,6 +108,8 @@
     {"name":"inst_6D21D9B5","path":"rooms/Lv_Test/Lv_Test.yy",},
     {"name":"inst_352B5FF2","path":"rooms/Lv_Test/Lv_Test.yy",},
     {"name":"inst_6736C49D","path":"rooms/Lv_Test/Lv_Test.yy",},
+    {"name":"inst_352B5FF2","path":"rooms/Lv_Test/Lv_Test.yy",},
+    {"name":"inst_6736C49D","path":"rooms/Lv_Test/Lv_Test.yy",},
   ],
   "isDnd": false,
   "layers": [
