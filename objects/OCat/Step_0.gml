@@ -1,6 +1,3 @@
-can_jump -= 1;
-if(can_jump <= 0) can_jump = 0;
-
 if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
 	key_right = keyboard_check(vk_right) or keyboard_check(ord("D")); //Hold
@@ -31,5 +28,3 @@ switch(state)
 //show_debug_message("Pre_Idle {0}", pre_idle);
 //show_debug_message("Pre_Walk {0}", pre_move);
 //show_debug_message("Can_Jump_Timer {0}", can_jump_timer);
-
-show_debug_message(can_jump);

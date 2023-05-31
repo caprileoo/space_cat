@@ -20,7 +20,6 @@ time_to_apex = 18;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
 stopping_grv = grv + 0.35;
-can_jump = 0;
 //fall_speed = 0; //for fall damage
 
 //Player's States
