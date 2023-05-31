@@ -2,5 +2,7 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
+    {"name":"ForestSet","order":1,"path":"tilesets/ForestSet/ForestSet.yy",},
+    {"name":"SForestTiles","order":1,"path":"sprites/SForestTiles/SForestTiles.yy",},
   ],
 }
