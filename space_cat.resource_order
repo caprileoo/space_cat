@@ -1,8 +1,17 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"Ranger Mouse","order":1,"path":"folders/Sprites/Enemies/Mouses/Ranger Mouse.yy",},
+    {"name":"Berserker Mouse","order":2,"path":"folders/Sprites/Enemies/Mouses/Berserker Mouse.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
+    {"name":"SRMouseHit","order":4,"path":"sprites/SRMouseHit/SRMouseHit.yy",},
+    {"name":"SRMouseJump","order":2,"path":"sprites/SRMouseJump/SRMouseJump.yy",},
     {"name":"ForestSet","order":1,"path":"tilesets/ForestSet/ForestSet.yy",},
     {"name":"SForestTiles","order":1,"path":"sprites/SForestTiles/SForestTiles.yy",},
+    {"name":"SRMouseDed","order":5,"path":"sprites/SRMouseDed/SRMouseDed.yy",},
+    {"name":"SRMouseRun","order":1,"path":"sprites/SRMouseRun/SRMouseRun.yy",},
+    {"name":"SRMouseShoot","order":6,"path":"sprites/SRMouseShoot/SRMouseShoot.yy",},
+    {"name":"SRMouseFall","order":3,"path":"sprites/SRMouseFall/SRMouseFall.yy",},
   ],
 }
