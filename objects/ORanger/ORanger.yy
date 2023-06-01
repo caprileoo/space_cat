@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite40",
-    "path": "sprites/Sprite40/Sprite40.yy",
+    "name": "SRMouseIdle",
+    "path": "sprites/SRMouseIdle/SRMouseIdle.yy",
   },
   "spriteMaskId": {
     "name": "SFMouseIdle",

@@ -99,17 +99,17 @@ function roaming(){
 	hsp = moveDirection; //divide = low speed | multiply = high speed
 }
 
-//function animation(){
-//    if (!place_meeting(x,y+1,Owall)) {
-//        sprite_index = SFMouseIdle;    
-//        image_speed = 0;
-//    } else {
-//        image_speed = 1;
-//        if (hsp == 0) {
-//            sprite_index = SFMouseIdle;
-//        } else {
-//            sprite_index = SFMouseRun;
-//        }
-//    }
-//    image_xscale = moveDirection; //ranged enemy sprite turn around
-//}
+function animation(){
+    if (!place_meeting(x,y+1,Owall)) {
+        sprite_index = SRMouseIdle;    
+        image_speed = 0;
+    } else {
+        image_speed = 1;
+        if (hsp == 0) {
+            sprite_index = SRMouseIdle;
+        } else {
+            sprite_index = SRMouseRun;
+        }
+    }
+    image_xscale = moveDirection; //ranged enemy sprite turn around
+}
