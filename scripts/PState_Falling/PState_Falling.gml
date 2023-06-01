@@ -2,7 +2,9 @@ function PState_Falling(){
 	
 	sprite_index = SCatFall;
 	
+	reload();
 	pew();
+	shing();
 	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
@@ -38,6 +40,4 @@ function PState_Falling(){
 	}
 	
 	move_n_collide();
-	shing();
-	reload();
 }

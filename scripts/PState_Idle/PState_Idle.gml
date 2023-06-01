@@ -2,7 +2,9 @@ function PState_Idle(){
 	
 	sprite_index = sCat;
 	
+	reload();
 	pew();
+	shing();
 	
 	var move = key_right - key_left;
 	
@@ -23,6 +25,5 @@ function PState_Idle(){
 	} else pre_idle = false;
 	
 	move_n_collide();
-	shing();
 	reload();
 }

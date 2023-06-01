@@ -2,7 +2,9 @@ function PState_Rising(){
 	
 	sprite_index = sCatAir;
 	
+	reload();
 	pew();
+	shing();
 	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
@@ -18,11 +20,13 @@ function PState_Rising(){
 	
 	if(vsp >= 0){
 		sprite_index = SCatMidAir;
-		image_index = 0;
-		state = PSTATE.FALLING;
+		
+		if(animation_end(SCatMidAir, 2)){
+			image_index = 0;
+			state = PSTATE.FALLING;
+		}
 	}
 	
 	move_n_collide();
-	shing();
 	reload();
 }

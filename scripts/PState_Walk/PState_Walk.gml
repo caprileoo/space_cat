@@ -2,7 +2,9 @@ function PState_Walk(){
 	
 	sprite_index = sCatRun;
 	
+	reload();
 	pew();
+	shing();
 	
 	var move = key_right - key_left;
 	
@@ -28,6 +30,5 @@ function PState_Walk(){
 	} else pre_move = false;
 	
 	move_n_collide();
-	shing();
 	reload();
 }

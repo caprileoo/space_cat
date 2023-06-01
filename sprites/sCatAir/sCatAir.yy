@@ -23,7 +23,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"644fbac5-a198-48fa-b527-2bdfa6120559","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 4,
   "parent": {
     "name": "Cat",
     "path": "folders/Sprites/Cat.yy",
@@ -60,7 +60,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 32,
-    "yorigin": 34,
+    "yorigin": 32,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
