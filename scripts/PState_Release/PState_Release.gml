@@ -17,9 +17,6 @@ function PState_Release(){
 			plasma.direction = dir;
 			plasma.speed = 5;
 			plasma_charge_time = 0;
-			hsp = 0;
-			vsp = 0;
-			image_index = 0;
 			state = PSTATE.IDLE;
 		} else if (energy >= 1) {
 			plasma = instance_create_layer(x, y, "Instances", OPlasma);
@@ -27,9 +24,6 @@ function PState_Release(){
 			plasma.direction = dir;
 			plasma.speed = 5;
 			plasma_charge_time = 0;
-			hsp = 0;
-			vsp = 0;
-			image_index = 0;
 			state = PSTATE.IDLE;
 		} else state = PSTATE.IDLE;
 	}

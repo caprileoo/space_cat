@@ -1,11 +1,15 @@
 function RState_Atk(){
 	vsp += grv;
+	move_n_collide();
+	update();
+	animation();
 	move_n_chase();
+	get_dir();
 	if (fire_timer >= room_speed / 4) { // 1 second interval between each bullet
+		sprite_index = SRMouseShoot;
 	    if(burst_count < 3){
 	        var bullet;
 	        bullet = instance_create_layer(x,y,"Instances",OCheesePlasma);
-	        get_dir();
 	        bullet.direction = dir;
 			bullet.image_xscale = (dir == 0) ? -1 : 1;
 	        bullet.speed = 5;
@@ -23,9 +27,4 @@ function RState_Atk(){
 	} else {
 	    fire_timer ++;
 	}
-	hsp = 0;
-	vsp = 0;
-	move_n_collide();
-	update();
-	animation();
 }

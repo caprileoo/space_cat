@@ -1,9 +1,11 @@
+event_user(0);
+
 hsp = 0;
 vsp = 0; //vertical speed
 max_vsp = 4;
 moveDirection = 1; // -1 for left, 1 for right
 moveTimer = 0;
-moveDuration = room_speed * 3; // 3 seconds
+moveDuration = room_speed * 1; // 3 seconds
 
 //solve for grv dynamically
 j_height = 30;
@@ -34,82 +36,3 @@ enum RSTATE
 	DEAD
 }
 image_index = irandom(10);
-function on_ground(){
-	return place_meeting(x,y,Owall);
-}
-
-function hitwall(){
-	return place_meeting(x + sign(hsp), y, Owall);
-}
-
-function get_dir(){
-	if (image_xscale = 1) {
-		dir = 0;
-	} else {
-		dir = 180;
-	}
-}
-
-function move_n_collide(){	
-    if (place_meeting(x+hsp,y,Owall))
-    {
-        while (!place_meeting(x+sign(hsp),y,Owall))
-        {
-            x = x + sign(hsp);
-        }
-        hsp = 0;
-    }
-
-    /**platform vertical collision**/
-    if (place_meeting(x,y+vsp,Owall))
-    {
-        while (!place_meeting(x,y+sign(vsp),Owall))
-        {
-            y += sign(vsp);
-        }
-        vsp = 0;
-    }
-}
-
-function update(){
-	x = x + hsp;
-	y = y + vsp;
-}
-
-function move_n_chase(){
-	moveDirection = sign(target.x - x); // Move towards the target
-	hsp = moveDirection; //divide = low speed | multiply = high speed
-}
-
-function roaming(){
-	moveTimer++;
-	if (moveTimer >= moveDuration) {
-		moveDirection *= -1; // Change direction
-		moveTimer = 0; // Reset timer
-	}
-	
-	if(hitwall()){
-		moveDirection *= 1; //Change direction
-	}
-	
-	if (place_meeting(x + hsp, y, Owall)) {
-		// If there is a wall collision, chagne direction
-		moveDirection *= -1; // Change direction
-	}
-	hsp = moveDirection; //divide = low speed | multiply = high speed
-}
-
-function animation(){
-    if (!place_meeting(x,y+1,Owall)) {
-        sprite_index = SRMouseIdle;    
-        image_speed = 0;
-    } else {
-        image_speed = 1;
-        if (hsp == 0) {
-            sprite_index = SRMouseIdle;
-        } else {
-            sprite_index = SRMouseRun;
-        }
-    }
-    image_xscale = moveDirection; //ranged enemy sprite turn around
-}

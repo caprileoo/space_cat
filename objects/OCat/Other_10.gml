@@ -58,9 +58,9 @@ function pew(){
 }
 
 function get_dir(){
-	if (key_right) {
+	if (image_xscale = 1) {
 		dir = 0;
-	} else if (key_left) {
+	} else {
 		dir = 180;
 	}
 }

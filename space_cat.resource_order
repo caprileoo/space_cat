@@ -1,7 +1,7 @@
 {
   "FolderOrderSettings": [
-    {"name":"Ranger Mouse","order":1,"path":"folders/Sprites/Enemies/Mouses/Ranger Mouse.yy",},
     {"name":"Berserker Mouse","order":2,"path":"folders/Sprites/Enemies/Mouses/Berserker Mouse.yy",},
+    {"name":"Ranger Mouse","order":1,"path":"folders/Sprites/Enemies/Mouses/Ranger Mouse.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
