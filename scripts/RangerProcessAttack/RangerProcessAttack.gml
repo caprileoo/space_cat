@@ -28,5 +28,5 @@ function RangerProcessAttack(argument0, argument1){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = SFMouseIdle;
+	mask_index = SRMouseShoot;
 }

@@ -3,11 +3,11 @@
 //}
 
 function on_ground(){
-	return place_meeting(x,y + 1,Owall);
+	return place_meeting(x, y + 1,Owall);
 }
 
 function hitwall(){
-	return place_meeting(x + 1, y, Owall);
+	return place_meeting(x + hsp, y, Owall);
 }
 
 function get_dir(){
@@ -42,34 +42,4 @@ function move_n_collide(){
 function update(){
 	x = x + hsp;
 	y = y + vsp;
-}
-
-function move_n_chase(){
-	moveDirection = sign(target.x - x); // Move towards the target
-	hsp = moveDirection; //divide = low speed | multiply = high speed
-}
-
-function roaming(){
-	moveTimer++;
-	if (moveTimer >= moveDuration) {
-		moveDirection *= -1; // Change direction
-		moveTimer = 0; // Reset timer
-	}
-	
-	if (hitwall()) {
-		moveDirection *= -1; // Change direction
-	}
-	hsp = moveDirection; //divide = low speed | multiply = high speed
-}
-
-function animation(){
-    if (on_ground()) {
-        image_speed = 0;
-        if (hsp == 0 and state != RSTATE.ATK) {
-            sprite_index = SRMouseIdle;
-        } else {
-            sprite_index = SRMouseRun;
-        } 
-    }
-    image_xscale = moveDirection; //ranged enemy sprite turn around
 }

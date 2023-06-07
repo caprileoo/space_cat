@@ -30,5 +30,5 @@ function SlimeProcessAttack(argument0, argument1){
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = SSlimeIdle;
+	mask_index = SSlimeAtk;
 }

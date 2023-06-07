@@ -2,7 +2,6 @@ event_user(0);
 
 hsp = 0;
 vsp = 0; //vertical speed
-max_vsp = 4;
 moveDirection = 1; // -1 for left, 1 for right
 moveTimer = 0;
 moveDuration = room_speed * 1; // 3 seconds
@@ -19,7 +18,7 @@ hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
 hp = 20;
-state = RSTATE.STATUS;
+state = RSTATE.FREE;
 
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
@@ -29,7 +28,6 @@ fire_timer = 0;
 
 enum RSTATE
 {
-	STATUS,
 	FREE,
 	ATK,
 	HIT,

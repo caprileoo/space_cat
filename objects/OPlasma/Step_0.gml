@@ -1,24 +1,28 @@
 if (place_meeting(x,y,ORanger)) {
 	ProcessAttackToRMouse(SPlasma,SPlasmaHB);
-	// Reset the bullet's horizontal and vertical speed
-	hsp = 0;
-	vsp = 0;
+	if (animation_end())
+	{
+		hsp = 0;
+		vsp = 0;
+	}
 	// Destroy the bullet instance
 	instance_destroy();
-} 
-if (place_meeting(x,y,OFighter)) {
+} else if (place_meeting(x,y,OFighter)){
 	ProcessAttackToFMouse(SPlasma,SPlasmaHB);
-	// Reset the bullet's horizontal and vertical speed
-	hsp = 0;
-	vsp = 0;
+	if (animation_end())
+	{
+		hsp = 0;
+		vsp = 0;
+	}
 	// Destroy the bullet instance
 	instance_destroy();
-} 
-if (place_meeting(x,y,OSlime)) {
+} else if (place_meeting(x,y,OSlime)) {
 	ProcessAttackToSlime(SPlasma,SPlasmaHB); 
-	// Reset the bullet's horizontal and vertical speed
-	hsp = 0;
-	vsp = 0;
+	if (animation_end())
+	{
+		hsp = 0;
+		vsp = 0;
+	}
 	// Destroy the bullet instance
 	instance_destroy();
 }

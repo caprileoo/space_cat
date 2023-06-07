@@ -1,5 +1,5 @@
 function RState_Hit() {
-	//Just hit
+	
 	if (hitNow)
 	{
 		sprite_index = SRMouseHit;
@@ -12,6 +12,6 @@ function RState_Hit() {
 	if (frameCount > 20) 
 	{
 		frameCount = 0;
-		state = RSTATE.STATUS;
+		state = RSTATE.FREE;
 	}
 }

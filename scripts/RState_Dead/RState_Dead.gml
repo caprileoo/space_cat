@@ -5,6 +5,5 @@ function RState_Dead() {
 		image_index = 0;
 	}
 
-	if (animation_end()) sprite_index = SRMouseDed;
-
+	if (animation_end()) instance_change(ORMouseCorpse, true);
 }
