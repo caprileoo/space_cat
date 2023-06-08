@@ -1,5 +1,4 @@
 function RState_Hit() {
-	
 	if (hitNow)
 	{
 		sprite_index = SRMouseHit;

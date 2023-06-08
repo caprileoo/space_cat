@@ -1,6 +1,7 @@
 function RState_Atk(){
 	show_debug_message("Shooting");
 	vsp += grv;
+	image_speed = 1;
 	
 	if (target.x < x) {
 	    image_xscale = -1;
@@ -8,13 +9,9 @@ function RState_Atk(){
 	    image_xscale = 1;
 	}
 	
-	move_n_collide();
-	update();
-	
 	if (fire_timer >= room_speed / 4) { // 1 second interval between each bullet
 	    if(burst_count < 3){
 			sprite_index = SRMouseShoot;
-			image_speed = 1;
 	        var bullet;
 	        bullet = instance_create_layer(x,y,"Instances",OCheesePlasma);
 	        if (image_xscale == -1) {
@@ -37,4 +34,6 @@ function RState_Atk(){
 	} else {
 	    fire_timer ++;
 	}
+	move_n_collide();
+	update();
 }

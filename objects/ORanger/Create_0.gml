@@ -1,5 +1,6 @@
 event_user(0);
 
+//Movement
 hsp = 0;
 vsp = 0; //vertical speed
 moveDirection = 1; // -1 for left, 1 for right
@@ -16,10 +17,12 @@ hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
 hp = 20;
-state = RSTATE.WALK;
-stateTimer = 0;
-stateDuration = room_speed * 3; // 3 seconds
 
+//State Manager
+state = RSTATE.WALK;
+timer = 0;
+
+//Attack
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 burst_count = 0;
