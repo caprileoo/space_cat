@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "RState_Free",
+  "name": "RState_Idle",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

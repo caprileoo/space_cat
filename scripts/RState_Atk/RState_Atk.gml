@@ -1,7 +1,6 @@
 function RState_Atk(){
-	
-	hsp = 0;
-	vsp = 0;
+	show_debug_message("Shooting");
+	vsp += grv;
 	
 	if (target.x < x) {
 	    image_xscale = -1;
@@ -28,22 +27,14 @@ function RState_Atk(){
 	        fire_timer = 0;
 	    } else {
 			image_index = 0;
-			image_speed = 0;
-			hsp = 0;
-			vsp = 0;
-	        if (burst_timer >= room_speed * 2) {
-	            burst_count = 0;
-	            burst_timer = 0;
-	        } else {
-	            burst_timer ++;
-	        }
+		    if (burst_timer >= room_speed * 2) {
+		        burst_count = 0;
+		        burst_timer = 0;
+		    } else {
+		        burst_timer ++;
+		    }
 	    }
 	} else {
 	    fire_timer ++;
-	}
-	
-	if(abs(x - target.x) > detectionRadius){
-		image_index = 0;
-		state = RSTATE.FREE;
 	}
 }

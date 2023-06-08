@@ -3,8 +3,6 @@ event_user(0);
 hsp = 0;
 vsp = 0; //vertical speed
 moveDirection = 1; // -1 for left, 1 for right
-moveTimer = 0;
-moveDuration = room_speed * 1; // 3 seconds
 
 //solve for grv dynamically
 j_height = 30;
@@ -18,7 +16,9 @@ hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
 hp = 20;
-state = RSTATE.FREE;
+state = RSTATE.WALK;
+stateTimer = 0;
+stateDuration = room_speed * 3; // 3 seconds
 
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
@@ -28,7 +28,8 @@ fire_timer = 0;
 
 enum RSTATE
 {
-	FREE,
+	WALK,
+	IDLE,
 	ATK,
 	HIT,
 	DEAD

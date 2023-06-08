@@ -12,6 +12,6 @@ function RState_Hit() {
 	if (frameCount > 20) 
 	{
 		frameCount = 0;
-		state = RSTATE.FREE;
+		state = RSTATE.WALK;
 	}
 }
