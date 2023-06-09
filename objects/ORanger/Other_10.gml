@@ -22,11 +22,11 @@ function get_dir(){
 	}
 }
 
-function move_n_collide(obj_array){	
+function move_n_collide(_obj_array){	
 	var i;
-	for (i = 0; i < array_length_1d(obj_array); i++) {
-	    if (place_meeting(x + hsp, y, obj_array[i])) {
-	        while (!place_meeting(x + sign(hsp), y, obj_array[i])) {
+	for (i = 0; i < array_length_1d(_obj_array); i++) {
+	    if (place_meeting(x + hsp, y, _obj_array[i])) {
+	        while (!place_meeting(x + sign(hsp), y, _obj_array[i])) {
 	            x += sign(hsp);
 	        }
 	        hsp = 0;
@@ -35,9 +35,9 @@ function move_n_collide(obj_array){
 	x += hsp;
 
 	// Vertical movement
-	for (i = 0; i < array_length_1d(obj_array); i++) {
-	    if (place_meeting(x, y + vsp, obj_array[i])) {
-	        while (!place_meeting(x, y + sign(vsp), obj_array[i])) {
+	for (i = 0; i < array_length_1d(_obj_array); i++) {
+	    if (place_meeting(x, y + vsp, _obj_array[i])) {
+	        while (!place_meeting(x, y + sign(vsp), _obj_array[i])) {
 	            y += sign(vsp);
 	        }
 	        vsp = 0;

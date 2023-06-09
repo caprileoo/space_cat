@@ -1,5 +1,4 @@
 function RState_Idle(){
-	show_debug_message("Idle");
 	hsp = 0;
 	vsp += grv;
 	

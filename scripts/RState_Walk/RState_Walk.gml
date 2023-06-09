@@ -17,6 +17,6 @@ function RState_Walk() {
     } else pre_edge = false;
     
     hsp = moveDirection; //divide = low speed | multiply = high speed
-    
-    move_n_collide(collision_objects);
+	
+	move_n_collide(collision_objects);
 }

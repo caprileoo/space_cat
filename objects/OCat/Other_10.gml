@@ -6,12 +6,12 @@ function approach(argument0, argument1, argument2){
 	}
 }
 
-function move_n_collide(obj_array) {
+function move_n_collide(_obj_array) {
     var i;
     repeat(abs(hsp)) {
         var collision = false;
-        for (i = 0; i < array_length_1d(obj_array); i++) {
-            if (place_meeting(x + sign(hsp), y, obj_array[i])) {
+        for (i = 0; i < array_length_1d(_obj_array); i++) {
+            if (place_meeting(x + sign(hsp), y, _obj_array[i])) {
                 collision = true;
                 break;
             }
@@ -26,8 +26,8 @@ function move_n_collide(obj_array) {
 
     repeat(abs(vsp)) {
         var collision = false;
-        for (i = 0; i < array_length_1d(obj_array); i++) {
-            if (place_meeting(x, y + sign(vsp), obj_array[i])) {
+        for (i = 0; i < array_length_1d(_obj_array); i++) {
+            if (place_meeting(x, y + sign(vsp), _obj_array[i])) {
                 collision = true;
                 break;
             }

@@ -1,5 +1,4 @@
 function RState_Atk(){
-	show_debug_message("Shooting");
 	vsp += grv;
 	image_speed = 1;
 	
