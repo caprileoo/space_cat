@@ -7,6 +7,7 @@
     {"name":"Fx","order":3,"path":"folders/Sprites/Fx.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"GM_FlameIntensity_spr_Fire","order":1,"path":"sprites/GM_FlameIntensity_spr_Fire/GM_FlameIntensity_spr_Fire.yy",},
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
     {"name":"SRMouseHit","order":2,"path":"sprites/SRMouseHit/SRMouseHit.yy",},
     {"name":"ForestSet","order":1,"path":"tilesets/ForestSet/ForestSet.yy",},
