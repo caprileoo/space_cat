@@ -9,17 +9,14 @@ function RState_Walk() {
         moveDirection *= -1;
     }
     
-    if (on_ground_specific(OEdge) && state != RSTATE.ATK) {
-        state = RSTATE.IDLE;
+    if (on_ground_specific(OEdge) and state != RSTATE.ATK and pre_edge == false) {
+		pre_edge = true;
         moveDirection *= -1;
-        timer = 0;
-    }
+		timer = 0;
+		state = RSTATE.IDLE;
+    } else pre_edge = false;
     
     hsp = moveDirection; //divide = low speed | multiply = high speed
     
-    if (on_ground_specific(OEdge)) {
-        timer = 0;
-    }
-	
-	move_n_collide(collision_objects);
+    move_n_collide(collision_objects);
 }
