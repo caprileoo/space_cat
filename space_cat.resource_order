@@ -4,6 +4,7 @@
     {"name":"Berserker Mouse","order":2,"path":"folders/Sprites/Enemies/Mouses/Berserker Mouse.yy",},
     {"name":"Corpses","order":3,"path":"folders/Sprites/Enemies/Mouses/Corpses.yy",},
     {"name":"Ranger Mouse","order":1,"path":"folders/Sprites/Enemies/Mouses/Ranger Mouse.yy",},
+    {"name":"Fx","order":3,"path":"folders/Sprites/Fx.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
