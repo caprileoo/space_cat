@@ -1,9 +1,13 @@
-//function on_ground_specific(_obj){
-//	return place_meeting(x,y + 1,_obj);
+//function hitwall_specific(_obj){
+//	return place_meeting(x + hsp, y, _obj);
 //}
 
+function on_ground_specific(_obj){
+	return place_meeting(x,y + 1,_obj);
+}
+
 function on_ground(){
-	return place_meeting(x, y + 1,Owall);
+	return place_meeting(x, y + 1,Owall) or place_meeting(x, y + 1,OEdge);
 }
 
 function hitwall(){
@@ -18,28 +22,26 @@ function get_dir(){
 	}
 }
 
-function move_n_collide(){	
-    if (place_meeting(x+hsp,y,Owall))
-    {
-        while (!place_meeting(x+sign(hsp),y,Owall))
-        {
-            x = x + sign(hsp);
-        }
-        hsp = 0;
-    }
+function move_n_collide(obj_array){	
+	var i;
+	for (i = 0; i < array_length_1d(obj_array); i++) {
+	    if (place_meeting(x + hsp, y, obj_array[i])) {
+	        while (!place_meeting(x + sign(hsp), y, obj_array[i])) {
+	            x += sign(hsp);
+	        }
+	        hsp = 0;
+	    }
+	}
+	x += hsp;
 
-    /**platform vertical collision**/
-    if (place_meeting(x,y+vsp,Owall))
-    {
-        while (!place_meeting(x,y+sign(vsp),Owall))
-        {
-            y += sign(vsp);
-        }
-        vsp = 0;
-    }
-}
-
-function update(){
-	x = x + hsp;
-	y = y + vsp;
+	// Vertical movement
+	for (i = 0; i < array_length_1d(obj_array); i++) {
+	    if (place_meeting(x, y + vsp, obj_array[i])) {
+	        while (!place_meeting(x, y + sign(vsp), obj_array[i])) {
+	            y += sign(vsp);
+	        }
+	        vsp = 0;
+	    }
+	}
+	y += vsp;
 }

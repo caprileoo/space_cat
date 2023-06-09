@@ -34,6 +34,6 @@ function RState_Atk(){
 	} else {
 	    fire_timer ++;
 	}
-	move_n_collide();
-	update();
+	
+	move_n_collide(collision_objects);
 }

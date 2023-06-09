@@ -3,6 +3,7 @@
     {"name":"Berserker Mouse","order":2,"path":"folders/Sprites/Enemies/Mouses/Berserker Mouse.yy",},
     {"name":"Corpses","order":3,"path":"folders/Sprites/Enemies/Mouses/Corpses.yy",},
     {"name":"Ranger Mouse","order":1,"path":"folders/Sprites/Enemies/Mouses/Ranger Mouse.yy",},
+    {"name":"Utilities","order":1,"path":"folders/Scripts/Utilities.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
@@ -10,6 +11,8 @@
     {"name":"ForestSet","order":1,"path":"tilesets/ForestSet/ForestSet.yy",},
     {"name":"ORMouseCorpse","order":1,"path":"objects/ORMouseCorpse/ORMouseCorpse.yy",},
     {"name":"SForestTiles","order":1,"path":"sprites/SForestTiles/SForestTiles.yy",},
+    {"name":"FMouseCorpse","order":1,"path":"sprites/FMouseCorpse/FMouseCorpse.yy",},
+    {"name":"SlideTransition","order":1,"path":"scripts/SlideTransition/SlideTransition.yy",},
     {"name":"RState_Idle","order":1,"path":"scripts/RState_Idle/RState_Idle.yy",},
     {"name":"SRMouseDed","order":3,"path":"sprites/SRMouseDed/SRMouseDed.yy",},
     {"name":"SRMouseRun","order":1,"path":"sprites/SRMouseRun/SRMouseRun.yy",},

@@ -6,24 +6,39 @@ function approach(argument0, argument1, argument2){
 	}
 }
 
-function move_n_collide(){		
-	repeat(abs(hsp)) {
-		if (!place_meeting(x + sign(hsp), y, Owall)) {
-	        x += sign(hsp);
-	    } else {
-	        hsp = 0;
-	        break;
-	    }
-	}
-	
-	repeat(abs(vsp)) {
-	    if (!place_meeting(x, y + sign(vsp), Owall)) {
-	        y += sign(vsp);
-	    } else {
-	        vsp = 0;
-	        break;
-	    }
-	}
+function move_n_collide(obj_array) {
+    var i;
+    repeat(abs(hsp)) {
+        var collision = false;
+        for (i = 0; i < array_length_1d(obj_array); i++) {
+            if (place_meeting(x + sign(hsp), y, obj_array[i])) {
+                collision = true;
+                break;
+            }
+        }
+        if (!collision) {
+            x += sign(hsp);
+        } else {
+            hsp = 0;
+            break;
+        }
+    }
+
+    repeat(abs(vsp)) {
+        var collision = false;
+        for (i = 0; i < array_length_1d(obj_array); i++) {
+            if (place_meeting(x, y + sign(vsp), obj_array[i])) {
+                collision = true;
+                break;
+            }
+        }
+        if (!collision) {
+            y += sign(vsp);
+        } else {
+            vsp = 0;
+            break;
+        }
+    }
 }
 
 function hitwall(){
@@ -66,7 +81,7 @@ function get_dir(){
 }
 
 function on_ground(){
-	return place_meeting(x,y + 1,Owall);
+	return place_meeting(x,y + 1,Owall) or place_meeting(x, y + 1,OEdge);
 }
 
 function check_jump(){

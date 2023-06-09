@@ -1,6 +1,7 @@
 event_user(0);
 
 //Movement
+collision_objects = [Owall, OEdge];
 hsp = 0;
 vsp = 0; //vertical speed
 moveDirection = 1; // -1 for left, 1 for right

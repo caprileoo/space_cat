@@ -9,7 +9,7 @@ function PState_Charge(){
 	if (move != 0) image_xscale = move;
 	
 	moving();
-	move_n_collide();
+	move_n_collide(collision_objects);
 
 	plasma_charge_time++;
 	if(!key_plasma){

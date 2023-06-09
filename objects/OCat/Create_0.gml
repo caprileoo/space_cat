@@ -2,6 +2,7 @@ event_user(0);
 hascontrol = true;
 
 /**Physics**/
+collision_objects = [Owall, OEdge];
 dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed

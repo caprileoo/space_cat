@@ -24,6 +24,5 @@ function PState_Idle(){
 		state = PSTATE.FALLING;
 	} else pre_idle = false;
 	
-	move_n_collide();
-	reload();
+	move_n_collide(collision_objects);
 }

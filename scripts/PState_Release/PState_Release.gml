@@ -6,7 +6,7 @@ function PState_Release(){
 	if (move != 0) image_xscale = move;
 	
 	moving();
-	move_n_collide();
+	move_n_collide(collision_objects);
 	get_dir();
 	
 	if (plasma_charge_time > 0) {

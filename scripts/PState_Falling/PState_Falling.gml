@@ -39,5 +39,5 @@ function PState_Falling(){
 		}
 	}
 	
-	move_n_collide();
+	move_n_collide(collision_objects);
 }

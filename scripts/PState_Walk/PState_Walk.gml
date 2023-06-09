@@ -29,6 +29,5 @@ function PState_Walk(){
 		state = PSTATE.FALLING;
 	} else pre_move = false;
 	
-	move_n_collide();
-	reload();
+	move_n_collide(collision_objects);
 }

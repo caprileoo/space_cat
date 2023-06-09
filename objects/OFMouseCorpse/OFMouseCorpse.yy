@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPigDed",
-    "path": "sprites/SPigDed/SPigDed.yy",
+    "name": "FMouseCorpse",
+    "path": "sprites/FMouseCorpse/FMouseCorpse.yy",
   },
   "spriteMaskId": null,
   "visible": true,

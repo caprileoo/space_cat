@@ -27,6 +27,5 @@ function PState_Rising(){
 		}
 	}
 	
-	move_n_collide();
-	reload();
+	move_n_collide(collision_objects);
 }
