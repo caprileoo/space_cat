@@ -14,7 +14,7 @@
   ],
   "parent": {
     "name": "Fx",
-    "path": "folders/Sprites/Fx.yy",
+    "path": "folders/Particle Systems/Fx.yy",
   },
   "showBackdrop": true,
   "showBackdropImage": false,

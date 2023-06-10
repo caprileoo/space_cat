@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Fx",
-    "path": "folders/Sprites/Fx.yy",
+    "path": "folders/Particle Systems/Fx.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
