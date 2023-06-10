@@ -1,11 +1,13 @@
-function FState_Chase(){
+function FState_Walk(){
     vsp += grv;
     
     image_speed = 1;
     sprite_index = SFMouseRun;
-	image_xscale = sign(target.x - x);
-	
-	hsp = 2 * sign(target.x - x);
+    image_xscale = moveDirection; //ranged enemy sprite turn around
+    
+    if(hitwall()){
+        moveDirection *= -1;
+    }
     
     if (on_ground_specific(OEdge) and state != FSTATE.ATK and pre_edge == false) {
 		pre_edge = true;
@@ -13,6 +15,8 @@ function FState_Chase(){
 		timer = 0;
 		state = FSTATE.IDLE;
     } else pre_edge = false;
+    
+    hsp = moveDirection; //divide = low speed | multiply = high speed
 	
 	move_n_collide(collision_objects);
 }

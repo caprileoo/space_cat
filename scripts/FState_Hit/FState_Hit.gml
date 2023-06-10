@@ -1,5 +1,5 @@
 function FState_Hit(){
-	//Just hit
+	
 	if (hitNow)
 	{
 		sprite_index = SFMouseHit;
@@ -12,6 +12,6 @@ function FState_Hit(){
 	if (frameCount > 20) 
 	{
 		frameCount = 0;
-		state = FSTATE.STATUS;
+		state = FSTATE.IDLE;
 	}
 }
