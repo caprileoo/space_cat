@@ -6,6 +6,7 @@ event_user(0);
 hsp = 0;
 vsp = 0;
 pre_edge = false;
+edge_timer = 0;
 collision_objects = [Owall, OEdge];
 
 //Gravity Fall

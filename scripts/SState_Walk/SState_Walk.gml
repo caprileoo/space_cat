@@ -23,10 +23,14 @@ function SState_Walk(){
 	
 	if (on_ground_specific(OEdge) and state != SSTATE.ATK and pre_edge == false) {
 		pre_edge = true;
+		edge_timer++;
         moveDirection *= -1;
 		timer = 0;
-		state = SSTATE.IDLE;
-    } else pre_edge = false;
+		state = SSTATE.WALK;
+    } else if(edge_timer > 2) {
+		pre_edge = false;
+		edge_timer = 0;
+	}
 	
 	move_n_collide(collision_objects);
 }
