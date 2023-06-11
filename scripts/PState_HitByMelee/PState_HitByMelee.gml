@@ -7,14 +7,16 @@ function PState_HitByMelee(){
         image_index = 0;
         hitNow = false;
         frameCount = 0;
-        vsp = -3; 
+        vsp = -2; 
     }
 
     frameCount++;
     if (frameCount > 5) 
     {
+		hsp = 0;
         frameCount = 0;
         state = PSTATE.IDLE;
     }
+	
     move_n_collide(collision_objects);
 }

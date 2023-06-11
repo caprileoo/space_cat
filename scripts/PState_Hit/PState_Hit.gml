@@ -1,6 +1,4 @@
 function PState_Hit(){
-	vsp += grv
-	
 	//Just hit
 	if (hitNow)
 	{
@@ -9,7 +7,11 @@ function PState_Hit(){
 		hitNow = false;
 	}
 	
-	move_n_collide(collision_objects);
-	
-	state = PSTATE.IDLE;
+	frameCount++;
+    if (frameCount > 2) 
+    {
+		hsp = 0;
+        frameCount = 0;
+        state = PSTATE.IDLE;
+    }
 }
