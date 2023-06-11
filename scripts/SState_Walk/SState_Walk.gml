@@ -12,7 +12,7 @@ function SState_Walk(){
 	
 	if (move_alarm > 0) {
 	    move_alarm--;
-	    hsp = moveDirection;
+	    hsp = moveDirection / 1.5;
 	} else if (rest_alarm > 0) {
 	    rest_alarm--;
 	    hsp = 0;

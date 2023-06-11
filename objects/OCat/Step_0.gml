@@ -12,6 +12,7 @@ else {
 	key_atk = 0
 	key_plasma = 0
 }
+
 switch(state)
 {
 	case PSTATE.IDLE: PState_Idle(); break;
