@@ -1,3 +1,5 @@
+//User event
+
 //function hitwall_specific(_obj){
 //	return place_meeting(x + hsp, y, _obj);
 //}
@@ -12,14 +14,6 @@ function on_ground(){
 
 function hitwall(){
 	return place_meeting(x + hsp, y, Owall);
-}
-
-function get_dir(){
-	if (moveDirection = 1) {
-		dir = 0;
-	} else {
-		dir = 180;
-	}
 }
 
 function move_n_collide(_obj){	

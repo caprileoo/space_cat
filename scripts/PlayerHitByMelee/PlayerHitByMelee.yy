@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerHit",
+  "name": "PlayerHitByMelee",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

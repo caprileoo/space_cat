@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function SlimeProcessAttack(argument0, argument1){
 	//Start of the attack
 	if (sprite_index != argument0)
@@ -24,11 +22,11 @@ function SlimeProcessAttack(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					PlayerHit(5);
+					PlayerHitByMelee(5);
 				}
 			}
 		}
 	}
 	ds_list_destroy(hitByAttackNow);
-	mask_index = SSlimeAtk;
+	mask_index = SSlimeIdle;
 }

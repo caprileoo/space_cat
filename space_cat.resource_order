@@ -11,6 +11,7 @@
     {"name":"Slimes","order":1,"path":"folders/Sprites/Enemies/Slimes.yy",},
     {"name":"Movement","order":2,"path":"folders/Scripts/Slime State/Movement.yy",},
     {"name":"Status","order":3,"path":"folders/Scripts/Slime State/Status.yy",},
+    {"name":"Player","order":1,"path":"folders/Scripts/PlayerProcessATK/Player.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"GM_FlameIntensity_spr_Fire","order":1,"path":"sprites/GM_FlameIntensity_spr_Fire/GM_FlameIntensity_spr_Fire.yy",},
@@ -31,7 +32,9 @@
     {"name":"RState_Idle","order":1,"path":"scripts/RState_Idle/RState_Idle.yy",},
     {"name":"SRMouseDed","order":3,"path":"sprites/SRMouseDed/SRMouseDed.yy",},
     {"name":"FState_Idle","order":2,"path":"scripts/FState_Idle/FState_Idle.yy",},
+    {"name":"PlayerHitByMelee","order":1,"path":"scripts/PlayerHitByMelee/PlayerHitByMelee.yy",},
     {"name":"SFighterHB","order":1,"path":"sprites/SFighterHB/SFighterHB.yy",},
+    {"name":"PState_HitByMelee","order":1,"path":"scripts/PState_HitByMelee/PState_HitByMelee.yy",},
     {"name":"SState_Dead","order":1,"path":"scripts/SState_Dead/SState_Dead.yy",},
     {"name":"SlimeCorpse","order":2,"path":"sprites/SlimeCorpse/SlimeCorpse.yy",},
     {"name":"SRMouseRun","order":1,"path":"sprites/SRMouseRun/SRMouseRun.yy",},

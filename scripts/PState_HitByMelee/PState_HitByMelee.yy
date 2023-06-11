@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PlayerHit",
+  "name": "PState_HitByMelee",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/PlayerProcessATK/Player.yy",
+    "name": "Status",
+    "path": "folders/Scripts/Player States/Status.yy",
   },
 }

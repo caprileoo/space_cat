@@ -28,6 +28,7 @@ state = PSTATE.IDLE;
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
+knockbackTimer = 0;
 hp = 100;
 
 //state management
@@ -50,6 +51,7 @@ enum PSTATE
 	CHARGE,
 	RELEASE,
     HIT,
+	HIT2,
     DEAD
 }
 

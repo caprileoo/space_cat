@@ -16,14 +16,6 @@ function hitwall(){
 	return place_meeting(x + hsp, y, Owall);
 }
 
-function get_dir(){
-	if (image_xscale = 1) {
-		dir = 0;
-	} else {
-		dir = 180;
-	}
-}
-
 function move_n_collide(_obj){	
 	var i;
 	for (i = 0; i < array_length_1d(_obj); i++) {

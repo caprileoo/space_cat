@@ -22,6 +22,7 @@ switch(state)
 	case PSTATE.RELEASE: PState_Release(); break;
 	case PSTATE.ATTACK_SLASH: PState_Atk_Slash(); break;
 	case PSTATE.HIT: PState_Hit(); break;
+	case PSTATE.HIT2: PState_HitByMelee(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }
 show_debug_message(hp);
