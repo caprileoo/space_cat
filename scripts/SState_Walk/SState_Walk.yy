@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "SState_Free",
+  "name": "SState_Walk",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Slime State",
-    "path": "folders/Scripts/Slime State.yy",
+    "name": "Movement",
+    "path": "folders/Scripts/Slime State/Movement.yy",
   },
 }

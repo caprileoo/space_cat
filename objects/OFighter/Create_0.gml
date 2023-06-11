@@ -3,7 +3,6 @@
 event_user(0);
 hsp = 0;
 vsp = 0; //vertical speed
-max_vsp = 4;
 timer = 0;
 pre_edge = false;
 moveDirection = 1; // -1 for left, 1 for right

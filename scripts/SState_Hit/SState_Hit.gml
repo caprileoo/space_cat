@@ -12,6 +12,6 @@ function SState_Hit() {
 	if (frameCount > 20) 
 	{
 		frameCount = 0;
-		state = SSTATE.STATUS;
+		state = SSTATE.IDLE;
 	}
 }

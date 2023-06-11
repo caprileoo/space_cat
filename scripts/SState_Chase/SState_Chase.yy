@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Slime State",
-    "path": "folders/Scripts/Slime State.yy",
+    "name": "Movement",
+    "path": "folders/Scripts/Slime State/Movement.yy",
   },
 }

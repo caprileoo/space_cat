@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SSlimeDed",
-    "path": "sprites/SSlimeDed/SSlimeDed.yy",
+    "name": "SlimeCorpse",
+    "path": "sprites/SlimeCorpse/SlimeCorpse.yy",
   },
   "spriteMaskId": {
     "name": "SSlimeDed",

@@ -1,10 +1,11 @@
 function SState_Atk(){
+	vsp += grv;
+	
 	SlimeProcessAttack(SSlimeAtk,SSlimeHB);
 	if (animation_end())
 	{
-		hsp = 0;
-		vsp = 0;
 		sprite_index = SSlimeIdle;
-		state = SSTATE.STATUS;
 	}
+	
+	move_n_collide(collision_objects);
 }

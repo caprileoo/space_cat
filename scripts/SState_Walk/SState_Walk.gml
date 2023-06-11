@@ -1,16 +1,18 @@
-function SState_Chase(){
+function SState_Walk(){
 	vsp += grv;
 	
-	moveDirection = sign(target.x - x); // Move towards the target
-	
-	image_xscale = moveDirection
+	image_xscale = moveDirection;
 	
 	image_speed = 1;
 	sprite_index = SSlimeMove;
-	   
+	
+	if(hitwall()){
+		moveDirection *= -1;
+	}
+	
 	if (move_alarm > 0) {
 	    move_alarm--;
-	    hsp = moveDirection * 2;
+	    hsp = moveDirection;
 	} else if (rest_alarm > 0) {
 	    rest_alarm--;
 	    hsp = 0;

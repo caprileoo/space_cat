@@ -1,4 +1,5 @@
 //Step Event
+
 timer++;
 
 if (timer >= room_speed * 4) { // 4 seconds
