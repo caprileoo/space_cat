@@ -30,6 +30,7 @@ hp = 10;
 state = SSTATE.WALK;
 
 //Attack
+attacking = false;
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 

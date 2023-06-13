@@ -5,11 +5,9 @@ function FState_Atk(){
 	
 	if (animation_end())
 	{
+		attacking = false;
 		hsp = 0;
 		vsp = 0;
-		attacking = false;
-		sprite_index = SFMouseRun;
-		state = FSTATE.CHASE;
 	}
 	
 	move_n_collide(collision_objects);

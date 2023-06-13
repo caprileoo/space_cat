@@ -10,7 +10,7 @@ function PState_HitByMelee1(){
     }
 
     frameCount++;
-    if (frameCount > 7) 
+    if (frameCount > 5) 
     {
 		hsp = 0;
         frameCount = 0;
