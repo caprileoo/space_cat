@@ -15,14 +15,14 @@ function PState_Release(){
 			plasma = instance_create_layer(x , y, "Instances", OBigPlasma);
 			energy -= 2;
 			plasma.direction = dir;
-			plasma.speed = 5;
+			plasma.speed = 1;
 			plasma_charge_time = 0;
 			state = PSTATE.IDLE;
 		} else if (energy >= 1) {
 			plasma = instance_create_layer(x, y, "Instances", OPlasma);
 			energy -= 1;
 			plasma.direction = dir;
-			plasma.speed = 5;
+			plasma.speed = 1;
 			plasma_charge_time = 0;
 			state = PSTATE.IDLE;
 		} else state = PSTATE.IDLE;
