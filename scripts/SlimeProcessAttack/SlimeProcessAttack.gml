@@ -22,7 +22,7 @@ function SlimeProcessAttack(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					PlayerHitByMelee(5);
+					PlayerHitBySlime(5);
 				}
 			}
 		}

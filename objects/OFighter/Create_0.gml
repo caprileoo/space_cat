@@ -23,6 +23,7 @@ hp = 20;
 state = FSTATE.IDLE;
 
 //Chase
+attacking = false;
 detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 

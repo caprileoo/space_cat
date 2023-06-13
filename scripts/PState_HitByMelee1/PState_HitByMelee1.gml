@@ -1,4 +1,4 @@
-function PState_HitByMelee(){
+function PState_HitByMelee1(){
 	vsp += grv;
 	
     if (hitNow)
@@ -7,11 +7,10 @@ function PState_HitByMelee(){
         image_index = 0;
         hitNow = false;
         frameCount = 0;
-        vsp = -2; 
     }
 
     frameCount++;
-    if (frameCount > 5) 
+    if (frameCount > 7) 
     {
 		hsp = 0;
         frameCount = 0;

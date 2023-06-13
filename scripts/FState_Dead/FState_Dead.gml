@@ -1,7 +1,7 @@
 function FState_Dead(){
-	if (sprite_index != SPigDed)
+	if (sprite_index != SFMouseDed)
 	{
-		sprite_index = SPigDed;
+		sprite_index = SFMouseDed;
 		image_index = 0;
 	}
 

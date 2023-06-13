@@ -49,8 +49,10 @@ enum PSTATE
     ATTACK_SLASH,
 	CHARGE,
 	RELEASE,
-    HIT,
-	HIT2,
+	MELEE1,
+	MELEE2,
+	SLIME,
+	RANGER,
     DEAD
 }
 

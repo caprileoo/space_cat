@@ -24,7 +24,7 @@ function FighterProcessAttack(argument0, argument1, argument2){
                     ds_list_add(hitByAttack,hitID);
                     with (hitID)
                     {
-                        PlayerHit(10);
+                        PlayerHitByMelee1(5);
                     }
                 }
             }
@@ -45,7 +45,7 @@ function FighterProcessAttack(argument0, argument1, argument2){
                     ds_list_add(hitByAttack2,hitID);
                     with (hitID)
                     {
-                        PlayerHitByMelee(10);
+                        PlayerHitByMelee2(10);
                     }
                 }
             }

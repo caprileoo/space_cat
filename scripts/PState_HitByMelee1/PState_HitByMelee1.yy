@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PState_HitByMelee",
+  "name": "PState_HitByMelee1",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

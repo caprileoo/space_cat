@@ -1,3 +1,5 @@
+if(hp < 0) hp = 0;
+
 if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
 	key_right = keyboard_check(vk_right) or keyboard_check(ord("D")); //Hold
@@ -22,8 +24,10 @@ switch(state)
 	case PSTATE.CHARGE: PState_Charge(); break;
 	case PSTATE.RELEASE: PState_Release(); break;
 	case PSTATE.ATTACK_SLASH: PState_Atk_Slash(); break;
-	case PSTATE.HIT: PState_Hit(); break;
-	case PSTATE.HIT2: PState_HitByMelee(); break;
+	case PSTATE.MELEE1: PState_HitByMelee1(); break;
+	case PSTATE.MELEE2: PState_HitByMelee2(); break;
+	case PSTATE.SLIME: PState_HitBySlime(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
+	case PSTATE.RANGER: PState_HitByRanger(); break;
 }
 show_debug_message(hp);

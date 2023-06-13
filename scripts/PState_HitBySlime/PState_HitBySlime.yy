@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PState_Hit",
+  "name": "PState_HitBySlime",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
