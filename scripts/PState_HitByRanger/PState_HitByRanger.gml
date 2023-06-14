@@ -1,5 +1,4 @@
 function PState_HitByRanger(){
-	vsp += grv;
 	
 	//Just hit
 	if (hitNow)
@@ -8,6 +7,14 @@ function PState_HitByRanger(){
 		image_index = 0;
 		hitNow = false;
 	}
+	
+	frameCount++;
+    if (frameCount > 5) 
+    {
+		hsp = 0;
+        frameCount = 0;
+        state = PSTATE.IDLE;
+    }
 	
 	move_n_collide(collision_objects);
 }

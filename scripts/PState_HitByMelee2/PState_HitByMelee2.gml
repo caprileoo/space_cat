@@ -1,5 +1,4 @@
 function PState_HitByMelee2(){
-	vsp += grv;
 	
 	var fighter_dir;
 	
@@ -14,11 +13,12 @@ function PState_HitByMelee2(){
         hitNow = false;
         frameCount = 0;
 		
-        vsp = -3; 
+        vsp = -2; 
 		
 		if(fighter_dir == -1){
 			hsp -= 5;
 		} else hsp += 5;
+		
     } else {
         vsp = lerp(vsp, 0, 0.1);
         hsp = lerp(hsp, 0, 0.1);

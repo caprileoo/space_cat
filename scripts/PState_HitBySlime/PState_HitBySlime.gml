@@ -1,5 +1,4 @@
 function PState_HitBySlime(){
-	vsp += grv;
 	
 	var slime_dir;
 	
@@ -14,11 +13,12 @@ function PState_HitBySlime(){
         hitNow = false;
         frameCount = 0;
 		
-        vsp = -3; 
+        vsp = -2; 
 		
 		if(slime_dir == -1){
 			hsp -= 5;
 		} else hsp += 5;
+		
     } else {
         vsp = lerp(vsp, 0, 0.1);
         hsp = lerp(hsp, 0, 0.1);

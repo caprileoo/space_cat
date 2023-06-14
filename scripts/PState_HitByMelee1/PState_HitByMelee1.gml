@@ -1,5 +1,4 @@
 function PState_HitByMelee1(){
-	vsp += grv;
 	
     if (hitNow)
     {
