@@ -1,5 +1,4 @@
 function FState_Atk(){
-	attacking = true;
 	
 	FighterProcessAttack(SFMouseAtk,SFighterHB, SFighterHBCombo);
 	

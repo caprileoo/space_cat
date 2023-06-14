@@ -1,5 +1,4 @@
 function SState_Atk(){
-	attacking = true;
 	
 	SlimeProcessAttack(SSlimeAtk,SSlimeHB);
 	if (animation_end())

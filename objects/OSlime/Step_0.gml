@@ -13,12 +13,13 @@ if (timer >= room_speed * 4) { // 4 seconds
 
 if (abs(target.x - x) <= detectionRadius and abs(target.y - y) <= 50 and on_ground() and state != SSTATE.HIT and state != SSTATE.DEAD) {
 	if (abs(target.x - x) <= 12) {
+		attacking = true;
 		hsp = 0;
 	    state = SSTATE.ATK;
-	} else if (abs(target.x - x) > 12 and attacking = false){
+	} else if (abs(target.x - x) > 12 and attacking == false){
 		state = SSTATE.CHASE;
 	}
-} else if ((abs(target.x - x) > detectionRadius or abs(target.y - y) > 50) and state == SSTATE.CHASE) {
+} else if ((abs(target.x - x) > detectionRadius or abs(target.y - y) > 50) and (state == SSTATE.CHASE or state == SSTATE.ATK)) {
     state = SSTATE.IDLE;
 }
 
