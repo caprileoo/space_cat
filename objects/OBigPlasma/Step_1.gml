@@ -1,6 +1,6 @@
 distanceTraveled += abs(speed * cos(degtorad(direction)));
 
-if (distanceTraveled >= 100) {
+if (distanceTraveled >= 150) {
 	distanceTraveled = 0;
     instance_destroy();
 }

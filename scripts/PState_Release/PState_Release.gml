@@ -20,7 +20,7 @@ function PState_Release(){
 			} else plasma.image_angle = 180;
 			
 			plasma.direction = dir;
-			plasma.speed = 5;
+			plasma.speed = 3;
 			plasma_charge_time = 0;
 			state = PSTATE.IDLE;
 		} else if (energy >= 1) {
