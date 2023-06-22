@@ -6,8 +6,8 @@
 //xTo = xstart;
 //yTo = ystart;
 
-camWidth = 288;
-camHeight = 162;
+camWidth = 320;
+camHeight = 190;
 surface_resize(application_surface, camWidth + 1, camHeight + 1);
 application_surface_draw_enable(false);
 
