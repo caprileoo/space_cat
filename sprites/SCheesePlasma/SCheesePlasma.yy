@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SCheesePlasma",
-  "bbox_bottom": 12,
+  "bbox_bottom": 15,
   "bbox_left": 0,
-  "bbox_right": 12,
+  "bbox_right": 15,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6640515c-92e0-4b46-9460-090395f40078",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9413dbba-cef7-4eea-a9a8-75b6c429bd73",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 13,
+  "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"365346ea-c389-4e48-a28d-d80185d2fc2b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ac9dcc27-23a9-4f24-86d7-7954843c2836","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 9,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6640515c-92e0-4b46-9460-090395f40078","path":"sprites/SCheesePlasma/SCheesePlasma.yy",},},},"Disabled":false,"id":"6c014974-8ced-49dd-b276-8db090cca8b5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9413dbba-cef7-4eea-a9a8-75b6c429bd73","path":"sprites/SCheesePlasma/SCheesePlasma.yy",},},},"Disabled":false,"id":"5f855bb8-bc15-436b-bfb7-618d2e115c20","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 13,
+  "width": 16,
 }

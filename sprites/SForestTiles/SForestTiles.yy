@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SForestTiles",
-  "bbox_bottom": 159,
+  "bbox_bottom": 79,
   "bbox_left": 0,
-  "bbox_right": 191,
+  "bbox_right": 95,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"137cadd3-3cdc-49eb-a30e-f41e5a99f6ef",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"20360cc7-3f9b-4a50-b949-9b1adc2c25cd",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 160,
+  "height": 80,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2f0e23e0-4f2e-4f79-8162-f9743650fe92","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9aa6656a-8dc4-452b-93a2-5c239860d757","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"137cadd3-3cdc-49eb-a30e-f41e5a99f6ef","path":"sprites/SForestTiles/SForestTiles.yy",},},},"Disabled":false,"id":"3028d743-59a8-4885-b481-233c75a0cb92","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"20360cc7-3f9b-4a50-b949-9b1adc2c25cd","path":"sprites/SForestTiles/SForestTiles.yy",},},},"Disabled":false,"id":"9b6bd584-1a31-4b62-a77c-b09eb44b487b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 192,
+  "width": 96,
 }
