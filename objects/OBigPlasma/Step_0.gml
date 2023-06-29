@@ -26,5 +26,3 @@ if (place_meeting(x,y,ORanger)) {
 	// Destroy the bullet instance
 	instance_destroy();
 }
-
-show_debug_message(distanceTraveled);

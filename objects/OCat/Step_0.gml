@@ -30,4 +30,4 @@ switch(state)
 	case PSTATE.DEAD: PState_Dead(); break;
 	case PSTATE.RANGER: PState_HitByRanger(); break;
 }
-show_debug_message(hp);
+show_debug_message(energy);
