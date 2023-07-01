@@ -57,5 +57,3 @@ enum PSTATE
 }
 
 image_index = irandom(10);
-
-//Zapier Test
