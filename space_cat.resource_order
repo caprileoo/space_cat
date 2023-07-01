@@ -14,7 +14,6 @@
     {"name":"Slimes","order":1,"path":"folders/Sprites/Enemies/Slimes.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"GM_FlameIntensity_spr_Fire","order":1,"path":"sprites/GM_FlameIntensity_spr_Fire/GM_FlameIntensity_spr_Fire.yy",},
     {"name":"PState_Charge","order":1,"path":"scripts/PState_Charge/PState_Charge.yy",},
     {"name":"SRMouseHit","order":2,"path":"sprites/SRMouseHit/SRMouseHit.yy",},
     {"name":"SFighterHBCombo","order":2,"path":"sprites/SFighterHBCombo/SFighterHBCombo.yy",},

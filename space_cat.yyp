@@ -79,7 +79,6 @@
   "resources": [
     {"id":{"name":"CheeseSet","path":"tilesets/CheeseSet/CheeseSet.yy",},},
     {"id":{"name":"RangerMouseHit","path":"scripts/RangerMouseHit/RangerMouseHit.yy",},},
-    {"id":{"name":"GM_FlameIntensity_spr_Fire","path":"sprites/GM_FlameIntensity_spr_Fire/GM_FlameIntensity_spr_Fire.yy",},},
     {"id":{"name":"FighterMouseHit","path":"scripts/FighterMouseHit/FighterMouseHit.yy",},},
     {"id":{"name":"ORanger","path":"objects/ORanger/ORanger.yy",},},
     {"id":{"name":"PState_Charge","path":"scripts/PState_Charge/PState_Charge.yy",},},
@@ -101,7 +100,6 @@
     {"id":{"name":"ProcessAttackBurstToFMouse","path":"scripts/ProcessAttackBurstToFMouse/ProcessAttackBurstToFMouse.yy",},},
     {"id":{"name":"SForestTiles","path":"sprites/SForestTiles/SForestTiles.yy",},},
     {"id":{"name":"SBigPlasma","path":"sprites/SBigPlasma/SBigPlasma.yy",},},
-    {"id":{"name":"ParticleSystem1","path":"particles/ParticleSystem1/ParticleSystem1.yy",},},
     {"id":{"name":"FMouseCorpse","path":"sprites/FMouseCorpse/FMouseCorpse.yy",},},
     {"id":{"name":"OMenu","path":"objects/OMenu/OMenu.yy",},},
     {"id":{"name":"SSlimeDed","path":"sprites/SSlimeDed/SSlimeDed.yy",},},
