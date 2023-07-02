@@ -32,3 +32,5 @@ switch (state)
 	case FSTATE.HIT: FState_Hit(); break;
 	case FSTATE.DEAD: FState_Dead(); break;
 }
+
+show_debug_message(hp);

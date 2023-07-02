@@ -4,7 +4,6 @@ function PState_Atk_Slash2(){
 	ProcessAttackToRMouse(SCatSlash2, SCatSlashHB2);
 	
 	if(key_atk and on_ground() and image_index > 1) {
-		show_debug_message("done");
 		state = PSTATE.COMBO3;
 	}
 	
