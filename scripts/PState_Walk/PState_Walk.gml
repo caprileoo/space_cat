@@ -2,10 +2,6 @@ function PState_Walk(){
 	
 	sprite_index = sCatRun;
 	
-	reload();
-	pew();
-	shing();
-	
 	var move = key_right - key_left;
 	
 	if(move == 0 and hsp == 0){
@@ -28,6 +24,8 @@ function PState_Walk(){
 		pre_move = true;
 		state = PSTATE.FALLING;
 	} else pre_move = false;
+	
+	if (key_atk and on_ground()) state = PSTATE.COMBO1;
 	
 	move_n_collide(collision_objects);
 }

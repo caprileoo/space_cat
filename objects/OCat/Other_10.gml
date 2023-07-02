@@ -54,24 +54,6 @@ function moving(){
 	else hsp = approach(hsp, 0, walksp / deccel_time)
 }
 
-function reload(){
-	if(!key_plasma and ++reload_time = room_speed * 2){
-		energy += 1;
-		reload_time = 0;
-		if(energy >= max_energy) energy = max_energy;
-	}
-}
-
-function shing(){
-	if (key_atk and on_ground()) state = PSTATE.ATTACK_SLASH;
-}
-
-function pew(){
-	if (key_plasma and on_ground()){
-		state = PSTATE.CHARGE;
-	}
-}
-
 function get_dir(){
 	if (image_xscale = 1) {
 		dir = 0;

@@ -2,10 +2,6 @@ function PState_Falling(){
 	
 	sprite_index = SCatFall;
 	
-	reload();
-	pew();
-	shing();
-	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
 	
@@ -38,6 +34,8 @@ function PState_Falling(){
 			state = PSTATE.WALK;
 		}
 	}
+	
+	if (key_atk and on_ground()) state = PSTATE.COMBO1;
 	
 	move_n_collide(collision_objects);
 }

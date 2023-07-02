@@ -2,10 +2,6 @@ function PState_Idle(){
 	
 	sprite_index = sCat;
 	
-	reload();
-	pew();
-	shing();
-	
 	var move = key_right - key_left;
 	
 	if(move != 0){
@@ -23,6 +19,8 @@ function PState_Idle(){
 		pre_idle = true;
 		state = PSTATE.FALLING;
 	} else pre_idle = false;
+	
+	if (key_atk and on_ground()) state = PSTATE.COMBO1;
 	
 	move_n_collide(collision_objects);
 }
