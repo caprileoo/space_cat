@@ -19,7 +19,7 @@ hitByAttack2 = ds_list_create();
 
 hitNow = false;
 frameCount = 0;
-hp = 20;
+hp = 100;
 state = FSTATE.IDLE;
 
 //Chase
