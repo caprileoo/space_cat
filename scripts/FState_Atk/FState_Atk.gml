@@ -1,5 +1,4 @@
 function FState_Atk(){
-	
 	FighterProcessAttack(SFMouseAtk,SFighterHB, SFighterHBCombo);
 	
 	if (animation_end())

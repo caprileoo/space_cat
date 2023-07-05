@@ -1,5 +1,13 @@
 //Step Event
 
+turnTimer++;
+
+if (on_ground_specific(OEdge) and turnTimer >= room_speed * 2) {
+    moveDirection *= -1;
+    state = FSTATE.IDLE;
+	turnTimer = 0;
+}
+
 timer++;
 
 if (timer >= room_speed * 4) { // 4 seconds
@@ -11,15 +19,16 @@ if (timer >= room_speed * 4) { // 4 seconds
     timer = 0;
 }
 
-if (abs(target.x - x) <= detectionRadius and abs(target.y - y) <= 50 and on_ground() and state != FSTATE.HIT and state != FSTATE.DEAD) {
+if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and on_ground() and state != FSTATE.HIT and state != FSTATE.DEAD) {
 	if (abs(target.x - x) <= 17) {
 		attacking = true;
 		hsp = 0;
 	    state = FSTATE.ATK;
-	} else if(abs(target.x - x) > 17 and attacking == false){
+	} else if (abs(target.x - x) > 17 and attacking == false){
 		state = FSTATE.CHASE;
 	}
-} else if ((abs(target.x - x) > detectionRadius or abs(target.y - y) > 50) and (state == FSTATE.CHASE or state == FSTATE.ATK)) {
+} else if ((abs(target.x - x) > 100 or abs(target.y - y) > 50) and (state == FSTATE.CHASE or state == FSTATE.ATK)) {
+	attacking = false;
     state = FSTATE.IDLE;
 }
 
@@ -32,5 +41,3 @@ switch (state)
 	case FSTATE.HIT: FState_Hit(); break;
 	case FSTATE.DEAD: FState_Dead(); break;
 }
-
-show_debug_message(hp);

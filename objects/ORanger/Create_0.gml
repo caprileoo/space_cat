@@ -7,6 +7,7 @@ collision_objects = [Owall, OEdge];
 hsp = 0;
 vsp = 0; //vertical speed
 moveDirection = 1; // -1 for left, 1 for right
+turnTimer = 0;
 
 //solve for grv dynamically
 j_height = 30;
@@ -27,7 +28,6 @@ timer = 0;
 pre_edge = false;
 
 //Attack
-detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 burst_count = 0;
 burst_timer = 0;

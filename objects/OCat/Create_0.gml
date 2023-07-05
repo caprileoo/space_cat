@@ -2,7 +2,7 @@ event_user(0);
 hascontrol = true;
 
 /**Physics**/
-collision_objects = [Owall, OEdge];
+collision_objects = [Owall, OEdge, OCheesePlatform];
 dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
@@ -39,6 +39,12 @@ plasma_charge_time = 0;
 energy = 100;
 max_energy = 100;
 reload_time = 0;
+
+//Attack
+atk_timer = 0;
+
+//Cheese platform
+cheese_timer = 0;
 
 enum PSTATE
 {

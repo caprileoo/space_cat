@@ -26,6 +26,13 @@ if (key_plasma and on_ground()){
 	state = PSTATE.CHARGE;
 }
 
+if(on_ground_specific(OCheesePlatform)){
+	if(++cheese_timer == room_speed * 3){
+		instance_destroy(OCheesePlatform);
+		cheese_timer = 0;
+	}
+} else cheese_timer = 0;
+
 
 switch(state)
 {

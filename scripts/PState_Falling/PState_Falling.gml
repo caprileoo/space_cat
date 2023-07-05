@@ -35,7 +35,5 @@ function PState_Falling(){
 		}
 	}
 	
-	if (key_atk and on_ground()) state = PSTATE.COMBO1;
-	
 	move_n_collide(collision_objects);
 }

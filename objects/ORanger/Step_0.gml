@@ -1,5 +1,13 @@
 //Step event
 
+turnTimer++;
+
+if (on_ground_specific(OEdge) and turnTimer >= room_speed * 2) {
+    moveDirection *= -1;
+    state = RSTATE.IDLE;
+	turnTimer = 0;
+}
+
 timer++;
 
 if (timer >= room_speed * 4) { // 4 seconds

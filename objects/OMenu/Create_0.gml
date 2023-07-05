@@ -20,5 +20,5 @@ menu[2] = "New game";
 menu[1] = "Load";
 menu[0] = "Exit";
 
-menu_items = array_length_1d(menu);
+menu_items = array_length(menu);
 menu_cursor = 2;

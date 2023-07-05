@@ -4,8 +4,8 @@ event_user(0);
 hsp = 0;
 vsp = 0; //vertical speed
 timer = 0;
-pre_edge = false;
 moveDirection = 1; // -1 for left, 1 for right
+turnTimer = 0;
 collision_objects = [Owall, OEdge];
 
 //Gravity Fall
@@ -24,7 +24,6 @@ state = FSTATE.IDLE;
 
 //Chase
 attacking = false;
-detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 
 enum FSTATE

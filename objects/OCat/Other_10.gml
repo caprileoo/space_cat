@@ -10,7 +10,7 @@ function move_n_collide(_obj) {
     var i;
     repeat(abs(hsp)) {
         var collision = false;
-        for (i = 0; i < array_length_1d(_obj); i++) {
+        for (i = 0; i < array_length(_obj); i++) {
             if (place_meeting(x + sign(hsp), y, _obj[i])) {
                 collision = true;
                 break;
@@ -26,7 +26,7 @@ function move_n_collide(_obj) {
 
     repeat(abs(vsp)) {
         var collision = false;
-        for (i = 0; i < array_length_1d(_obj); i++) {
+        for (i = 0; i < array_length(_obj); i++) {
             if (place_meeting(x, y + sign(vsp), _obj[i])) {
                 collision = true;
                 break;
@@ -63,16 +63,16 @@ function get_dir(){
 }
 
 function on_ground(){
-	return place_meeting(x,y + 1,Owall) or place_meeting(x, y + 1,OEdge);
+	return place_meeting(x,y + 1,Owall) or place_meeting(x, y + 1,OEdge) or place_meeting(x, y + 1,OCheesePlatform);
 }
 
 function check_jump(){
 	return key_jump and on_ground();
 }
 
-//function on_ground_specific(_obj){
-//	return place_meeting(x,y + 1,_obj);
-//}
+function on_ground_specific(_obj){
+	return place_meeting(x,y + 1,_obj);
+}
 	
 //function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {
 //    if (vsp > 0) {

@@ -5,8 +5,7 @@ event_user(0);
 //Physics
 hsp = 0;
 vsp = 0;
-pre_edge = false;
-edge_timer = 0;
+turnTimer = 0;
 collision_objects = [Owall, OEdge];
 
 //Gravity Fall
@@ -31,7 +30,6 @@ state = SSTATE.WALK;
 
 //Attack
 attacking = false;
-detectionRadius = 100;
 target = instance_nearest(x, y, OCat);
 
 enum SSTATE

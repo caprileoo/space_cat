@@ -25,7 +25,10 @@ function PState_Walk(){
 		state = PSTATE.FALLING;
 	} else pre_move = false;
 	
-	if (key_atk and on_ground()) state = PSTATE.COMBO1;
+	if (key_atk and on_ground()) {
+		atk_timer++;
+		state = PSTATE.COMBO1;
+	}
 	
 	move_n_collide(collision_objects);
 }
