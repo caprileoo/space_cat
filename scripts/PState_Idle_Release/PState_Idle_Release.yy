@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "PState_Charge",
+  "name": "PState_Idle_Release",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Attack",
-    "path": "folders/Scripts/Player States/Attack.yy",
+    "name": "Release",
+    "path": "folders/Scripts/Player States/Attack/Range/Release.yy",
   },
 }

@@ -54,8 +54,8 @@
   },
   "origin": 9,
   "parent": {
-    "name": "Cat",
-    "path": "folders/Sprites/Cat.yy",
+    "name": "Movement",
+    "path": "folders/Sprites/Cat/Movement.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

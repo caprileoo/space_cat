@@ -22,10 +22,6 @@ if(!key_plasma and ++reload_time = room_speed * 2){
 	if(energy >= max_energy) energy = max_energy;
 }
 
-if (key_plasma and on_ground()){
-	state = PSTATE.CHARGE;
-}
-
 if (on_ground_specific(cheese_platforms)) {
     if (++cheese_timer == room_speed * 3) {
         var platform = instance_place(x, y + 1, OCheeseMain);
@@ -40,6 +36,43 @@ if (on_ground_specific(cheese_platforms)) {
     cheese_timer = 0;
 }
 
+switch(state) {
+    case PSTATE.IDLE:
+        sprite_index = sCat;
+        break;
+    case PSTATE.WALK:
+        sprite_index = sCatRun;
+        break;
+    case PSTATE.RISING:
+        sprite_index = sCatAir;
+        if(vsp > -2){
+            sprite_index = SCatMidAir;
+        }
+        break;
+    case PSTATE.FALLING:
+        sprite_index = SCatFall;
+        break;
+    case PSTATE.IDLE_CHARGE:
+    case PSTATE.IDLE_RELEASE:
+        sprite_index = SCatShootIdle;
+        break;
+    case PSTATE.WALK_CHARGE:
+    case PSTATE.WALK_RELEASE:
+        sprite_index = SCatShootRun;
+        break;
+    case PSTATE.RISING_CHARGE:
+    case PSTATE.RISING_RELEASE:
+        sprite_index = SCatShootAir;
+        if(vsp > -2){
+            sprite_index = SCatShootMidAir;
+        }
+        break;
+    case PSTATE.FALLING_CHARGE:
+    case PSTATE.FALLING_RELEASE:
+        sprite_index = SCatShootFall;
+        break;
+}
+
 
 switch(state)
 {
@@ -47,14 +80,24 @@ switch(state)
 	case PSTATE.WALK: PState_Walk(); break;
 	case PSTATE.RISING: PState_Rising(); break;
 	case PSTATE.FALLING: PState_Falling(); break;
-	case PSTATE.CHARGE: PState_Charge(); break;
-	case PSTATE.RELEASE: PState_Release(); break;
+	
+	case PSTATE.IDLE_CHARGE: PState_Idle_Charge(); break;
+	case PSTATE.WALK_CHARGE: PState_Walk_Charge(); break;
+	case PSTATE.RISING_CHARGE: PState_Rising_Charge(); break;
+	case PSTATE.FALLING_CHARGE: PState_Falling_Charge(); break;
+	
+	case PSTATE.IDLE_RELEASE: PState_Idle_Release(); break;
+	case PSTATE.WALK_RELEASE: PState_Walk_Release(); break;
+	case PSTATE.RISING_RELEASE: PState_Rising_Release(); break;
+	case PSTATE.FALLING_RELEASE: PState_Falling_Release(); break;
+	
 	case PSTATE.COMBO1: PState_Atk_Slash1(); break;
 	case PSTATE.COMBO2: PState_Atk_Slash2(); break;
 	case PSTATE.COMBO3: PState_Atk_Slash3(); break;
+	
 	case PSTATE.MELEE1: PState_HitByMelee1(); break;
 	case PSTATE.MELEE2: PState_HitByMelee2(); break;
 	case PSTATE.SLIME: PState_HitBySlime(); break;
-	case PSTATE.DEAD: PState_Dead(); break;
 	case PSTATE.RANGER: PState_HitByRanger(); break;
+	case PSTATE.DEAD: PState_Dead(); break;
 }

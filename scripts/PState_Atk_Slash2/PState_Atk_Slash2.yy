@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Attack",
-    "path": "folders/Scripts/Player States/Attack.yy",
+    "name": "Melee",
+    "path": "folders/Scripts/Player States/Attack/Melee.yy",
   },
 }

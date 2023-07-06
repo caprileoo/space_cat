@@ -40,6 +40,9 @@ pre_move = false;
 pre_idle = false;
 
 //Plasma
+plasma_timer = 0;
+plasma_delay = 3;
+plasma_fired = false;
 plasma_charge_time = 0;
 energy = 100;
 max_energy = 100;
@@ -57,11 +60,17 @@ enum PSTATE
 	WALK,
 	RISING,
 	FALLING,
+	IDLE_CHARGE,
+	WALK_CHARGE,
+	RISING_CHARGE,
+	FALLING_CHARGE,
+	IDLE_RELEASE,
+	WALK_RELEASE,
+	RISING_RELEASE,
+	FALLING_RELEASE,
     COMBO1,
 	COMBO2,
 	COMBO3,
-	CHARGE,
-	RELEASE,
 	MELEE1,
 	MELEE2,
 	SLIME,

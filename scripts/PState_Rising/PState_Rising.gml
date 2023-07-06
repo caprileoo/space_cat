@@ -1,6 +1,4 @@
 function PState_Rising(){
-	
-	sprite_index = sCatAir;
 
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
@@ -15,13 +13,26 @@ function PState_Rising(){
 	}
 	
 	if(vsp >= 0){
-		sprite_index = SCatMidAir;
-		
-		if(animation_end(SCatMidAir, 2)){
-			image_index = 0;
-			state = PSTATE.FALLING;
-		}
+		image_index = 0;
+		state = PSTATE.FALLING;
 	}
+	
+	if (key_plasma){
+		
+        if (!plasma_fired) {
+            plasma_timer++;
+        }
+		
+        if (plasma_timer >= plasma_delay) {
+            state = PSTATE.RISING_CHARGE;
+            plasma_timer = 0;
+            plasma_fired = true;
+        }
+		
+    } else {
+        plasma_fired = false; // Reset boolean variable when key is released
+        plasma_timer = 0; // Reset timer when key is released
+    }
 	
 	move_n_collide(collision_objects);
 }

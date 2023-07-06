@@ -1,6 +1,7 @@
-function PState_Falling(){
-	
+function PState_Falling_Charge(){
 	var move = key_right - key_left;
+	plasma_charge_time++;
+	
 	if (move != 0) image_xscale = move;
 	
 	if (pre_move == true or pre_idle = true){
@@ -9,7 +10,7 @@ function PState_Falling(){
 			pre_move = false;
 			pre_idle = false;
 			can_jump_timer = 0;
-			state = PSTATE.RISING;
+			state = PSTATE.RISING_CHARGE;
 		}
 	}
 
@@ -26,29 +27,16 @@ function PState_Falling(){
 			hsp = 0;
 			vsp = 0;
 			image_index = 0;
-			state = PSTATE.IDLE;
+			state = PSTATE.IDLE_CHARGE;
 		} else {
 			image_index = 0;
-			state = PSTATE.WALK;
+			state = PSTATE.WALK_CHARGE;
 		}
 	}
 	
-	if (key_plasma){
-		
-        if (!plasma_fired) {
-            plasma_timer++;
-        }
-		
-        if (plasma_timer >= plasma_delay) {
-            state = PSTATE.FALLING_CHARGE;
-            plasma_timer = 0;
-            plasma_fired = true;
-        }
-		
-    } else {
-        plasma_fired = false; // Reset boolean variable when key is released
-        plasma_timer = 0; // Reset timer when key is released
-    }
+	if (!key_plasma){
+		state = PSTATE.FALLING_RELEASE;
+	}
 	
 	move_n_collide(collision_objects);
 }
