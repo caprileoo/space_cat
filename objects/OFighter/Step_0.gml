@@ -19,6 +19,10 @@ if (timer >= room_speed * 4) { // 4 seconds
     timer = 0;
 }
 
+if(state != FSTATE.ATK){
+	attacking = false;
+}
+
 if (abs(target.x - x) <= 120 and abs(target.y - y) <= 40 and on_ground() and state != FSTATE.HIT and state != FSTATE.DEAD) {
 	if (abs(target.x - x) <= 10) {
 		hsp = 0;
@@ -27,7 +31,6 @@ if (abs(target.x - x) <= 120 and abs(target.y - y) <= 40 and on_ground() and sta
 		state = FSTATE.CHASE;
 	}
 } else if ((abs(target.x - x) > 120 or abs(target.y - y) > 40) and (state == FSTATE.CHASE or state == FSTATE.ATK)) {
-	attacking = false;
     state = FSTATE.IDLE;
 }
 
