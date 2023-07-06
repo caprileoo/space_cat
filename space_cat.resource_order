@@ -2,5 +2,8 @@
   "FolderOrderSettings": [
     {"name":"Bullets","order":1,"path":"folders/Sprites/Items/Bullets.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
+    {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
+  ],
 }
