@@ -2,7 +2,7 @@
 
 turnTimer++;
 
-if (on_ground_specific(OEdge) and turnTimer >= room_speed * 2) {
+if (on_ground_specific(turn_objects) and turnTimer >= room_speed * 2) {
     moveDirection *= -1;
     state = FSTATE.IDLE;
 	turnTimer = 0;

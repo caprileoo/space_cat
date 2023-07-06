@@ -2,7 +2,7 @@
 
 turnTimer++;
 
-if (on_ground_specific(OEdge) and turnTimer >= room_speed * 2) {
+if (on_ground_specific(turn_objects) and turnTimer >= room_speed * 2) {
     moveDirection *= -1;
     state = SSTATE.IDLE;
 	turnTimer = 0;
@@ -19,7 +19,7 @@ if (timer >= room_speed * 4) { // 4 seconds
     timer = 0;
 }
 
-if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and on_ground() and state != SSTATE.HIT and state != SSTATE.DEAD) {
+if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and on_ground() and !on_ground_specific(turn_objects) and state != SSTATE.HIT and state != SSTATE.DEAD) {
 	if (abs(target.x - x) <= 12) {
 		attacking = true;
 		hsp = 0;

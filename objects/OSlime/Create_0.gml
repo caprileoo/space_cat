@@ -1,12 +1,16 @@
-//Create Event
-
 event_user(0);
+
+//Array declare
+collision_objects = [Owall, OEdge, OCheeseMain];
+on_ground_objects = [Owall, OEdge, OCheeseMain];
+hit_wall_objects = [Owall];
+turn_objects = [OEdge];
+
 
 //Physics
 hsp = 0;
 vsp = 0;
 turnTimer = 0;
-collision_objects = [Owall, OEdge];
 
 //Gravity Fall
 j_height = 48;

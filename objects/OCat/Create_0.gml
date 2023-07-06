@@ -4,6 +4,7 @@ hascontrol = true;
 //Array declare
 collision_objects = [Owall, OEdge, OCheeseMain];
 on_ground_objects = [Owall, OEdge, OCheeseMain];
+hit_wall_objects = [Owall];
 cheese_platforms = [OCheeseMain];
 
 /**Physics**/

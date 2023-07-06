@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cheese Platform",
-    "path": "folders/Objects/Functional/Cheese Platform.yy",
+    "name": "Functional",
+    "path": "folders/Objects/Functional.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -2,7 +2,7 @@
 
 turnTimer++;
 
-if (on_ground_specific(OEdge) and turnTimer >= room_speed * 2) {
+if (on_ground_specific(turn_objects) and turnTimer >= room_speed * 2) {
     moveDirection *= -1;
     state = RSTATE.IDLE;
 	turnTimer = 0;
@@ -19,7 +19,7 @@ if (timer >= room_speed * 4) { // 4 seconds
     timer = 0;
 }
 
-if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and state != RSTATE.HIT and state != RSTATE.DEAD and on_ground()) {
+if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and state != RSTATE.HIT and state != RSTATE.DEAD and on_ground() and !on_ground_specific(turn_objects)) {
     hsp = 0;
     state = RSTATE.ATK;
 } else if ((abs(target.x - x) > 100 or abs(target.y - y) > 50) and state == RSTATE.ATK) {

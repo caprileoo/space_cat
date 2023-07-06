@@ -41,8 +41,22 @@ function move_n_collide(_obj) {
     }
 }
 
+function hitwall_specific(_objs){
+    for (var i = 0; i < array_length(_objs); i++) {
+        if (place_meeting(x + hsp, y, _objs[i])) {
+            return true;
+        }
+    }
+    return false;
+}
+
 function hitwall(){
-	return place_meeting(x + 1, y, Owall);
+    for (var i = 0; i < array_length(hit_wall_objects); i++) {
+        if (place_meeting(x + 1, y, hit_wall_objects[i])) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function moving(){

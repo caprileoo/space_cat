@@ -1,19 +1,39 @@
 //User Event
 
-//function hitwall_specific(_obj){
-//	return place_meeting(x + hsp, y, _obj);
-//}
+function hitwall(){
+    for (var i = 0; i < array_length(hit_wall_objects); i++) {
+        if (place_meeting(x + 1, y, hit_wall_objects[i])) {
+            return true;
+        }
+    }
+    return false;
+}
 
-function on_ground_specific(_obj){
-	return place_meeting(x,y + 1,_obj);
+function hitwall_specific(_objs){
+    for (var i = 0; i < array_length(_objs); i++) {
+        if (place_meeting(x + 1, y, _objs[i])) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function on_ground(){
-	return place_meeting(x,y + 1,Owall);
+    for (var i = 0; i < array_length(on_ground_objects); i++) {
+        if (place_meeting(x, y + 1, on_ground_objects[i])) {
+            return true;
+        }
+    }
+    return false;
 }
 
-function hitwall(){
-	return place_meeting(x + hsp, y, Owall);
+function on_ground_specific(_objs) {
+    for (var i = 0; i < array_length(_objs); i++) {
+        if (place_meeting(x, y + 1, _objs[i])) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function move_n_collide(_obj){	

@@ -1,9 +1,12 @@
-//Create event
-
 event_user(0);
 
+//Array declare
+collision_objects = [Owall, OEdge, OCheeseMain];
+on_ground_objects = [Owall, OEdge, OCheeseMain];
+hit_wall_objects = [Owall];
+turn_objects = [OEdge];
+
 //Movement
-collision_objects = [Owall, OEdge];
 hsp = 0;
 vsp = 0; //vertical speed
 moveDirection = 1; // -1 for left, 1 for right
