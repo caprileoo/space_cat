@@ -19,15 +19,14 @@ if (timer >= room_speed * 4) { // 4 seconds
     timer = 0;
 }
 
-if (abs(target.x - x) <= 100 and abs(target.y - y) <= 50 and on_ground() and !on_ground_specific(turn_objects) and state != SSTATE.HIT and state != SSTATE.DEAD) {
-	if (abs(target.x - x) <= 12) {
-		attacking = true;
+if (abs(target.x - x) <= 120 and abs(target.y - y) <= 50 and on_ground() and state != SSTATE.HIT and state != SSTATE.DEAD) {
+	if (abs(target.x - x) <= 10) {
 		hsp = 0;
 	    state = SSTATE.ATK;
-	} else if (abs(target.x - x) > 12 and attacking == false){
+	} else if (abs(target.x - x) > 10 and attacking == false){
 		state = SSTATE.CHASE;
 	}
-} else if ((abs(target.x - x) > 100 or abs(target.y - y) > 50) and (state == SSTATE.CHASE or state == SSTATE.ATK)) {
+} else if ((abs(target.x - x) > 120 or abs(target.y - y) > 50) and (state == SSTATE.CHASE or state == SSTATE.ATK)) {
 	attacking = false;
     state = SSTATE.IDLE;
 }
