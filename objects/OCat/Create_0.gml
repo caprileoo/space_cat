@@ -1,8 +1,12 @@
 event_user(0);
 hascontrol = true;
 
+//Array declare
+collision_objects = [Owall, OEdge, OCheeseMain];
+on_ground_objects = [Owall, OEdge, OCheeseMain];
+cheese_platforms = [OCheeseMain];
+
 /**Physics**/
-collision_objects = [Owall, OEdge, OCheesePlatform];
 dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed

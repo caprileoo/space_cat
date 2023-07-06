@@ -63,15 +63,25 @@ function get_dir(){
 }
 
 function on_ground(){
-	return place_meeting(x,y + 1,Owall) or place_meeting(x, y + 1,OEdge) or place_meeting(x, y + 1,OCheesePlatform);
+    for (var i = 0; i < array_length(on_ground_objects); i++) {
+        if (place_meeting(x, y + 1, on_ground_objects[i])) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function on_ground_specific(_objs) {
+    for (var i = 0; i < array_length(_objs); i++) {
+        if (place_meeting(x, y + 1, _objs[i])) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function check_jump(){
 	return key_jump and on_ground();
-}
-
-function on_ground_specific(_obj){
-	return place_meeting(x,y + 1,_obj);
 }
 	
 //function apply_fall_damage(_max_fall_speed, _fall_damage_rate) {

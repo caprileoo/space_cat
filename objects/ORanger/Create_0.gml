@@ -25,7 +25,6 @@ hp = 20;
 //State Manager
 state = RSTATE.WALK;
 timer = 0;
-pre_edge = false;
 
 //Attack
 target = instance_nearest(x, y, OCat);

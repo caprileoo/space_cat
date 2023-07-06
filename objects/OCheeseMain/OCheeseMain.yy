@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OCheesePlatform",
+  "name": "OCheeseMain",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Functional",
-    "path": "folders/Objects/Functional.yy",
+    "name": "Cheese Platform",
+    "path": "folders/Objects/Functional/Cheese Platform.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,13 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SCheesePlatform",
-    "path": "sprites/SCheesePlatform/SCheesePlatform.yy",
-  },
-  "spriteMaskId": {
-    "name": "SCheesePlatform",
-    "path": "sprites/SCheesePlatform/SCheesePlatform.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }
