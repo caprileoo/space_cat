@@ -41,7 +41,7 @@ pre_idle = false;
 
 //Plasma
 plasma_timer = 0;
-plasma_delay = 3;
+plasma_delay = 0;
 plasma_fired = false;
 plasma_charge_time = 0;
 energy = 100;
