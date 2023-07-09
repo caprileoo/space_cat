@@ -26,7 +26,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e42a534d-9ff3-4e07-b501-dcbdf9cd6353","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 9,
   "parent": {
     "name": "Bullets",
     "path": "folders/Sprites/Items/Bullets.yy",
@@ -66,7 +66,7 @@
     "visibleRange": null,
     "volume": 1.0,
     "xorigin": 8,
-    "yorigin": 8,
+    "yorigin": 10,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
