@@ -114,6 +114,7 @@
     {"id":{"name":"SForestTiles","path":"sprites/SForestTiles/SForestTiles.yy",},},
     {"id":{"name":"SBigPlasma","path":"sprites/SBigPlasma/SBigPlasma.yy",},},
     {"id":{"name":"FMouseCorpse","path":"sprites/FMouseCorpse/FMouseCorpse.yy",},},
+    {"id":{"name":"TestGround_beta","path":"rooms/TestGround_beta/TestGround_beta.yy",},},
     {"id":{"name":"SCatShootIdle","path":"sprites/SCatShootIdle/SCatShootIdle.yy",},},
     {"id":{"name":"OMenu","path":"objects/OMenu/OMenu.yy",},},
     {"id":{"name":"SSlimeDed","path":"sprites/SSlimeDed/SSlimeDed.yy",},},
@@ -233,6 +234,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
     {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
+    {"roomId":{"name":"TestGround_beta","path":"rooms/TestGround_beta/TestGround_beta.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
