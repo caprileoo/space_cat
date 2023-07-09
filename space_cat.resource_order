@@ -20,6 +20,7 @@
     {"name":"PState_Falling_Charge","order":4,"path":"scripts/PState_Falling_Charge/PState_Falling_Charge.yy",},
     {"name":"SCatMidAir","order":3,"path":"sprites/SCatMidAir/SCatMidAir.yy",},
     {"name":"sCatRun","order":4,"path":"sprites/sCatRun/sCatRun.yy",},
+    {"name":"SCheesePlatSmall","order":1,"path":"sprites/SCheesePlatSmall/SCheesePlatSmall.yy",},
     {"name":"SCatShootRun","order":4,"path":"sprites/SCatShootRun/SCatShootRun.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
