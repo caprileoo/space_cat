@@ -181,7 +181,6 @@
     {"id":{"name":"SForestTileBox","path":"sprites/SForestTileBox/SForestTileBox.yy",},},
     {"id":{"name":"SCatDed","path":"sprites/SCatDed/SCatDed.yy",},},
     {"id":{"name":"PState_Rising","path":"scripts/PState_Rising/PState_Rising.yy",},},
-    {"id":{"name":"SGun","path":"sprites/SGun/SGun.yy",},},
     {"id":{"name":"PState_Idle_Charge","path":"scripts/PState_Idle_Charge/PState_Idle_Charge.yy",},},
     {"id":{"name":"OCat","path":"objects/OCat/OCat.yy",},},
     {"id":{"name":"PState_Idle","path":"scripts/PState_Idle/PState_Idle.yy",},},
