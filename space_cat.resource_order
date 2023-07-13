@@ -23,6 +23,7 @@
     {"name":"sCatRun","order":4,"path":"sprites/sCatRun/sCatRun.yy",},
     {"name":"SCheesePlatSmall","order":1,"path":"sprites/SCheesePlatSmall/SCheesePlatSmall.yy",},
     {"name":"SCatShootRun","order":4,"path":"sprites/SCatShootRun/SCatShootRun.yy",},
+    {"name":"Level_King_Cheese_Slime","order":2,"path":"rooms/Level_King_Cheese_Slime/Level_King_Cheese_Slime.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
     {"name":"SCatShootFall","order":1,"path":"sprites/SCatShootFall/SCatShootFall.yy",},
@@ -35,6 +36,7 @@
     {"name":"PState_Rising_Release","order":2,"path":"scripts/PState_Rising_Release/PState_Rising_Release.yy",},
     {"name":"sCatAir","order":1,"path":"sprites/sCatAir/sCatAir.yy",},
     {"name":"PState_Atk_Slash2","order":1,"path":"scripts/PState_Atk_Slash2/PState_Atk_Slash2.yy",},
+    {"name":"SPlasmaExplode","order":3,"path":"sprites/SPlasmaExplode/SPlasmaExplode.yy",},
     {"name":"SCatSlash2","order":1,"path":"sprites/SCatSlash2/SCatSlash2.yy",},
   ],
 }
