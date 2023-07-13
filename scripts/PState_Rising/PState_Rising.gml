@@ -13,7 +13,7 @@ function PState_Rising(){
 	}
 	
 	if(vsp >= 0){
-		image_index = 0;
+		//image_index = 0;
 		state = PSTATE.FALLING;
 	}
 	
@@ -24,7 +24,7 @@ function PState_Rising(){
         }
 		
         if (plasma_timer >= plasma_delay) {
-            state = PSTATE.RISING_CHARGE;
+            state = PSTATE.FALLING_CHARGE;
             plasma_timer = 0;
             plasma_fired = true;
         }

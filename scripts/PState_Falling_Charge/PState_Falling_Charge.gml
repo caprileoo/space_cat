@@ -26,10 +26,10 @@ function PState_Falling_Charge(){
 		if(move == 0){
 			hsp = 0;
 			vsp = 0;
-			image_index = 0;
+			//image_index = 0;
 			state = PSTATE.IDLE_CHARGE;
 		} else {
-			image_index = 0;
+			//image_index = 0;
 			state = PSTATE.WALK_CHARGE;
 		}
 	}

@@ -3,7 +3,7 @@ function PState_Idle(){
 	var move = key_right - key_left;
 	
 	if(move != 0){
-		image_index = 0;
+		//image_index = 0;
 		state = PSTATE.WALK;
 	}
 	
@@ -13,7 +13,7 @@ function PState_Idle(){
 	}
 	
 	if(!on_ground()){
-		image_index = 0;
+		//image_index = 0;
 		pre_idle = true;
 		state = PSTATE.FALLING;
 	} else pre_idle = false;
@@ -30,9 +30,7 @@ function PState_Idle(){
         }
 		
         if (plasma_timer >= plasma_delay) {
-			hsp = 0;
-			vsp = 0;
-            state = PSTATE.IDLE_CHARGE;
+            state = PSTATE.FALLING_CHARGE;
             plasma_timer = 0;
             plasma_fired = true;
         }

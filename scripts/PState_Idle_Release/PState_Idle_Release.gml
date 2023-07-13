@@ -1,5 +1,4 @@
 function PState_Idle_Release(){
-	
 	get_dir();
 	var offset_x = 20;
 	if(dir == 180){

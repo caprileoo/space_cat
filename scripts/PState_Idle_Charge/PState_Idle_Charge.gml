@@ -3,7 +3,7 @@ function PState_Idle_Charge(){
 	plasma_charge_time++;
 	
 	if(move != 0){
-		image_index = 0;
+		//image_index = 0;
 		state = PSTATE.WALK_CHARGE;
 	}
 	
@@ -13,7 +13,7 @@ function PState_Idle_Charge(){
 	}
 	
 	if(!on_ground()){
-		image_index = 0;
+		//image_index = 0;
 		pre_idle = true;
 		state = PSTATE.FALLING_CHARGE;
 	} else pre_idle = false;

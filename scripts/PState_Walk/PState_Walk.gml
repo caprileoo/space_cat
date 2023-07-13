@@ -18,7 +18,7 @@ function PState_Walk(){
 	}
 	
 	if(!on_ground()){
-		image_index = 0;
+		//image_index = 0;
 		pre_move = true;
 		state = PSTATE.FALLING;
 	} else pre_move = false;
@@ -35,7 +35,7 @@ function PState_Walk(){
         }
 		
         if (plasma_timer >= plasma_delay) {
-            state = PSTATE.WALK_CHARGE;
+            state = PSTATE.FALLING_CHARGE;
             plasma_timer = 0;
             plasma_fired = true;
         }

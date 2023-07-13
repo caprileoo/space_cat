@@ -5,7 +5,7 @@ function PState_Walk_Charge(){
 	if(move == 0 and hsp == 0){
 		hsp = 0;
 		vsp = 0;
-		image_index = 0;
+		//image_index = 0;
 		state = PSTATE.IDLE_CHARGE;
 	}
 	
@@ -18,7 +18,7 @@ function PState_Walk_Charge(){
 	}
 	
 	if(!on_ground()){
-		image_index = 0;
+		//image_index = 0;
 		pre_move = true;
 		state = PSTATE.FALLING_CHARGE;
 	} else pre_move = false;

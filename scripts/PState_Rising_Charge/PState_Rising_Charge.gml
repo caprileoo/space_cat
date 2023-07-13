@@ -14,7 +14,7 @@ function PState_Rising_Charge(){
 	}
 	
 	if(vsp >= 0){
-		image_index = 0;
+		//image_index = 0;
 		state = PSTATE.FALLING_CHARGE;
 	}
 	
