@@ -4,12 +4,12 @@
     {"name":"Range","order":2,"path":"folders/Scripts/Player States/Attack/Range.yy",},
     {"name":"Charge","order":2,"path":"folders/Scripts/Player States/Attack/Range/Charge.yy",},
     {"name":"Release","order":3,"path":"folders/Scripts/Player States/Attack/Range/Release.yy",},
+    {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
     {"name":"Melee","order":2,"path":"folders/Sprites/Cat/Melee.yy",},
     {"name":"Movement","order":3,"path":"folders/Sprites/Cat/Movement.yy",},
     {"name":"Shoot","order":1,"path":"folders/Sprites/Cat/Shoot.yy",},
     {"name":"Status","order":4,"path":"folders/Sprites/Cat/Status.yy",},
     {"name":"Bullets","order":1,"path":"folders/Sprites/Items/Bullets.yy",},
-    {"name":"Backgrounds","order":1,"path":"folders/Sprites/Backgrounds.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"PState_Atk_Slash3","order":2,"path":"scripts/PState_Atk_Slash3/PState_Atk_Slash3.yy",},
