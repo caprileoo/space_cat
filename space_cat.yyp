@@ -141,6 +141,7 @@
     {"id":{"name":"FState_Walk","path":"scripts/FState_Walk/FState_Walk.yy",},},
     {"id":{"name":"Level_King_Cheese_Slime","path":"rooms/Level_King_Cheese_Slime/Level_King_Cheese_Slime.yy",},},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},},
+    {"id":{"name":"SBigPlasma66","path":"sprites/SBigPlasma66/SBigPlasma66.yy",},},
     {"id":{"name":"SSlimeMove","path":"sprites/SSlimeMove/SSlimeMove.yy",},},
     {"id":{"name":"SCheesePlasma","path":"sprites/SCheesePlasma/SCheesePlasma.yy",},},
     {"id":{"name":"PState_Dead","path":"scripts/PState_Dead/PState_Dead.yy",},},
