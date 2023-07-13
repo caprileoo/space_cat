@@ -1,6 +1,5 @@
 function PState_Falling_Release(){
 	
-	sprite_index = SCatShootFall
 	plasma_using = true;
 	
 	get_dir();

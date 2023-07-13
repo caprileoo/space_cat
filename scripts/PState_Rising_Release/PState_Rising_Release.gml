@@ -1,11 +1,6 @@
 function PState_Rising_Release(){
 	
-	sprite_index = SCatShootAir
 	plasma_using = true;
-	
-	if(vsp > -2){
-		sprite_index = SCatShootMidAir;
-	}
 	
 	get_dir();
 	var offset_x = 20;

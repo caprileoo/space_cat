@@ -49,6 +49,37 @@ if(plasma_using = true and !key_atk){
 	plasma_hold++;
 }
 
+if(sprite_index = sCat){
+	show_debug_message("idle");
+}
+if(sprite_index = sCatAir){
+	show_debug_message("air");
+}
+if(sprite_index = SCatFall){
+	show_debug_message("fall");
+}
+if(sprite_index = SCatMidAir){
+	show_debug_message("mid air");
+}
+if(sprite_index = sCatRun){
+	show_debug_message("run");
+}
+if(sprite_index = SCatShootAir){
+	show_debug_message("gun air");
+}
+if(sprite_index = SCatShootFall){
+	show_debug_message("gun fall");
+}
+if(sprite_index = SCatShootIdle){
+	show_debug_message("gun idle");
+}
+if(sprite_index = SCatShootMidAir){
+	show_debug_message("gun mid air");
+}
+if(sprite_index = SCatShootRun){
+	show_debug_message("gun run");
+}
+
 switch(state)
 {
 	case PSTATE.IDLE: PState_Idle(); break;

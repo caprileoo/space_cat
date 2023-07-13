@@ -1,6 +1,5 @@
 function PState_Walk_Release(){
 	
-	sprite_index = SCatShootRun
 	plasma_using = true;
 	
 	get_dir();

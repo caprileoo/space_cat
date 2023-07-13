@@ -1,6 +1,5 @@
 function PState_Idle_Release(){
 	
-	sprite_index = SCatShootIdle;
 	plasma_using = true;
 	
 	get_dir();

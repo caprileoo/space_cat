@@ -2,7 +2,9 @@ function PState_Walk(){
 	
 	if(plasma_using){
 		sprite_index = SCatShootRun;
-	} else sprite_index = sCatRun;
+	} else {
+		sprite_index = sCatRun;
+	}
 	
 	var move = key_right - key_left;
 	
