@@ -1,4 +1,8 @@
 function PState_Idle_Release(){
+	
+	sprite_index = SCatShootIdle;
+	plasma_using = true;
+	
 	get_dir();
 	var offset_x = 20;
 	if(dir == 180){

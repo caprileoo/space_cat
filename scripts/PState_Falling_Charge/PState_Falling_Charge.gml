@@ -1,4 +1,7 @@
 function PState_Falling_Charge(){
+	
+	sprite_index = SCatShootFall;
+	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	
@@ -26,10 +29,8 @@ function PState_Falling_Charge(){
 		if(move == 0){
 			hsp = 0;
 			vsp = 0;
-			//image_index = 0;
 			state = PSTATE.IDLE_CHARGE;
 		} else {
-			//image_index = 0;
 			state = PSTATE.WALK_CHARGE;
 		}
 	}

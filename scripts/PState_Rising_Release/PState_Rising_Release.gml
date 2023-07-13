@@ -1,4 +1,8 @@
 function PState_Rising_Release(){
+	
+	sprite_index = SCatShootAir
+	plasma_using = true;
+	
 	get_dir();
 	var offset_x = 20;
 	if(dir == 180){

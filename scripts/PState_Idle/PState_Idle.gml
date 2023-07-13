@@ -1,9 +1,12 @@
 function PState_Idle(){
 	
+	if(plasma_using){
+		sprite_index = SCatShootIdle;
+	} else sprite_index = sCat;
+	
 	var move = key_right - key_left;
 	
 	if(move != 0){
-		//image_index = 0;
 		state = PSTATE.WALK;
 	}
 	
@@ -13,7 +16,6 @@ function PState_Idle(){
 	}
 	
 	if(!on_ground()){
-		//image_index = 0;
 		pre_idle = true;
 		state = PSTATE.FALLING;
 	} else pre_idle = false;

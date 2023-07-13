@@ -1,4 +1,8 @@
 function PState_Rising(){
+	
+	if(plasma_using){
+		sprite_index = SCatShootAir;
+	} else sprite_index = sCatAir;
 
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
@@ -13,7 +17,6 @@ function PState_Rising(){
 	}
 	
 	if(vsp >= 0){
-		//image_index = 0;
 		state = PSTATE.FALLING;
 	}
 	

@@ -1,4 +1,7 @@
 function PState_Rising_Charge(){
+	
+	sprite_index = SCatShootAir;
+	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	
@@ -14,7 +17,6 @@ function PState_Rising_Charge(){
 	}
 	
 	if(vsp >= 0){
-		//image_index = 0;
 		state = PSTATE.FALLING_CHARGE;
 	}
 	

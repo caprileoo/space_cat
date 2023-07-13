@@ -36,43 +36,18 @@ if (on_ground_specific(cheese_platforms)) {
     cheese_timer = 0;
 }
 
-switch(state) {
-    case PSTATE.IDLE:
-        sprite_index = sCat;
-        break;
-    case PSTATE.WALK:
-        sprite_index = sCatRun;
-        break;
-    case PSTATE.RISING:
-        sprite_index = sCatAir;
-        if(vsp > -2){
-            sprite_index = SCatMidAir;
-        }
-        break;
-    case PSTATE.FALLING:
-        sprite_index = SCatFall;
-        break;
-    case PSTATE.IDLE_CHARGE:
-    case PSTATE.IDLE_RELEASE:
-        sprite_index = SCatShootIdle;
-        break;
-    case PSTATE.WALK_CHARGE:
-    case PSTATE.WALK_RELEASE:
-        sprite_index = SCatShootRun;
-        break;
-    case PSTATE.RISING_CHARGE:
-    case PSTATE.RISING_RELEASE:
-        sprite_index = SCatShootAir;
-        if(vsp > -2){
-            sprite_index = SCatShootMidAir;
-        }
-        break;
-    case PSTATE.FALLING_CHARGE:
-    case PSTATE.FALLING_RELEASE:
-        sprite_index = SCatShootFall;
-        break;
+if(key_atk){
+	plasma_using = false;
 }
 
+if(plasma_hold == room_speed * 1 and !key_atk){
+	plasma_using = false;
+	plasma_hold = 0;
+}
+
+if(plasma_using = true and !key_atk){
+	plasma_hold++;
+}
 
 switch(state)
 {

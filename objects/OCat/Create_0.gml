@@ -40,6 +40,8 @@ pre_move = false;
 pre_idle = false;
 
 //Plasma
+plasma_using = false;
+plasma_hold = 0;
 plasma_timer = 0;
 plasma_delay = 0;
 plasma_fired = false;

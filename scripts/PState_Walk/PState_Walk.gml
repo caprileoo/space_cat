@@ -1,11 +1,14 @@
 function PState_Walk(){
 	
+	if(plasma_using){
+		sprite_index = SCatShootRun;
+	} else sprite_index = sCatRun;
+	
 	var move = key_right - key_left;
 	
 	if(move == 0 and hsp == 0){
 		hsp = 0;
 		vsp = 0;
-		image_index = 0;
 		state = PSTATE.IDLE;
 	}
 	
@@ -18,7 +21,6 @@ function PState_Walk(){
 	}
 	
 	if(!on_ground()){
-		//image_index = 0;
 		pre_move = true;
 		state = PSTATE.FALLING;
 	} else pre_move = false;
