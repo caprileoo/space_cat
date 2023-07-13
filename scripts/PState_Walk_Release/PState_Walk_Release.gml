@@ -12,7 +12,7 @@ function PState_Walk_Release(){
 			energy -= 2;
 			
 			plasma.direction = dir;
-			plasma.speed = 3;
+			plasma.speed = 5;
 			plasma_charge_time = 0;
 		} 
 		else if (energy >= 1) {
@@ -20,7 +20,7 @@ function PState_Walk_Release(){
 			energy -= 1;
 			
 			plasma.direction = dir;
-			plasma.speed = 5;
+			plasma.speed = 7;
 			plasma_charge_time = 0;
 		} 
 	}

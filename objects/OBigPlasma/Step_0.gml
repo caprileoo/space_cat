@@ -26,3 +26,10 @@ if (place_meeting(x,y,ORanger)) {
 	// Destroy the bullet instance
 	instance_destroy();
 }
+
+distanceTraveled += abs(speed * cos(degtorad(direction)));
+
+if(distanceTraveled >= 250){
+	distanceTraveled = 0;
+	instance_destroy();
+}
