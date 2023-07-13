@@ -32,7 +32,7 @@ function PState_Idle(){
         }
 		
         if (plasma_timer >= plasma_delay) {
-            state = PSTATE.FALLING_CHARGE;
+            state = PSTATE.IDLE_CHARGE;
             plasma_timer = 0;
             plasma_fired = true;
         }

@@ -37,7 +37,7 @@ function PState_Rising(){
         }
 		
         if (plasma_timer >= plasma_delay) {
-            state = PSTATE.FALLING_CHARGE;
+            state = PSTATE.RISING_CHARGE;
             plasma_timer = 0;
             plasma_fired = true;
         }
