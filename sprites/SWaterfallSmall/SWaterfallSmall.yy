@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite68",
-  "bbox_bottom": 15,
+  "name": "SWaterfallSmall",
+  "bbox_bottom": 47,
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1810959f-7fa0-451e-a530-dd75cf2e811f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f3bf6eef-a1ed-44ba-b9c3-c031c2db5ac8",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 48,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9820c5a0-61f8-4aec-ad50-27fb08ca4020","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bec39362-11e0-4faf-82fc-1940b23ea6a2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Funcionals",
-    "path": "folders/Sprites/Funcionals.yy",
+    "name": "Decos",
+    "path": "folders/Sprites/Decos.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite68",
+    "name": "SWaterfallSmall",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1810959f-7fa0-451e-a530-dd75cf2e811f","path":"sprites/Sprite68/Sprite68.yy",},},},"Disabled":false,"id":"285f8b6c-fdfc-4ca5-9c17-6231dd4255dd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f3bf6eef-a1ed-44ba-b9c3-c031c2db5ac8","path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},},},"Disabled":false,"id":"24efb5b9-f6fc-498a-a828-a35500c6ccba","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
