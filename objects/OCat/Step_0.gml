@@ -15,6 +15,18 @@ else {
 	key_plasma = 0
 }
 
+if(place_meeting(x, y, obj_spikes)){
+	state = PSTATE.DEAD;
+}
+
+if(place_meeting(x, y, OWaterfallSmall)){
+	vsp = 0.8;
+	hsp *= 0.6;
+	if(key_jump){
+		vsp -= 3;
+	}
+}
+
 
 if(!key_plasma and ++reload_time = room_speed * 2){
 	energy += 1;

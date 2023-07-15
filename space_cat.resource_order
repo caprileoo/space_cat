@@ -35,7 +35,7 @@
     {"name":"SCheesePlatSmall","order":1,"path":"sprites/SCheesePlatSmall/SCheesePlatSmall.yy",},
     {"name":"SCatShootRun","order":4,"path":"sprites/SCatShootRun/SCatShootRun.yy",},
     {"name":"Level_King_Cheese_Slime","order":2,"path":"rooms/Level_King_Cheese_Slime/Level_King_Cheese_Slime.yy",},
-    {"name":"SBigPlasma66","order":4,"path":"sprites/SBigPlasma66/SBigPlasma66.yy",},
+    {"name":"SBigPlasmaExplode","order":4,"path":"sprites/SBigPlasmaExplode/SBigPlasmaExplode.yy",},
     {"name":"Sprite68","order":6,"path":"sprites/Sprite68/Sprite68.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"Sedge","order":2,"path":"sprites/Sedge/Sedge.yy",},
