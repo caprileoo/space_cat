@@ -1,10 +1,8 @@
 if (place_meeting(x,y,OCat)) {
-	RangerProcessAttack(SCheesePlasma,SCheesePlasmaHB);
+	RangerProcessAttack(SBigPlasmaExplode,SCheesePlasmaHB);
 	if (animation_end())
 	{
-		hsp = 0;
-		vsp = 0;
+		speed = 0;
+		instance_destroy();
 	}
-	// Destroy the bullet instance
-	instance_destroy();
 } 

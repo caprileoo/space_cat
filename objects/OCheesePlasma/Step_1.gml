@@ -1,8 +1,12 @@
 distanceTraveled += abs(speed * cos(degtorad(direction)));
 
-if (distanceTraveled >= 100) {
-	distanceTraveled = 0;
-    instance_destroy();
+for (var i = 0; i < array_length(collision_objects); i++) {
+    if (place_meeting(x, y, collision_objects[i])) {
+        collision = true;
+        break;
+    }
 }
 
-if (place_meeting(x,y,Owall) or place_meeting(x,y,OEdge)) instance_destroy();
+if (distanceTraveled >= 100 || collision) {
+    kaboom();
+}

@@ -53,5 +53,22 @@ function PState_Walk_Release(){
 		state = PSTATE.FALLING;
 	} else pre_move = false;
 	
+	if (key_plasma){
+		
+        if (!plasma_fired) {
+            plasma_timer++;
+        }
+		
+        if (plasma_timer >= plasma_delay) {
+            state = PSTATE.WALK_CHARGE;
+            plasma_timer = 0;
+            plasma_fired = true;
+        }
+		
+    } else {
+        plasma_fired = false; // Reset boolean variable when key is released
+        plasma_timer = 0; // Reset timer when key is released
+    }
+	
 	move_n_collide(collision_objects);
 }

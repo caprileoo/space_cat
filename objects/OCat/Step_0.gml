@@ -1,4 +1,4 @@
-if(hp < 0) hp = 0;
+#region Game Settings
 
 if(hascontrol) {
 	key_left = keyboard_check(vk_left) or keyboard_check(ord("A")); //Hold
@@ -15,6 +15,10 @@ else {
 	key_plasma = 0
 }
 
+#endregion
+
+#region Obstacles
+
 if(place_meeting(x, y, obj_spikes)){
 	state = PSTATE.DEAD;
 }
@@ -25,13 +29,6 @@ if(place_meeting(x, y, OWaterfallSmall)){
 	if(key_jump){
 		vsp -= 3;
 	}
-}
-
-
-if(!key_plasma and ++reload_time = room_speed * 2){
-	energy += 1;
-	reload_time = 0;
-	if(energy >= max_energy) energy = max_energy;
 }
 
 if (on_ground_specific(cheese_platforms)) {
@@ -48,18 +45,31 @@ if (on_ground_specific(cheese_platforms)) {
     cheese_timer = 0;
 }
 
+#endregion
+
+#region Plasma Attack
+
+if(!key_plasma and ++reload_time = room_speed * 2){
+	energy += 1;
+	reload_time = 0;
+	if(energy >= max_energy) energy = max_energy;
+}
+
 if(key_atk){
 	plasma_using = false;
 }
 
-if(plasma_hold == room_speed * 1 and !key_atk){
-	plasma_using = false;
+if(plasma_hold >= room_speed * 2 and !key_atk){
 	plasma_hold = 0;
+	plasma_using = false;
 }
 
 if(plasma_using = true and !key_atk){
 	plasma_hold++;
+	if(key_plasma) plasma_hold = 0;
 }
+
+#endregion
 
 switch(state)
 {
