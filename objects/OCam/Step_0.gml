@@ -6,7 +6,7 @@ y = lerp(y, target.y - cam_height/6, 0.05); //last value for how sensitive the c
 
 camera_set_view_pos(view_camera[0], x - cam_width/2, y - cam_height/2);
 
-if(layer_exists("Background_1_2")){
+/*if(layer_exists("Background_1_2")){
 	var background_1_2 = layer_get_id("Background_1_2");
 }
 if(layer_exists("Background_1_2_1")){
