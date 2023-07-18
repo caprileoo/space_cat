@@ -118,7 +118,6 @@
     {"id":{"name":"SForestTilesBox2","path":"sprites/SForestTilesBox2/SForestTilesBox2.yy",},},
     {"id":{"name":"SBigPlasma","path":"sprites/SBigPlasma/SBigPlasma.yy",},},
     {"id":{"name":"FMouseCorpse","path":"sprites/FMouseCorpse/FMouseCorpse.yy",},},
-    {"id":{"name":"OSpikes","path":"objects/OSpikes/OSpikes.yy",},},
     {"id":{"name":"OWaterfallSmall","path":"objects/OWaterfallSmall/OWaterfallSmall.yy",},},
     {"id":{"name":"Level_Forest","path":"rooms/Level_Forest/Level_Forest.yy",},},
     {"id":{"name":"SCatShootIdle","path":"sprites/SCatShootIdle/SCatShootIdle.yy",},},

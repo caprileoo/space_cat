@@ -23,7 +23,6 @@
     {"name":"Sprite40","order":4,"path":"sprites/Sprite40/Sprite40.yy",},
     {"name":"SB3","order":2,"path":"sprites/SB3/SB3.yy",},
     {"name":"SForestTilesBox2","order":2,"path":"sprites/SForestTilesBox2/SForestTilesBox2.yy",},
-    {"name":"OSpikes","order":2,"path":"objects/OSpikes/OSpikes.yy",},
     {"name":"OWaterfallSmall","order":1,"path":"objects/OWaterfallSmall/OWaterfallSmall.yy",},
     {"name":"Level_Forest","order":1,"path":"rooms/Level_Forest/Level_Forest.yy",},
     {"name":"SCatShootIdle","order":2,"path":"sprites/SCatShootIdle/SCatShootIdle.yy",},
