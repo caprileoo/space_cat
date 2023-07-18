@@ -26,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite68",
-    "path": "sprites/Sprite68/Sprite68.yy",
+    "name": "SSpikes",
+    "path": "sprites/SSpikes/SSpikes.yy",
   },
   "spriteMaskId": {
-    "name": "Sprite68",
-    "path": "sprites/Sprite68/Sprite68.yy",
+    "name": "SSpikes",
+    "path": "sprites/SSpikes/SSpikes.yy",
   },
   "visible": true,
 }
