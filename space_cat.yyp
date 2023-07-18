@@ -106,7 +106,7 @@
     {"id":{"name":"PlayerHitByMelee1","path":"scripts/PlayerHitByMelee1/PlayerHitByMelee1.yy",},},
     {"id":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"id":{"name":"STrig","path":"sprites/STrig/STrig.yy",},},
-    {"id":{"name":"OEdge","path":"objects/OEdge/OEdge.yy",},},
+    {"id":{"name":"OEnemyEdge","path":"objects/OEnemyEdge/OEnemyEdge.yy",},},
     {"id":{"name":"PState_Rising_Charge","path":"scripts/PState_Rising_Charge/PState_Rising_Charge.yy",},},
     {"id":{"name":"SCatHit","path":"sprites/SCatHit/SCatHit.yy",},},
     {"id":{"name":"ProcessAttackBurstToRMouse","path":"scripts/ProcessAttackBurstToRMouse/ProcessAttackBurstToRMouse.yy",},},
@@ -151,6 +151,7 @@
     {"id":{"name":"SCheesePlasma","path":"sprites/SCheesePlasma/SCheesePlasma.yy",},},
     {"id":{"name":"PState_Dead","path":"scripts/PState_Dead/PState_Dead.yy",},},
     {"id":{"name":"Sedge","path":"sprites/Sedge/Sedge.yy",},},
+    {"id":{"name":"RState_Chase","path":"scripts/RState_Chase/RState_Chase.yy",},},
     {"id":{"name":"FState_Chase","path":"scripts/FState_Chase/FState_Chase.yy",},},
     {"id":{"name":"OBigPlasma","path":"objects/OBigPlasma/OBigPlasma.yy",},},
     {"id":{"name":"SState_Chase","path":"scripts/SState_Chase/SState_Chase.yy",},},
@@ -248,9 +249,9 @@
     {"id":{"name":"SCheeseTiles","path":"sprites/SCheeseTiles/SCheeseTiles.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
     {"roomId":{"name":"Level_Forest","path":"rooms/Level_Forest/Level_Forest.yy",},},
-    {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"roomId":{"name":"Level_King_Cheese_Slime","path":"rooms/Level_King_Cheese_Slime/Level_King_Cheese_Slime.yy",},},
   ],
   "TextureGroups": [

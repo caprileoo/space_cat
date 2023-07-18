@@ -39,6 +39,7 @@
     {"name":"Sprite68","order":6,"path":"sprites/Sprite68/Sprite68.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"Sedge","order":2,"path":"sprites/Sedge/Sedge.yy",},
+    {"name":"RState_Chase","order":1,"path":"scripts/RState_Chase/RState_Chase.yy",},
     {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
     {"name":"SCatShootFall","order":1,"path":"sprites/SCatShootFall/SCatShootFall.yy",},
     {"name":"SB5","order":4,"path":"sprites/SB5/SB5.yy",},

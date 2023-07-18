@@ -1,35 +1,34 @@
 event_user(0);
 
 //Array declare
-collision_objects = [Owall, OEdge, OCheeseMain];
-on_ground_objects = [Owall, OEdge, OCheeseMain];
+collision_objects = [Owall, OEnemyEdge, OCheeseMain];
+on_ground_objects = [Owall, OEnemyEdge, OCheeseMain];
 hit_wall_objects = [Owall];
-turn_objects = [OEdge];
+turn_objects = [OEnemyEdge];
 
-//Movement
+//Physics
 hsp = 0;
 vsp = 0; //vertical speed
+timer = 0;
 moveDirection = 1; // -1 for left, 1 for right
 turnTimer = 0;
 
-//solve for grv dynamically
-j_height = 30;
-time_to_apex = 10;
+//Gravity Fall
+j_height = 48;
+time_to_apex = 18;
 grv = (2 * j_height) / power(time_to_apex, 2);
-j_velocity = -abs(grv) * time_to_apex;
-stopping_grv = grv + 0.35;
 
 //Hit
 hitByAttack = ds_list_create();
+hitByAttack2 = ds_list_create();
+
 hitNow = false;
 frameCount = 0;
-hp = 20;
+hp = 100;
+state = RSTATE.IDLE;
 
-//State Manager
-state = RSTATE.WALK;
-timer = 0;
-
-//Attack
+//Chase and Attack
+attacking = false;
 target = instance_nearest(x, y, OCat);
 burst_count = 0;
 burst_timer = 0;
@@ -37,9 +36,9 @@ fire_timer = 0;
 
 enum RSTATE
 {
-	WALK,
 	IDLE,
-	TURN,
+	WALK,
+	CHASE,
 	ATK,
 	HIT,
 	DEAD

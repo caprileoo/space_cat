@@ -5,3 +5,5 @@ function kaboom(){
 		instance_destroy();	
 	}
 }
+
+

@@ -1,4 +1,4 @@
-function RState_Walk() {
+function RState_Walk(){
     vsp += grv;
     
     image_speed = 1;

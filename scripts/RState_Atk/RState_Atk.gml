@@ -1,4 +1,6 @@
 function RState_Atk(){
+	attacking = true;	
+	
 	vsp += grv;
 	image_speed = 1;
 	
@@ -31,6 +33,7 @@ function RState_Atk(){
 		    }
 	    }
 	} else {
+		attacking = false;
 	    fire_timer ++;
 	}
 	

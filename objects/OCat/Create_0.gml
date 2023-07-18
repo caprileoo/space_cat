@@ -1,9 +1,12 @@
 event_user(0);
 hascontrol = true;
 
+//background
+near = layer_get_id("");
+
 //Array declare
-collision_objects = [Owall, OEdge, OCheeseMain];
-on_ground_objects = [Owall, OEdge, OCheeseMain];
+collision_objects = [Owall, OEnemyEdge, OCheeseMain];
+on_ground_objects = [Owall, OEnemyEdge, OCheeseMain];
 hit_wall_objects = [Owall];
 cheese_platforms = [OCheeseMain];
 

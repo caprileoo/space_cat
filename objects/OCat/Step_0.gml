@@ -31,20 +31,6 @@ if(place_meeting(x, y, OWaterfallSmall)){
 	}
 }
 
-if (on_ground_specific(cheese_platforms)) {
-    if (++cheese_timer == room_speed * 3) {
-        var platform = instance_place(x, y + 1, OCheeseMain);
-        if (platform != noone) {
-            with (platform) {
-                instance_destroy();
-            }
-        }
-        cheese_timer = 0;
-    }
-} else {
-    cheese_timer = 0;
-}
-
 #endregion
 
 #region Plasma Attack
@@ -98,3 +84,10 @@ switch(state)
 	case PSTATE.RANGER: PState_HitByRanger(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }
+
+
+
+
+
+
+

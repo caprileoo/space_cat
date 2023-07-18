@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OEdge",
+  "name": "OEnemyEdge",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
