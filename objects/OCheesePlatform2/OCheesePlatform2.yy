@@ -31,12 +31,12 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "SCheesePlatform",
-    "path": "sprites/SCheesePlatform/SCheesePlatform.yy",
+    "name": "SCheesePlatSmall",
+    "path": "sprites/SCheesePlatSmall/SCheesePlatSmall.yy",
   },
   "spriteMaskId": {
-    "name": "SCheesePlatform",
-    "path": "sprites/SCheesePlatform/SCheesePlatform.yy",
+    "name": "SCheesePlatSmall",
+    "path": "sprites/SCheesePlatSmall/SCheesePlatSmall.yy",
   },
   "visible": true,
 }
