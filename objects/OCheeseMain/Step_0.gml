@@ -6,7 +6,7 @@ if (place_meeting(x, y - 1, OCat)) {
         sprite_index = SCheesePlatSmall_Disappear;
     }
 	
-    if (++timer >= room_speed) {
+    if (++timer >= room_speed * 3) {
         instance_destroy();
     }
 }
