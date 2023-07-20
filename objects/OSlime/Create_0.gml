@@ -26,6 +26,7 @@ resting_time = 5;
 moveDirection = 1; // -1 for left, 1 for right
 
 //Stage Manager
+out_of_reach_timer = 0;
 out_of_reach = false;
 state = SSTATE.IDLE;
 
