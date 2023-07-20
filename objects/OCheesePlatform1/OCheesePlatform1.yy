@@ -31,8 +31,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "SCheesePlatBig",
-    "path": "sprites/SCheesePlatBig/SCheesePlatBig.yy",
+    "name": "SCheesePlatBig_Idle",
+    "path": "sprites/SCheesePlatBig_Idle/SCheesePlatBig_Idle.yy",
   },
   "spriteMaskId": {
     "name": "SCheesePlatform",

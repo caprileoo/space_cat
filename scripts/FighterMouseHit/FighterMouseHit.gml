@@ -7,8 +7,4 @@ function FighterMouseHit(argument0){
 		state = FSTATE.HIT;
 		hitNow = true;
 	}
-	else
-	{
-		state = FSTATE.DEAD;
-	}
 }

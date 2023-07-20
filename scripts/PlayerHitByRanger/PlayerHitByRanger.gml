@@ -9,8 +9,4 @@ function PlayerHitByRanger(argument0) {
 		state = PSTATE.RANGER;
 		hitNow = true;
 	}
-	else
-	{
-		state = PSTATE.DEAD;
-	}
 }

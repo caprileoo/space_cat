@@ -15,6 +15,10 @@ else {
 	key_plasma = 0
 }
 
+if(hp <= 0){
+	state = PSTATE.DEAD;
+}
+
 #endregion
 
 #region Obstacles
@@ -84,10 +88,3 @@ switch(state)
 	case PSTATE.RANGER: PState_HitByRanger(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }
-
-
-
-
-
-
-

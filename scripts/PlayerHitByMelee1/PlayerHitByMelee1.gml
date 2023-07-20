@@ -9,9 +9,5 @@ function PlayerHitByMelee1(argument0){
 		state = PSTATE.MELEE1;
 		hitNow = true;
 	}
-	else
-	{
-		state = PSTATE.DEAD;
-	}
 
 }

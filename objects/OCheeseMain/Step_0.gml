@@ -1,9 +1,12 @@
 if (place_meeting(x, y - 1, OCat)) {
-    if (++timer >= room_speed * 2) {
+	
+	if (object_index == OCheesePlatform1) {
+        sprite_index = SCheesePlatSmall_Disappear;
+    } else if (object_index == OCheesePlatform2) {
+        sprite_index = SCheesePlatSmall_Disappear;
+    }
+	
+    if (++timer >= room_speed) {
         instance_destroy();
     }
 }
-
-
-
-

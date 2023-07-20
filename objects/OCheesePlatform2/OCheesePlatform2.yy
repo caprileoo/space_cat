@@ -31,12 +31,12 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "SCheesePlatSmall",
-    "path": "sprites/SCheesePlatSmall/SCheesePlatSmall.yy",
+    "name": "SCheesePlatSmall_Idle",
+    "path": "sprites/SCheesePlatSmall_Idle/SCheesePlatSmall_Idle.yy",
   },
   "spriteMaskId": {
-    "name": "SCheesePlatSmall",
-    "path": "sprites/SCheesePlatSmall/SCheesePlatSmall.yy",
+    "name": "SCheesePlatSmall_Disappear",
+    "path": "sprites/SCheesePlatSmall_Disappear/SCheesePlatSmall_Disappear.yy",
   },
   "visible": true,
 }

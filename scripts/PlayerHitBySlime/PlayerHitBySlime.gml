@@ -9,8 +9,4 @@ function PlayerHitBySlime(argument0){
 		state = PSTATE.SLIME;
 		hitNow = true;
 	}
-	else
-	{
-		state = PSTATE.DEAD;
-	}
 }

@@ -1,10 +1,15 @@
 //Step Event
 
+if(hp <= 0){
+	state = SSTATE.DEAD;
+}
+
 turnTimer++;
 
 if (on_ground_specific(turn_objects) and turnTimer >= room_speed * 2) {
-    moveDirection *= -1;
-    state = SSTATE.IDLE;
+	out_of_reach = true;
+	moveDirection *= -1;
+	state = SSTATE.IDLE;
 	turnTimer = 0;
 }
 
@@ -17,16 +22,17 @@ if (timer >= room_speed * 4) { // 4 seconds
 		state = SSTATE.IDLE;
     }
     timer = 0;
+	out_of_reach = false;
 }
 
-if (abs(target.x - x) <= 120 and abs(target.y - y) <= 50 and on_ground() and state != SSTATE.HIT and state != SSTATE.DEAD) {
-	if (abs(target.x - x) <= 10) {
+if (abs(target.x - x) <= 120 and abs(target.y - y) <= 50 and on_ground() and state != SSTATE.HIT and state != SSTATE.DEAD and out_of_reach == false) {
+	if (abs(target.x - x) <= 10 and out_of_reach == false) {
 		hsp = 0;
 	    state = SSTATE.ATK;
-	} else if (abs(target.x - x) > 10 and attacking == false){
+	} else if (abs(target.x - x) > 10 and attacking == false and out_of_reach == false){
 		state = SSTATE.CHASE;
 	}
-} else if ((abs(target.x - x) > 120 or abs(target.y - y) > 50) and (state == SSTATE.CHASE or state == SSTATE.ATK)) {
+} else if ((abs(target.x - x) > 120 or abs(target.y - y) > 50) and (state == SSTATE.CHASE or state == SSTATE.ATK) and out_of_reach == true) {
 	attacking = false;
     state = SSTATE.IDLE;
 }

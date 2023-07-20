@@ -26,13 +26,14 @@ resting_time = 5;
 moveDirection = 1; // -1 for left, 1 for right
 
 //Stage Manager
-hitByAttack = ds_list_create();
-hitNow = false;
-frameCount = 0;
-hp = 10;
-state = SSTATE.WALK;
+out_of_reach = false;
+state = SSTATE.IDLE;
 
 //Attack
+hp = 100;
+hitNow = false;
+frameCount = 0;
+hitByAttack = ds_list_create();
 attacking = false;
 target = instance_nearest(x, y, OCat);
 

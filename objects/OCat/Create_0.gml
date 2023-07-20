@@ -1,9 +1,6 @@
 event_user(0);
 hascontrol = true;
 
-//background
-near = layer_get_id("");
-
 //Array declare
 collision_objects = [Owall, OEnemyEdge, OCheeseMain];
 on_ground_objects = [Owall, OEnemyEdge, OCheeseMain];

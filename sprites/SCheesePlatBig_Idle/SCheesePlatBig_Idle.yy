@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SCheesePlatBig",
+  "name": "SCheesePlatBig_Idle",
   "bbox_bottom": 14,
   "bbox_left": 0,
   "bbox_right": 31,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SCheesePlatBig",
+    "name": "SCheesePlatBig_Idle",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad7701b8-c442-463c-8351-13cbe2c630f3","path":"sprites/SCheesePlatBig/SCheesePlatBig.yy",},},},"Disabled":false,"id":"b44249a8-8249-4b75-b58e-5056d8611dce","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad7701b8-c442-463c-8351-13cbe2c630f3","path":"sprites/SCheesePlatBig_Idle/SCheesePlatBig_Idle.yy",},},},"Disabled":false,"id":"b44249a8-8249-4b75-b58e-5056d8611dce","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

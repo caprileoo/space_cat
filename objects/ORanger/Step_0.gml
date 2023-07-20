@@ -1,5 +1,9 @@
 //Step Event
 
+if(hp <= 0){
+	state = RSTATE.DEAD;
+}
+
 turnTimer++;
 
 if (on_ground_specific(turn_objects) and turnTimer >= room_speed * 2) {

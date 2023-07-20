@@ -1,4 +1,5 @@
 function FState_Atk(){
+	image_speed = 2;
 	attacking = true;
 	FighterProcessAttack(SFMouseAtk,SFighterHB, SFighterHBCombo);
 	

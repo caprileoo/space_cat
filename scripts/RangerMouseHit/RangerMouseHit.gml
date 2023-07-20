@@ -7,8 +7,4 @@ function RangerMouseHit(argument0) {
 		state = RSTATE.HIT;
 		hitNow = true;
 	}
-	else
-	{
-		state = RSTATE.DEAD;
-	}
 }
