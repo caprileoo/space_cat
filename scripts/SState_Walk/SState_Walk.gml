@@ -2,7 +2,6 @@ function SState_Walk(){
 	vsp += grv;
 	
 	image_xscale = moveDirection;
-	
 	image_speed = 1;
 	sprite_index = SSlimeMove;
 	

@@ -8,4 +8,3 @@ function SState_Idle() {
 	
 	move_n_collide(collision_objects);
 }
-
