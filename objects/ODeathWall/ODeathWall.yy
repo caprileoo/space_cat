@@ -25,7 +25,13 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
-  "spriteMaskId": null,
+  "spriteId": {
+    "name": "SDeathWall",
+    "path": "sprites/SDeathWall/SDeathWall.yy",
+  },
+  "spriteMaskId": {
+    "name": "SDeathWall",
+    "path": "sprites/SDeathWall/SDeathWall.yy",
+  },
   "visible": true,
 }
