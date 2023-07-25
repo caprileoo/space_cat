@@ -13,15 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c5122032-89ac-4ff2-8dd8-9d3ba58ffa54",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5ec04514-14b2-46cd-a556-fc60f98e0fcb",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"52dc6fda-fad2-4b93-b1f1-abe3b172f79d",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 64,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b59956b2-a231-4b54-b9a3-c97eb521f252","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"483322d0-ad0a-4438-b857-c17757daece8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -44,7 +43,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 2.0,
+    "length": 1.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -55,8 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c5122032-89ac-4ff2-8dd8-9d3ba58ffa54","path":"sprites/SCatShootMidAir/SCatShootMidAir.yy",},},},"Disabled":false,"id":"453f18d9-590e-411e-80b0-3cf4ed626b74","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5ec04514-14b2-46cd-a556-fc60f98e0fcb","path":"sprites/SCatShootMidAir/SCatShootMidAir.yy",},},},"Disabled":false,"id":"140edd35-d77d-4d7a-95f1-4fe8c428ee6c","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"52dc6fda-fad2-4b93-b1f1-abe3b172f79d","path":"sprites/SCatShootMidAir/SCatShootMidAir.yy",},},},"Disabled":false,"id":"fc02e2cf-ff4c-4e7b-a616-41d5e76d394d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
