@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SForestTileBox",
-  "bbox_bottom": 310,
-  "bbox_left": 0,
-  "bbox_right": 255,
-  "bbox_top": 16,
+  "bbox_bottom": 482,
+  "bbox_left": 160,
+  "bbox_right": 469,
+  "bbox_top": 128,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"980c16d6-e06a-4df9-828c-9a98793d3d8f",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9ba3453e-c98a-408c-a702-8cdb8659a87d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 320,
+  "height": 514,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e579213e-180b-42fe-920f-b5c64f3bc25f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dcbed9e6-1526-4ba6-8c8d-fade2b0d6d2c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"980c16d6-e06a-4df9-828c-9a98793d3d8f","path":"sprites/SForestTileBox/SForestTileBox.yy",},},},"Disabled":false,"id":"8d7d46d5-2f63-4529-b687-4a86048b0b80","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9ba3453e-c98a-408c-a702-8cdb8659a87d","path":"sprites/SForestTileBox/SForestTileBox.yy",},},},"Disabled":false,"id":"f6051559-492d-4fd8-9037-035f49a5b5fa","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 272,
+  "width": 497,
 }
