@@ -22,7 +22,7 @@ function RangerProcessAttack(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					PlayerHitByRanger(10);
+					PlayerHitByRanger(1);
 				}
 			}
 		}

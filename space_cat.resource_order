@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"GUI and HUD","order":4,"path":"folders/Objects/GUI and HUD.yy",},
     {"name":"Melee","order":1,"path":"folders/Scripts/Player States/Attack/Melee.yy",},
     {"name":"Range","order":2,"path":"folders/Scripts/Player States/Attack/Range.yy",},
     {"name":"Charge","order":2,"path":"folders/Scripts/Player States/Attack/Range/Charge.yy",},
@@ -14,7 +15,6 @@
     {"name":"Bullets","order":1,"path":"folders/Sprites/Items/Bullets.yy",},
     {"name":"fx","order":5,"path":"folders/Sprites/Items/Bullets/fx.yy",},
     {"name":"Tilesets","order":3,"path":"folders/Sprites/Tilesets.yy",},
-    {"name":"GUI and HUD","order":4,"path":"folders/Objects/GUI and HUD.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SWaterfallSmall","order":2,"path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},
