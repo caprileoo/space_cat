@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SBigPlasma",
-    "path": "sprites/SBigPlasma/SBigPlasma.yy",
+    "name": "SBigPlasmaIdle",
+    "path": "sprites/SBigPlasmaIdle/SBigPlasmaIdle.yy",
   },
   "spriteMaskId": {
     "name": "SBigPlasmaHB",

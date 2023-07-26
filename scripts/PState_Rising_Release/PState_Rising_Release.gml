@@ -3,15 +3,11 @@ function PState_Rising_Release(){
 	plasma_using = true;
 	
 	get_dir();
-	var offset_x = 20;
-	if(dir == 180){
-		offset_x = -offset_x;
-	}
 	
 	if (plasma_charge_time > 0) {
 		var plasma;
 		if (plasma_charge_time > 25 and energy >= 2) {
-			plasma = instance_create_layer(x + offset_x , y , "Instances", OBigPlasma);
+			plasma = instance_create_layer(x, y, "Instances", OBigPlasma);
 			energy -= 2;
 			
 			plasma.direction = dir;
@@ -19,7 +15,7 @@ function PState_Rising_Release(){
 			plasma_charge_time = 0;
 		} 
 		else if (energy >= 1) {
-			plasma = instance_create_layer(x + offset_x, y + 5, "Instances", OPlasma);
+			plasma = instance_create_layer(x, y, "Instances", OPlasma);
 			energy -= 1;
 			
 			plasma.direction = dir;
