@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPlasma",
-    "path": "sprites/SPlasma/SPlasma.yy",
+    "name": "SPlasmaIdle",
+    "path": "sprites/SPlasmaIdle/SPlasmaIdle.yy",
   },
   "spriteMaskId": {
     "name": "SPlasma",

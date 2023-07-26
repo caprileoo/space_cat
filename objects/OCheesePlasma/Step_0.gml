@@ -1,3 +1,5 @@
+//Step Event
+
 distanceTraveled += abs(speed * cos(degtorad(direction)));
 
 for (var i = 0; i < array_length(collision_objects); i++) {
@@ -7,19 +9,18 @@ for (var i = 0; i < array_length(collision_objects); i++) {
     }
 }
 
-if (distanceTraveled >= 100 or collision) {
-	speed = 0;
-	sprite_index = SBigPlasmaExplode;
-	if(animation_end()){
-		instance_destroy();	
-	}
-}
-
 if (place_meeting(x,y,OCat)) {
 	speed = 0;
-    RangerProcessAttack(SBigPlasmaExplode,SPlasmaHB);
-    if (animation_end())
-    {
+    ProcessAttackToRMouse(SPlasmaExplode,SCheesePlasmaHB);
+} else if(distanceTraveled > 100 or collision){
+	speed = 0;
+}
+
+if(speed > 0){
+	sprite_index = SCheesePlasma;
+} else {
+	sprite_index = SPlasmaExplode;
+	if(animation_end()){
 		instance_destroy();
-    }
+	}
 }

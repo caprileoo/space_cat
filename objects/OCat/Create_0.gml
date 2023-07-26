@@ -46,8 +46,8 @@ plasma_timer = 0;
 plasma_delay = 0;
 plasma_fired = false;
 plasma_charge_time = 0;
-energy = 3;
-max_energy = 3;
+energy = 100;
+max_energy = 100;
 reload_time = 0;
 
 //Attack
