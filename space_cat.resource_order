@@ -29,7 +29,6 @@
     {"name":"SCatHit","order":1,"path":"sprites/SCatHit/SCatHit.yy",},
     {"name":"Sprite40","order":4,"path":"sprites/Sprite40/Sprite40.yy",},
     {"name":"SB3","order":2,"path":"sprites/SB3/SB3.yy",},
-    {"name":"SForestTilesBox2","order":2,"path":"sprites/SForestTilesBox2/SForestTilesBox2.yy",},
     {"name":"Level_Forest","order":1,"path":"rooms/Level_Forest/Level_Forest.yy",},
     {"name":"SCatShootIdle","order":2,"path":"sprites/SCatShootIdle/SCatShootIdle.yy",},
     {"name":"SB4","order":3,"path":"sprites/SB4/SB4.yy",},
