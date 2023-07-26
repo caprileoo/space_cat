@@ -7,7 +7,7 @@ for (var i = 0; i < array_length(collision_objects); i++) {
     }
 }
 
-if (distanceTraveled >= 100 || collision) {
+if (distanceTraveled >= 100 or collision) {
 	speed = 0;
 	sprite_index = SBigPlasmaExplode;
 	if(animation_end()){

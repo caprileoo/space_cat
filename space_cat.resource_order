@@ -47,6 +47,7 @@
     {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
     {"name":"SSlimeHB","order":6,"path":"sprites/SSlimeHB/SSlimeHB.yy",},
     {"name":"SCatShootFall","order":1,"path":"sprites/SCatShootFall/SCatShootFall.yy",},
+    {"name":"SBigPlasmaTest","order":7,"path":"sprites/SBigPlasmaTest/SBigPlasmaTest.yy",},
     {"name":"SB5","order":4,"path":"sprites/SB5/SB5.yy",},
     {"name":"PState_Walk_Charge","order":2,"path":"scripts/PState_Walk_Charge/PState_Walk_Charge.yy",},
     {"name":"PState_Idle_Release","order":1,"path":"scripts/PState_Idle_Release/PState_Idle_Release.yy",},

@@ -169,6 +169,7 @@
     {"id":{"name":"ProcessAttackToRMouse","path":"scripts/ProcessAttackToRMouse/ProcessAttackToRMouse.yy",},},
     {"id":{"name":"Owall","path":"objects/Owall/Owall.yy",},},
     {"id":{"name":"SState_Walk","path":"scripts/SState_Walk/SState_Walk.yy",},},
+    {"id":{"name":"SBigPlasmaTest","path":"sprites/SBigPlasmaTest/SBigPlasmaTest.yy",},},
     {"id":{"name":"SB5","path":"sprites/SB5/SB5.yy",},},
     {"id":{"name":"RState_Hit","path":"scripts/RState_Hit/RState_Hit.yy",},},
     {"id":{"name":"PState_Walk_Charge","path":"scripts/PState_Walk_Charge/PState_Walk_Charge.yy",},},

@@ -17,7 +17,7 @@ if (distanceTraveled >= 100 or collision) {
 	    instance_destroy();
 	}
 } else {
-	if(sprite_index != SBigPlasmaExplode) sprite_index = SBigPlasma;
+	if(sprite_index != SBigPlasmaExplode) sprite_index = SBigPlasmaTest;
 }
 
 if (place_meeting(x,y,ORanger)) {
