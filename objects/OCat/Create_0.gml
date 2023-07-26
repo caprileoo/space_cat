@@ -33,7 +33,7 @@ state = PSTATE.IDLE;
 hitByAttack = ds_list_create();
 hitNow = false;
 frameCount = 0;
-hp = 100;
+hp = 15;
 
 //state management
 pre_move = false;
