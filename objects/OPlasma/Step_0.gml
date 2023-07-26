@@ -14,24 +14,24 @@ if (distanceTraveled >= 100 || collision) {
 }
 
 if (place_meeting(x,y,ORanger)) {
+	speed = 0;
     ProcessAttackToRMouse(SPlasmaExplode,SPlasmaHB);
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 } else if (place_meeting(x,y,OFighter)){
+	speed = 0;
     ProcessAttackToFMouse(SPlasmaExplode,SPlasmaHB);
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 } else if (place_meeting(x,y,OSlime)) {
+	speed = 0;
     ProcessAttackToSlime(SPlasmaExplode,SPlasmaHB); 
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 }
