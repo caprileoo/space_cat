@@ -1,3 +1,3 @@
-draw_sprite(SCatHead,1,100,100);
+draw_sprite(SCatHead,1,100,90);
 
 
