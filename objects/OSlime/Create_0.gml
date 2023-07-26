@@ -30,7 +30,7 @@ out_of_reach = false;
 state = SSTATE.IDLE;
 
 //Attack
-hp = 100;
+hp = 20;
 hitNow = false;
 frameCount = 0;
 hitByAttack = ds_list_create();

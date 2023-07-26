@@ -22,7 +22,7 @@ function ProcessAttackToFMouse(argument0, argument1) {
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					FighterMouseHit(10);
+					FighterMouseHit(5);
 				}
 			}
 		}

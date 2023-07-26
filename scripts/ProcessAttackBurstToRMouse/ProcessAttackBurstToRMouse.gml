@@ -24,7 +24,7 @@ function ProcessAttackBurstToRMouse(argument0, argument1){
 				ds_list_add(hitByAttack,hitID);
 				with (hitID)
 				{
-					RangerMouseHit(20);
+					RangerMouseHit(10);
 				}
 			}
 		}

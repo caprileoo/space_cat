@@ -24,7 +24,7 @@ hitByAttack2 = ds_list_create();
 
 hitNow = false;
 frameCount = 0;
-hp = 100;
+hp = 20;
 state = RSTATE.IDLE;
 
 //Chase and Attack
