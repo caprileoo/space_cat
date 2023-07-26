@@ -10,28 +10,29 @@ for (var i = 0; i < array_length(collision_objects); i++) {
 }
 
 if (distanceTraveled >= 100 || collision) {
+	show_debug_message(distanceTraveled);
     kaboom();
 }
 
 if (place_meeting(x,y,ORanger)) {
+	speed = 0;
     ProcessAttackToRMouse(SBigPlasmaExplode,SPlasmaHB);
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 } else if (place_meeting(x,y,OFighter)){
+	speed = 0;
     ProcessAttackToFMouse(SBigPlasmaExplode,SPlasmaHB);
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 } else if (place_meeting(x,y,OSlime)) {
+	speed = 0;
     ProcessAttackToSlime(SBigPlasmaExplode,SPlasmaHB); 
     if (animation_end())
     {
-		speed = 0;
 		instance_destroy();
     }
 }
