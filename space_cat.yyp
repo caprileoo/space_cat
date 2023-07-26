@@ -128,6 +128,7 @@
     {"id":{"name":"OCam","path":"objects/OCam/OCam.yy",},},
     {"id":{"name":"PState_Falling","path":"scripts/PState_Falling/PState_Falling.yy",},},
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
+    {"id":{"name":"OMySlave","path":"objects/OMySlave/OMySlave.yy",},},
     {"id":{"name":"SRMouseIdle","path":"sprites/SRMouseIdle/SRMouseIdle.yy",},},
     {"id":{"name":"SFMouseIdle","path":"sprites/SFMouseIdle/SFMouseIdle.yy",},},
     {"id":{"name":"SFighterHBCombo","path":"sprites/SFighterHBCombo/SFighterHBCombo.yy",},},
@@ -251,8 +252,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
-    {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"roomId":{"name":"Level_Forest","path":"rooms/Level_Forest/Level_Forest.yy",},},
+    {"roomId":{"name":"Lv_Test","path":"rooms/Lv_Test/Lv_Test.yy",},},
     {"roomId":{"name":"Level_King_Cheese_Slime","path":"rooms/Level_King_Cheese_Slime/Level_King_Cheese_Slime.yy",},},
   ],
   "TextureGroups": [
