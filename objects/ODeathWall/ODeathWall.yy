@@ -33,5 +33,5 @@
     "name": "SDeathWall",
     "path": "sprites/SDeathWall/SDeathWall.yy",
   },
-  "visible": true,
+  "visible": false,
 }

@@ -6,6 +6,7 @@ if(hascontrol) {
 	key_jump = keyboard_check(vk_space) or keyboard_check(vk_up); //Hold
 	key_atk = keyboard_check_pressed(ord("K")); //Press
 	key_plasma = keyboard_check(ord("L")); //Hold
+	key_fly = keyboard_check(ord("J")); //Hold
 }
 else {
 	key_right = 0
@@ -19,11 +20,15 @@ if(hp <= 0){
 	state = PSTATE.DEAD;
 }
 
+if(key_fly){
+	vsp -= 0.7;
+}
+
 #endregion
 
 #region Obstacles
 
-if(place_meeting(x, y, obj_spikes)){
+if(place_meeting(x, y, obj_spikes) or place_meeting(x, y, ODeathWall)){
 	state = PSTATE.DEAD;
 }
 
