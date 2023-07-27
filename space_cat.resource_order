@@ -81,6 +81,7 @@
     {"name":"SCheesePlasmaHB","order":1,"path":"sprites/SCheesePlasmaHB/SCheesePlasmaHB.yy",},
     {"name":"SPlasmaExplode","order":1,"path":"sprites/SPlasmaExplode/SPlasmaExplode.yy",},
     {"name":"SPlasmaIdle","order":7,"path":"sprites/SPlasmaIdle/SPlasmaIdle.yy",},
+    {"name":"sCatStatue","order":2,"path":"sprites/sCatStatue/sCatStatue.yy",},
     {"name":"SSpikes","order":7,"path":"sprites/SSpikes/SSpikes.yy",},
     {"name":"SCatSlash2","order":1,"path":"sprites/SCatSlash2/SCatSlash2.yy",},
     {"name":"OBulletsUI","order":4,"path":"objects/OBulletsUI/OBulletsUI.yy",},

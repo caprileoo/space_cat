@@ -239,6 +239,7 @@
     {"id":{"name":"ProcessAttackToSlime","path":"scripts/ProcessAttackToSlime/ProcessAttackToSlime.yy",},},
     {"id":{"name":"OSlime","path":"objects/OSlime/OSlime.yy",},},
     {"id":{"name":"BoxForestSet","path":"tilesets/BoxForestSet/BoxForestSet.yy",},},
+    {"id":{"name":"sCatStatue","path":"sprites/sCatStatue/sCatStatue.yy",},},
     {"id":{"name":"OFMouseCorpse","path":"objects/OFMouseCorpse/OFMouseCorpse.yy",},},
     {"id":{"name":"SSpikes","path":"sprites/SSpikes/SSpikes.yy",},},
     {"id":{"name":"PState_HitByMelee2","path":"scripts/PState_HitByMelee2/PState_HitByMelee2.yy",},},
