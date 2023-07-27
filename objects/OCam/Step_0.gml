@@ -1,48 +1,31 @@
-//Update destination
-if not (instance_exists(target)) exit;
+// Step Event
+x += (player.x - x) * smoothness;
+y += (player.y - y) * smoothness;
 
-x = lerp(x, target.x, 0.1);
-y = lerp(y, target.y - cam_height/6, 0.05); //last value for how sensitive the cam will move vertically
+if (keyboard_check(ord("O"))) {
+    zoom += 0.01;
+}
 
-camera_set_view_pos(view_camera[0], x - cam_width/2, y - cam_height/2);
+if (keyboard_check(ord("P"))) {
+    zoom -= 0.01;
+}
 
+zoom = clamp(zoom, 0.5, 2);
 
-//if(layer_exists("Background_1_2")){
-//	var background_1_2 = layer_get_id("Background_1_2");
-//}
-//if(layer_exists("Background_1_2_1")){
-//	var background_1_2_1 = layer_get_id("Background_1_2_1");
-//}
-//if(layer_exists("Background_1")){
-//	var background_1 = layer_get_id("Background_1");
-//}
-//if(layer_exists("Background_1_1")){
-//	var background_1_1 = layer_get_id("Background_1_1");
-//}
-//if(layer_exists("Background")){
-//	var background = layer_get_id("Background");
-//}
+camera_set_view_size(view_camera[0], cam_width * zoom, cam_height * zoom);
 
-//layer_x(background_1_2, x/50);
-//layer_x(background_1_2_1, x/60);
-//layer_x(background_1, x/70);
-//layer_x(background_1_1, x/80);
-//layer_x(background, x/90);
+// Edge snapping
+var cam_x = x - cam_width * zoom / 2;
+var cam_y = y - cam_height * zoom / 2;
 
+cam_x = clamp(cam_x, 0, room_width - cam_width * zoom);
+cam_y = clamp(cam_y, 0, room_height - cam_height * zoom);
 
+camera_set_view_pos(view_camera[0], cam_x, cam_y);
 
-//Draft
-
-//if(follow != noone){
-//	xTo = follow.x;
-//	yTo = follow.y;
+//if(layer_exists("custom")){
+//	var custom1 = layer_get_id("custom");
 //}
 
-//x += (xTo - x) / 25;
-//y += (yTo - y) / 25;
-
-//camera_set_view_pos(
-//	view_camera[0],
-//	floor(x - (camWidth * 0.5)),
-//	floor(y - (camHeight * 0.5))
-//);
+//layer_x(custom1, x/50);
+//layer_y(custom1, y/50);
