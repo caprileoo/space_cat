@@ -93,3 +93,5 @@ switch(state)
 	case PSTATE.RANGER: PState_HitByRanger(); break;
 	case PSTATE.DEAD: PState_Dead(); break;
 }
+
+show_debug_message(hsp)

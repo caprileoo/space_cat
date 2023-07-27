@@ -12,7 +12,7 @@ dir = 0;
 hsp = 0; //horizontal speed
 vsp = 0; //vertical speed
 max_vsp = 4;
-walksp = 3; //walking speed
+walksp = 2.75; //walking speed
 accel_time = 6 // accelerate time in frame
 deccel_time = 3 //deccelerate time in frame
 
