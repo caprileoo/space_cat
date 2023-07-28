@@ -212,6 +212,7 @@
     {"id":{"name":"SBigPlasmaHB","path":"sprites/SBigPlasmaHB/SBigPlasmaHB.yy",},},
     {"id":{"name":"ODeathWall","path":"objects/ODeathWall/ODeathWall.yy",},},
     {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
+    {"id":{"name":"SSlimeIdle2","path":"sprites/SSlimeIdle2/SSlimeIdle2.yy",},},
     {"id":{"name":"SFMouseHit","path":"sprites/SFMouseHit/SFMouseHit.yy",},},
     {"id":{"name":"SCatSlashHB2","path":"sprites/SCatSlashHB2/SCatSlashHB2.yy",},},
     {"id":{"name":"f_title","path":"fonts/f_title/f_title.yy",},},
