@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sCat",
-  "bbox_bottom": 42,
+  "bbox_bottom": 47,
   "bbox_left": 23,
   "bbox_right": 39,
   "bbox_top": 20,

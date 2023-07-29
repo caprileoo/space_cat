@@ -73,6 +73,7 @@
     {"name":"ODeathWall","order":7,"path":"objects/ODeathWall/ODeathWall.yy",},
     {"name":"obj_spikes","order":1,"path":"objects/obj_spikes/obj_spikes.yy",},
     {"name":"SSlimeIdle2","order":1,"path":"sprites/SSlimeIdle2/SSlimeIdle2.yy",},
+    {"name":"SCatHolster","order":5,"path":"sprites/SCatHolster/SCatHolster.yy",},
     {"name":"SCatSlashHB2","order":3,"path":"sprites/SCatSlashHB2/SCatSlashHB2.yy",},
     {"name":"sCatAir","order":1,"path":"sprites/sCatAir/sCatAir.yy",},
     {"name":"PState_Atk_Slash2","order":1,"path":"scripts/PState_Atk_Slash2/PState_Atk_Slash2.yy",},

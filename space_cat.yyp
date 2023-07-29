@@ -93,7 +93,6 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
-    {"id":{"name":"CheeseSet","path":"tilesets/CheeseSet/CheeseSet.yy",},},
     {"id":{"name":"RangerMouseHit","path":"scripts/RangerMouseHit/RangerMouseHit.yy",},},
     {"id":{"name":"FighterMouseHit","path":"scripts/FighterMouseHit/FighterMouseHit.yy",},},
     {"id":{"name":"SWaterfallSmall","path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},},
@@ -214,6 +213,7 @@
     {"id":{"name":"obj_spikes","path":"objects/obj_spikes/obj_spikes.yy",},},
     {"id":{"name":"SSlimeIdle2","path":"sprites/SSlimeIdle2/SSlimeIdle2.yy",},},
     {"id":{"name":"SFMouseHit","path":"sprites/SFMouseHit/SFMouseHit.yy",},},
+    {"id":{"name":"SCatHolster","path":"sprites/SCatHolster/SCatHolster.yy",},},
     {"id":{"name":"SCatSlashHB2","path":"sprites/SCatSlashHB2/SCatSlashHB2.yy",},},
     {"id":{"name":"f_title","path":"fonts/f_title/f_title.yy",},},
     {"id":{"name":"SState_Dead","path":"scripts/SState_Dead/SState_Dead.yy",},},
@@ -260,7 +260,6 @@
     {"id":{"name":"OTitle","path":"objects/OTitle/OTitle.yy",},},
     {"id":{"name":"SState_Idle","path":"scripts/SState_Idle/SState_Idle.yy",},},
     {"id":{"name":"FState_Hit","path":"scripts/FState_Hit/FState_Hit.yy",},},
-    {"id":{"name":"SCheeseTiles","path":"sprites/SCheeseTiles/SCheeseTiles.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
