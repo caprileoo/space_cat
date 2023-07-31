@@ -53,6 +53,7 @@
     {"name":"Sedge","order":2,"path":"sprites/Sedge/Sedge.yy",},
     {"name":"RState_Chase","order":1,"path":"scripts/RState_Chase/RState_Chase.yy",},
     {"name":"SFighterHB","order":8,"path":"sprites/SFighterHB/SFighterHB.yy",},
+    {"name":"sLeaves","order":2,"path":"sprites/sLeaves/sLeaves.yy",},
     {"name":"SPlasma","order":2,"path":"sprites/SPlasma/SPlasma.yy",},
     {"name":"SSlimeHB","order":6,"path":"sprites/SSlimeHB/SSlimeHB.yy",},
     {"name":"SCatShootFall","order":1,"path":"sprites/SCatShootFall/SCatShootFall.yy",},
@@ -88,5 +89,6 @@
     {"name":"SCatSlash2","order":1,"path":"sprites/SCatSlash2/SCatSlash2.yy",},
     {"name":"OBulletsUI","order":4,"path":"objects/OBulletsUI/OBulletsUI.yy",},
     {"name":"OTitle","order":3,"path":"objects/OTitle/OTitle.yy",},
+    {"name":"LeavesSet","order":1,"path":"tilesets/LeavesSet/LeavesSet.yy",},
   ],
 }
