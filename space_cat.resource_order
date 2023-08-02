@@ -50,6 +50,7 @@
     {"name":"SHearts","order":1,"path":"sprites/SHearts/SHearts.yy",},
     {"name":"SDeathWall","order":6,"path":"sprites/SDeathWall/SDeathWall.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
+    {"name":"SCheesePlasmaExplode","order":2,"path":"sprites/SCheesePlasmaExplode/SCheesePlasmaExplode.yy",},
     {"name":"Sedge","order":2,"path":"sprites/Sedge/Sedge.yy",},
     {"name":"RState_Chase","order":1,"path":"scripts/RState_Chase/RState_Chase.yy",},
     {"name":"SFighterHB","order":8,"path":"sprites/SFighterHB/SFighterHB.yy",},
