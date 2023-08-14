@@ -8,36 +8,30 @@ function approach(argument0, argument1, argument2){
 
 function move_n_collide(_obj) {
     var i;
-    repeat(abs(hsp)) {
-        var collision = false;
-        for (i = 0; i < array_length(_obj); i++) {
-            if (place_meeting(x + sign(hsp), y, _obj[i])) {
-                collision = true;
-                break;
-            }
-        }
-        if (!collision) {
-            x += sign(hsp);
-        } else {
-            hsp = 0;
+    var collision = false;
+    for (i = 0; i < array_length(_obj); i++) {
+        if (place_meeting(x + hsp, y, _obj[i])) {
+            collision = true;
             break;
         }
     }
+    if (!collision) {
+        x += hsp;
+    } else {
+        hsp = 0;
+    }
 
-    repeat(abs(vsp)) {
-        var collision = false;
-        for (i = 0; i < array_length(_obj); i++) {
-            if (place_meeting(x, y + sign(vsp), _obj[i])) {
-                collision = true;
-                break;
-            }
-        }
-        if (!collision) {
-            y += sign(vsp);
-        } else {
-            vsp = 0;
+    collision = false;
+    for (i = 0; i < array_length(_obj); i++) {
+        if (place_meeting(x, y + vsp, _obj[i])) {
+            collision = true;
             break;
         }
+    }
+    if (!collision) {
+        y += vsp;
+    } else {
+        vsp = 0;
     }
 }
 
