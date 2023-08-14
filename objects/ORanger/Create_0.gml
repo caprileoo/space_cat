@@ -2,7 +2,6 @@ event_user(0);
 
 //Array declare
 collision_objects = [Owall, OEnemyEdge, OCheeseMain];
-on_ground_objects = [Owall, OEnemyEdge, OCheeseMain];
 hit_wall_objects = [Owall];
 turn_objects = [OEnemyEdge];
 

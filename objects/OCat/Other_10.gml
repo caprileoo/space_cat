@@ -77,8 +77,8 @@ function get_dir(){
 }
 
 function on_ground(){
-    for (var i = 0; i < array_length(on_ground_objects); i++) {
-        if (place_meeting(x, y + 1, on_ground_objects[i])) {
+    for (var i = 0; i < array_length(collision_objects); i++) {
+        if (place_meeting(x, y + 1, collision_objects[i])) {
             return true;
         }
     }
@@ -88,6 +88,15 @@ function on_ground(){
 function on_ground_specific(_objs) {
     for (var i = 0; i < array_length(_objs); i++) {
         if (place_meeting(x, y + 1, _objs[i])) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function touched_solid(){
+    for (var i = 0; i < array_length(collision_objects); i++) {
+        if (place_meeting(x, y, collision_objects[i])) {
             return true;
         }
     }

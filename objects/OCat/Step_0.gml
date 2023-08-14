@@ -94,4 +94,5 @@ switch(state)
 	case PSTATE.DEAD: PState_Dead(); break;
 }
 
-show_debug_message(hsp)
+
+show_debug_message(hsp);
