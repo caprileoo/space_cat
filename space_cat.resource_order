@@ -1,7 +1,10 @@
 {
   "FolderOrderSettings": [
     {"name":"Cheese Platforms","order":6,"path":"folders/Objects/Functional/Cheese Platforms.yy",},
+    {"name":"Platforms","order":11,"path":"folders/Objects/Functional/Platforms.yy",},
+    {"name":"Trigger Objects","order":12,"path":"folders/Objects/Functional/Trigger Objects.yy",},
     {"name":"GUI and HUD","order":4,"path":"folders/Objects/GUI and HUD.yy",},
+    {"name":"Chapter 1 - Forest","order":3,"path":"folders/Rooms/Chapter 1 - Forest.yy",},
     {"name":"Melee","order":1,"path":"folders/Scripts/Player States/Attack/Melee.yy",},
     {"name":"Range","order":2,"path":"folders/Scripts/Player States/Attack/Range.yy",},
     {"name":"Charge","order":2,"path":"folders/Scripts/Player States/Attack/Range/Charge.yy",},
@@ -11,15 +14,12 @@
     {"name":"Movement","order":3,"path":"folders/Sprites/Cat/Movement.yy",},
     {"name":"Shoot","order":1,"path":"folders/Sprites/Cat/Shoot.yy",},
     {"name":"Status","order":4,"path":"folders/Sprites/Cat/Status.yy",},
+    {"name":"Room Trigger","order":10,"path":"folders/Sprites/Funcionals/Room Trigger.yy",},
     {"name":"GUI and HUD","order":4,"path":"folders/Sprites/GUI and HUD.yy",},
     {"name":"GUI","order":1,"path":"folders/Sprites/GUI and HUD/GUI.yy",},
     {"name":"Bullets","order":1,"path":"folders/Sprites/Items/Bullets.yy",},
     {"name":"fx","order":5,"path":"folders/Sprites/Items/Bullets/fx.yy",},
     {"name":"Tilesets","order":3,"path":"folders/Sprites/Tilesets.yy",},
-    {"name":"Room Trigger","order":10,"path":"folders/Sprites/Funcionals/Room Trigger.yy",},
-    {"name":"Platforms","order":11,"path":"folders/Objects/Functional/Platforms.yy",},
-    {"name":"Trigger Objects","order":12,"path":"folders/Objects/Functional/Trigger Objects.yy",},
-    {"name":"Chapter 1 - Forest","order":3,"path":"folders/Rooms/Chapter 1 - Forest.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SWaterfallSmall","order":2,"path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},
