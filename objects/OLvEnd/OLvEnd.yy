@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OLvEnd",
+  "name": "oLvEnd",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"OCat","path":"objects/OCat/OCat.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Functional",
-    "path": "folders/Objects/Functional.yy",
+    "name": "Trigger Objects",
+    "path": "folders/Objects/Functional/Trigger Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,12 +28,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "STrig",
-    "path": "sprites/STrig/STrig.yy",
+    "name": "sTrigger",
+    "path": "sprites/sTrigger/sTrigger.yy",
   },
   "spriteMaskId": {
-    "name": "STrig",
-    "path": "sprites/STrig/STrig.yy",
+    "name": "sTrigger",
+    "path": "sprites/sTrigger/sTrigger.yy",
   },
   "visible": false,
 }

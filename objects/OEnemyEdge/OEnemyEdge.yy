@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Functional",
-    "path": "folders/Objects/Functional.yy",
+    "name": "Platforms",
+    "path": "folders/Objects/Functional/Platforms.yy",
   },
   "parentObjectId": null,
   "persistent": false,

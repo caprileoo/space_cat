@@ -1,18 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OCheeseMain",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "oLvEndY",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cheese Platforms",
-    "path": "folders/Objects/Functional/Cheese Platforms.yy",
+    "name": "Trigger Objects",
+    "path": "folders/Objects/Functional/Trigger Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLvEnd",
+    "path": "objects/oLvEnd/oLvEnd.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sTriggerY",
+    "path": "sprites/sTriggerY/sTriggerY.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

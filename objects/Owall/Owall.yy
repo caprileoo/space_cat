@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Functional",
-    "path": "folders/Objects/Functional.yy",
+    "name": "Platforms",
+    "path": "folders/Objects/Functional/Platforms.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Swall",
-    "path": "sprites/Swall/Swall.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
   "spriteMaskId": {
-    "name": "Swall",
-    "path": "sprites/Swall/Swall.yy",
+    "name": "sWall",
+    "path": "sprites/sWall/sWall.yy",
   },
   "visible": true,
 }
