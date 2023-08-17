@@ -1,7 +1,5 @@
 function PState_Idle_Charge(){
 	
-	sprite_index = SCatShootIdle;
-	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	

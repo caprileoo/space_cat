@@ -1,11 +1,5 @@
 function PState_Rising_Charge(){
 	
-	sprite_index = SCatShootAir;
-	
-	if(vsp > -2){
-		sprite_index = SCatShootMidAir;
-	}
-	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	

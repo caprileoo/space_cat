@@ -1,9 +1,5 @@
 function PState_Falling(){
 	
-	if(plasma_using){
-		sprite_index = SCatShootFall;
-	} else sprite_index = SCatFall;
-	
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
 	

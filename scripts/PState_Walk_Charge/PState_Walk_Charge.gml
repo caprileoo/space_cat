@@ -1,7 +1,5 @@
 function PState_Walk_Charge(){
 	
-	sprite_index = SCatShootRun;
-	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	

@@ -1,8 +1,5 @@
 function PState_Falling_Charge(){
-	
-	sprite_index = SCatShootFall;
 
-	
 	var move = key_right - key_left;
 	plasma_charge_time++;
 	

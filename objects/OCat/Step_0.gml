@@ -26,6 +26,61 @@ if(key_fly){
 
 #endregion
 
+#region Animation
+
+switch (state) {
+    case PSTATE.IDLE_CHARGE:
+        sprite_index = SCatShootIdle;
+        break;
+    case PSTATE.WALK_CHARGE:
+        sprite_index = SCatShootRun;
+        break;
+    case PSTATE.RISING_CHARGE:
+        sprite_index = SCatShootAir;
+        if (vsp > -2) {
+            sprite_index = SCatShootMidAir;
+        }
+        break;
+    case PSTATE.FALLING_CHARGE:
+        sprite_index = SCatShootFall;
+        break;
+    case PSTATE.IDLE:
+        if (plasma_using) {
+            sprite_index = SCatShootIdle;
+        } else {
+            sprite_index = sCat;
+        }
+        break;
+    case PSTATE.WALK:
+        if (plasma_using) {
+            sprite_index = SCatShootRun;
+        } else {
+            sprite_index = sCatRun;
+        }
+        break;
+    case PSTATE.RISING:
+        if (plasma_using) {
+            sprite_index = SCatShootAir;
+            if (vsp > -2) {
+                sprite_index = SCatShootMidAir;
+            }
+        } else {
+            sprite_index = sCatAir;
+            if (vsp > -2) {
+                sprite_index = SCatMidAir;
+            }
+        }
+        break;
+    case PSTATE.FALLING:
+        if (plasma_using) {
+            sprite_index = SCatShootFall;
+        } else {
+            sprite_index = SCatFall;
+        }
+}
+
+#endregion
+
 #region Obstacles
 
 if(place_meeting(x, y, obj_spikes) or place_meeting(x, y, ODeathWall)){
@@ -59,7 +114,7 @@ if(plasma_hold >= room_speed * 2 and !key_atk){
 	plasma_using = false;
 }
 
-if(plasma_using = true and !key_atk){
+if(plasma_using == true and !key_atk){
 	plasma_hold++;
 	if(key_plasma) plasma_hold = 0;
 }

@@ -1,9 +1,5 @@
 function PState_Idle(){
 	
-	if(plasma_using){
-		sprite_index = SCatShootIdle;
-	} else sprite_index = sCat;
-	
 	var move = key_right - key_left;
 	
 	if(move != 0){

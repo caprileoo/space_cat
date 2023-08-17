@@ -1,18 +1,4 @@
 function PState_Rising(){
-	
-	if(plasma_using){
-		sprite_index = SCatShootAir;
-		
-		if(vsp > -2){
-			sprite_index = SCatShootMidAir;
-		}
-	} else {
-		sprite_index = sCatAir;
-		
-		if(vsp > -2){
-			sprite_index = SCatMidAir;
-		}
-	}
 
 	var move = key_right - key_left;
 	if (move != 0) image_xscale = move;
