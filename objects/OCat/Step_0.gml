@@ -45,17 +45,33 @@ switch (state) {
         sprite_index = SCatShootFall;
         break;
     case PSTATE.IDLE:
-        if (plasma_using) {
-            sprite_index = SCatShootIdle;
+        if (touching_wall() and on_ground()) {
+            if (plasma_using) {
+                sprite_index = SCatShootIdle;
+            } else {
+                sprite_index = sCat;
+            }
         } else {
-            sprite_index = sCat;
+            if (plasma_using) {
+                sprite_index = SCatShootIdle;
+            } else {
+                sprite_index = sCat;
+            }
         }
         break;
     case PSTATE.WALK:
-        if (plasma_using) {
-            sprite_index = SCatShootRun;
+        if (touching_wall() and on_ground()) {
+            if (plasma_using) {
+                sprite_index = SCatShootIdle;
+            } else {
+                sprite_index = sCat;
+            }
         } else {
-            sprite_index = sCatRun;
+            if (plasma_using) {
+                sprite_index = SCatShootRun;
+            } else {
+                sprite_index = sCatRun;
+            }
         }
         break;
     case PSTATE.RISING:

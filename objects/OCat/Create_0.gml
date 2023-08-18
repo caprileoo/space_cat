@@ -3,8 +3,6 @@ hascontrol = true;
 
 //Array declare
 collision_objects = [Owall, OEnemyEdge, OCheeseMain];
-hit_wall_objects = [Owall];
-cheese_platforms = [OCheeseMain];
 
 /**Physics**/
 dir = 0;
