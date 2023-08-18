@@ -94,6 +94,7 @@
     {"name":"SCheesePlatform","order":1,"path":"sprites/SCheesePlatform/SCheesePlatform.yy",},
     {"name":"SForestTileBox","order":1,"path":"sprites/SForestTileBox/SForestTileBox.yy",},
     {"name":"PState_Idle_Charge","order":1,"path":"scripts/PState_Idle_Charge/PState_Idle_Charge.yy",},
+    {"name":"OCat","order":5,"path":"objects/OCat/OCat.yy",},
     {"name":"PState_Walk_Release","order":4,"path":"scripts/PState_Walk_Release/PState_Walk_Release.yy",},
     {"name":"sForestTileSet32","order":3,"path":"sprites/sForestTileSet32/sForestTileSet32.yy",},
     {"name":"c1r18","order":7,"path":"rooms/c1r18/c1r18.yy",},
