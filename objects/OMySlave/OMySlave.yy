@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "space_cat",
-    "path": "space_cat.yyp",
+    "name": "Functional",
+    "path": "folders/Objects/Functional.yy",
   },
   "parentObjectId": null,
   "persistent": false,
