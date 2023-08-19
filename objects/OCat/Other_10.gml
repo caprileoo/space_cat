@@ -35,6 +35,14 @@ function move_n_collide(_obj) {
     }
 }
 
+//function slope(){
+//	var slop_collision = place_meeting(x, y + slope_max, OWall2);
+	
+//	var _arr = move_and_collide(hsp, vsp, OWall2);
+	
+//	if(array_length(_arr) != 0 and place_meeting(x, y + vsp, OWall2)) vsp = 0;
+//}
+
 function moving(){
 	var move = key_right - key_left;
 
@@ -71,21 +79,15 @@ function on_ground_specific(_objs) {
 }
 
 function touching_wall() {
-    // Get the player's movement direction
     var move = key_right - key_left;
 
-    // Check if the player is moving towards any of the collision objects and is already touching it
     for (var i = 0; i < array_length(collision_objects); i++) {
         if (move > 0 and place_meeting(x + 1, y, collision_objects[i])) {
-            // Player is moving right and touching a collision object on the right
             return true;
         } else if (move < 0 and place_meeting(x - 1, y, collision_objects[i])) {
-            // Player is moving left and touching a collision object on the left
             return true;
         }
     }
-
-    // Player is not touching any of the collision objects on either side
     return false;
 }
 

@@ -2,7 +2,7 @@ event_user(0);
 hascontrol = true;
 
 //Array declare
-collision_objects = [Owall, OEnemyEdge, OCheeseMain, OWall2];
+collision_objects = [Owall, OEnemyEdge, OCheeseMain];
 
 /**Physics**/
 dir = 0;
@@ -13,12 +13,15 @@ walksp = 2.9; //walking speed
 accel_time = 6 // accelerate time in frame
 deccel_time = 3 //deccelerate time in frame
 
+//Slope
+slope_max = 4;
+
 //coyote time
 can_jump_timer = 0;
 coyote_time = 12;
 
 //solve for grv dynamically (without grav_bender)
-j_height = 58;
+j_height = 68;
 time_to_apex = 18;
 grv = (2 * j_height) / power(time_to_apex, 2);
 j_velocity = -abs(grv) * time_to_apex;
