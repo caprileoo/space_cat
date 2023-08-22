@@ -9,7 +9,10 @@
     "name": "Platforms",
     "path": "folders/Objects/Functional/Platforms.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Owall",
+    "path": "objects/Owall/Owall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

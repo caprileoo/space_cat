@@ -2,7 +2,7 @@ event_user(0);
 hascontrol = true;
 
 //Array declare
-collision_objects = [Owall, OWall2, Oline, OEnemyEdge, OCheeseMain];
+collision_objects = [Owall, OEnemyEdge, OCheeseMain];
 
 /**Physics**/
 dir = 0;
@@ -12,9 +12,6 @@ max_vsp = 4;
 walksp = 2.9; //walking speed
 accel_time = 6 // accelerate time in frame
 deccel_time = 3 //deccelerate time in frame
-
-//Slope
-slope_max = 4;
 
 //coyote time
 can_jump_timer = 0;

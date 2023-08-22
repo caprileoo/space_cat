@@ -35,14 +35,6 @@ function move_n_collide(_obj) {
     }
 }
 
-//function slope(){
-//	var slop_collision = place_meeting(x, y + slope_max, OWall2);
-	
-//	var _arr = move_and_collide(hsp, vsp, OWall2);
-	
-//	if(array_length(_arr) != 0 and place_meeting(x, y + vsp, OWall2)) vsp = 0;
-//}
-
 function moving(){
 	var move = key_right - key_left;
 
