@@ -2,7 +2,7 @@ event_user(0);
 hascontrol = true;
 
 //Array declare
-collision_objects = [Owall, OEnemyEdge, OCheeseMain];
+collision_objects = [Owall, OWall2, Oline, OEnemyEdge, OCheeseMain];
 
 /**Physics**/
 dir = 0;
