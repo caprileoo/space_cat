@@ -3,14 +3,18 @@ x += (player.x - x) * smoothness;
 y += (player.y - y) * smoothness;
 
 if (keyboard_check(ord("O"))) {
-    zoom += 0.01;
+    zoom_out = true;
+} else {
+    zoom_out = false;
 }
 
-if (keyboard_check(ord("P"))) {
+if (zoom_out) {
+    zoom += 0.01;
+} else {
     zoom -= 0.01;
 }
 
-zoom = clamp(zoom, 0.5, 2);
+zoom = clamp(zoom, 1, 1.2); // Set the maximum zoom in value to 1 (default camera size) and the maximum zoom out value to 2
 
 camera_set_view_size(view_camera[0], cam_width * zoom, cam_height * zoom);
 
@@ -22,6 +26,8 @@ cam_x = clamp(cam_x, 0, room_width - cam_width * zoom);
 cam_y = clamp(cam_y, 0, room_height - cam_height * zoom);
 
 camera_set_view_pos(view_camera[0], cam_x, cam_y);
+
+show_debug_message(zoom_out);
 
 //if(layer_exists("custom")){
 //	var custom1 = layer_get_id("custom");

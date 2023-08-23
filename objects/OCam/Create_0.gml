@@ -7,6 +7,7 @@ cam_height = camera_get_view_height(view_camera[0]);
 x = player.x;
 y = player.y;
 
-zoom = 1;
+zoom = 1; // Set the initial zoom value to 1
+zoom_out = false; // Set the initial zoom_out value to false
 
 smoothness = 0.07;
