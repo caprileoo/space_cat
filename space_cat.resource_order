@@ -40,6 +40,8 @@
     {"name":"Tilesets","order":3,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
+    {"name":"OtherEnemies","order":1,"path":"folders/Objects/Enemies/OtherEnemies.yy",},
+    {"name":"OtherEnemies","order":1,"path":"folders/Sprites/Enemies/OtherEnemies.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"c1r30","order":9,"path":"rooms/c1r30/c1r30.yy",},
@@ -123,6 +125,7 @@
     {"name":"sTriggerX","order":1,"path":"sprites/sTriggerX/sTriggerX.yy",},
     {"name":"SCatHolster","order":5,"path":"sprites/SCatHolster/SCatHolster.yy",},
     {"name":"SCatSlashHB2","order":3,"path":"sprites/SCatSlashHB2/SCatSlashHB2.yy",},
+    {"name":"SPoisonFlower","order":15,"path":"sprites/SPoisonFlower/SPoisonFlower.yy",},
     {"name":"sCatAir","order":1,"path":"sprites/sCatAir/sCatAir.yy",},
     {"name":"PState_Atk_Slash2","order":1,"path":"scripts/PState_Atk_Slash2/PState_Atk_Slash2.yy",},
     {"name":"SCatSlashHB1","order":2,"path":"sprites/SCatSlashHB1/SCatSlashHB1.yy",},
