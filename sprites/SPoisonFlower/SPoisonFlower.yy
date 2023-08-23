@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "space_cat",
-    "path": "space_cat.yyp",
+    "name": "OtherEnemies",
+    "path": "folders/Sprites/Enemies/OtherEnemies.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
