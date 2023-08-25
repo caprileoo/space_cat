@@ -1,15 +1,15 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "LVMenu",
+  "name": "mainMenu",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_6892623C","path":"rooms/LVMenu/LVMenu.yy",},
-    {"name":"inst_5991A1DC","path":"rooms/LVMenu/LVMenu.yy",},
-    {"name":"inst_30545F58","path":"rooms/LVMenu/LVMenu.yy",},
+    {"name":"inst_6892623C","path":"rooms/mainMenu/mainMenu.yy",},
+    {"name":"inst_5991A1DC","path":"rooms/mainMenu/mainMenu.yy",},
+    {"name":"inst_30545F58","path":"rooms/mainMenu/mainMenu.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -269,7 +269,7 @@
     {"id":{"name":"SSlimeAtk","path":"sprites/SSlimeAtk/SSlimeAtk.yy",},},
     {"id":{"name":"c1r37","path":"rooms/c1r37/c1r37.yy",},},
     {"id":{"name":"STitle","path":"sprites/STitle/STitle.yy",},},
-    {"id":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
+    {"id":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"id":{"name":"SFMouseAtk","path":"sprites/SFMouseAtk/SFMouseAtk.yy",},},
     {"id":{"name":"SRMouseRun","path":"sprites/SRMouseRun/SRMouseRun.yy",},},
     {"id":{"name":"PState_Atk_Slash2","path":"scripts/PState_Atk_Slash2/PState_Atk_Slash2.yy",},},
@@ -327,7 +327,7 @@
     {"id":{"name":"FState_Hit","path":"scripts/FState_Hit/FState_Hit.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
+    {"roomId":{"name":"mainMenu","path":"rooms/mainMenu/mainMenu.yy",},},
     {"roomId":{"name":"c1r01","path":"rooms/c1r01/c1r01.yy",},},
     {"roomId":{"name":"c1tutorial","path":"rooms/c1tutorial/c1tutorial.yy",},},
     {"roomId":{"name":"Level_Forest","path":"rooms/Level_Forest/Level_Forest.yy",},},
