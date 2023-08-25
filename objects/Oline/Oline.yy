@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Platforms",
-    "path": "folders/Objects/Functional/Platforms.yy",
+    "name": "Walls",
+    "path": "folders/Objects/Functional/Platforms/Walls.yy",
   },
   "parentObjectId": {
     "name": "Owall",

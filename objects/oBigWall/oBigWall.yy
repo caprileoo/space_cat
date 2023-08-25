@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OWall2",
+  "name": "oBigWall",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -29,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sSlope",
-    "path": "sprites/sSlope/sSlope.yy",
+    "name": "sBigWall",
+    "path": "sprites/sBigWall/sBigWall.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sBigWall",
+    "path": "sprites/sBigWall/sBigWall.yy",
+  },
   "visible": true,
 }
