@@ -315,8 +315,8 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"LVMenu","path":"rooms/LVMenu/LVMenu.yy",},},
-    {"roomId":{"name":"c1tutorial","path":"rooms/c1tutorial/c1tutorial.yy",},},
     {"roomId":{"name":"c1r01","path":"rooms/c1r01/c1r01.yy",},},
+    {"roomId":{"name":"c1tutorial","path":"rooms/c1tutorial/c1tutorial.yy",},},
     {"roomId":{"name":"Level_Forest","path":"rooms/Level_Forest/Level_Forest.yy",},},
     {"roomId":{"name":"c1boss","path":"rooms/c1boss/c1boss.yy",},},
     {"roomId":{"name":"c1r02","path":"rooms/c1r02/c1r02.yy",},},
