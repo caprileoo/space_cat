@@ -7,4 +7,3 @@ with (OCat)
 		SlideTransition(TRANS_MODE.GOTO,other.target);
 	}
 }
- //nothing
