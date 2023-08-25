@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Funcionals",
-    "path": "folders/Sprites/Funcionals.yy",
+    "name": "Walls",
+    "path": "folders/Sprites/Funcionals/Walls.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
