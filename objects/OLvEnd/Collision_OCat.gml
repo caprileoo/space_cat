@@ -4,6 +4,6 @@ with (OCat)
 	if (hascontrol)
 	{
 		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,other.target);
+		SlideTransition(TRANS_MODE.NEXT);
 	}
 }
