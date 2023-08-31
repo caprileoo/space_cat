@@ -122,8 +122,8 @@
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {
-    "name": "Box",
-    "path": "folders/Rooms/Chapter 1 - Forest/Box.yy",
+    "name": "c1s1 - Forest Scene",
+    "path": "folders/Rooms/Chapter 1 - Forest/c1s1 - Forest Scene.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

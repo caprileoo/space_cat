@@ -269,8 +269,8 @@
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"SB1","path":"sprites/SB1/SB1.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":40,},
   ],
   "parent": {
-    "name": "Chapter 1 - Forest",
-    "path": "folders/Rooms/Chapter 1 - Forest.yy",
+    "name": "c1u - Special Rooms",
+    "path": "folders/Rooms/Chapter 1 - Forest/c1u - Special Rooms.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
