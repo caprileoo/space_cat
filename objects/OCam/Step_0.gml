@@ -27,8 +27,6 @@ cam_y = clamp(cam_y, 0, room_height - cam_height * zoom);
 
 camera_set_view_pos(view_camera[0], cam_x, cam_y);
 
-show_debug_message(zoom_out);
-
 //if(layer_exists("custom")){
 //	var custom1 = layer_get_id("custom");
 //}

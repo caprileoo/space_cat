@@ -111,6 +111,21 @@ if(place_meeting(x, y, oCheeseWaterfall)){
 	}
 }
 
+if(place_meeting(x, y, oCheeseLava)){
+	lava_timer++;
+	
+	if(lava_timer == room_speed * 2){
+		hp -= 1;
+		lava_timer = 0;
+	}
+	
+	vsp = 0.8;
+	hsp *= 0.6;
+	if(key_jump){
+		vsp -= 3;
+	}
+}
+
 #endregion
 
 #region Plasma Attack
