@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Decos",
-    "path": "folders/Sprites/Decos.yy",
+    "name": "Cheese Waterfall",
+    "path": "folders/Sprites/Decorations/Cheese Waterfall.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

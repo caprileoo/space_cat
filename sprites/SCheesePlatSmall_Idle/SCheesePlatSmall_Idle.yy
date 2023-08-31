@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Decos",
-    "path": "folders/Sprites/Decos.yy",
+    "name": "Cheese Platforms",
+    "path": "folders/Sprites/Decorations/Cheese Platforms.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
