@@ -50,8 +50,9 @@ reload_time = 0;
 //Attack
 atk_timer = 0;
 
-//Cheese platform
+// Obstacles Properties
 cheese_timer = 0;
+lava_timer = 0;
 
 enum PSTATE
 {

@@ -2,17 +2,16 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oCheeseLava",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "Decos",
     "path": "folders/Objects/Decos.yy",
   },
-  "parentObjectId": {
-    "name": "obj_spikes",
-    "path": "objects/obj_spikes/obj_spikes.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
