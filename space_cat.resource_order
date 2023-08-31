@@ -43,6 +43,7 @@
     {"name":"Tilesets","order":3,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
+    {"name":"Cheese Waterfall","order":2,"path":"folders/Objects/Decos/Cheese Waterfall.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SWaterfallSmall","order":2,"path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},

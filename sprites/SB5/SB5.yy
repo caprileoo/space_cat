@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SB5",
-  "bbox_bottom": 269,
+  "bbox_bottom": 402,
   "bbox_left": 0,
-  "bbox_right": 383,
-  "bbox_top": 4,
+  "bbox_right": 575,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b80d0ae7-b51d-49ed-a121-3fb2dc1edd6d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f2ae58e-b335-45cc-be77-b45fd2cbb5cb",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 270,
+  "height": 405,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d1de5dc5-9e43-4bdb-b5cd-d73462d6519d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"35d7e927-a380-4f9c-8fb7-6d07073ebc84","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b80d0ae7-b51d-49ed-a121-3fb2dc1edd6d","path":"sprites/SB5/SB5.yy",},},},"Disabled":false,"id":"3e095d1e-be10-4359-b13c-00c66cfbc793","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f2ae58e-b335-45cc-be77-b45fd2cbb5cb","path":"sprites/SB5/SB5.yy",},},},"Disabled":false,"id":"9fdd4aca-c122-4d0f-ae98-7ffcee6ba424","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 384,
+  "width": 576,
 }

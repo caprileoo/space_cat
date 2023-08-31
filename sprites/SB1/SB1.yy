@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SB1",
-  "bbox_bottom": 215,
+  "bbox_bottom": 269,
   "bbox_left": 0,
   "bbox_right": 383,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"223058b8-2716-42bf-96fc-37fbf136e453",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54f562cd-84b8-4fba-9c7f-33d8a4f30e43",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 216,
+  "height": 270,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7f40bdc2-aedd-433f-9201-0e8bc0ccbb37","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3d31a5db-be0b-4fd0-81c8-91d24b6409fa","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"223058b8-2716-42bf-96fc-37fbf136e453","path":"sprites/SB1/SB1.yy",},},},"Disabled":false,"id":"a86ec1e7-2a4e-4028-af7d-a880424fcaa6","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54f562cd-84b8-4fba-9c7f-33d8a4f30e43","path":"sprites/SB1/SB1.yy",},},},"Disabled":false,"id":"7891c631-f7be-4ca3-bbdc-47abba8c4651","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

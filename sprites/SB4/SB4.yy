@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "SB4",
-  "bbox_bottom": 228,
+  "bbox_bottom": 404,
   "bbox_left": 0,
-  "bbox_right": 383,
-  "bbox_top": 5,
+  "bbox_right": 575,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e827a750-2eed-40d0-a9d3-c62db9880760",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d7d591b2-b22d-41f9-9fe2-6e3ee1f566d6",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 229,
+  "height": 405,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bff50c84-5b69-4927-8100-cde9adcaf265","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bd418bfb-603a-4bb9-80bb-61037a049025","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e827a750-2eed-40d0-a9d3-c62db9880760","path":"sprites/SB4/SB4.yy",},},},"Disabled":false,"id":"98faa5ba-d3b5-49b5-8701-93d639c43b08","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d7d591b2-b22d-41f9-9fe2-6e3ee1f566d6","path":"sprites/SB4/SB4.yy",},},},"Disabled":false,"id":"1389c235-8d69-4c0a-8660-24a3cc83c69b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 384,
+  "width": 576,
 }

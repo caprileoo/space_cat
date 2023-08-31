@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Decos",
-    "path": "folders/Objects/Decos.yy",
+    "name": "Cheese Waterfall",
+    "path": "folders/Objects/Decos/Cheese Waterfall.yy",
   },
   "parentObjectId": null,
   "persistent": false,
