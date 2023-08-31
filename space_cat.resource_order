@@ -175,5 +175,6 @@
     {"name":"c1r25","order":2,"path":"rooms/c1r25/c1r25.yy",},
     {"name":"OTitle","order":3,"path":"objects/OTitle/OTitle.yy",},
     {"name":"LeavesSet","order":1,"path":"tilesets/LeavesSet/LeavesSet.yy",},
+    {"name":"oWaterfallBottom","order":4,"path":"objects/oWaterfallBottom/oWaterfallBottom.yy",},
   ],
 }

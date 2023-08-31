@@ -336,6 +336,7 @@
     {"id":{"name":"OTitle","path":"objects/OTitle/OTitle.yy",},},
     {"id":{"name":"LeavesSet","path":"tilesets/LeavesSet/LeavesSet.yy",},},
     {"id":{"name":"SState_Idle","path":"scripts/SState_Idle/SState_Idle.yy",},},
+    {"id":{"name":"oWaterfallBottom","path":"objects/oWaterfallBottom/oWaterfallBottom.yy",},},
     {"id":{"name":"FState_Hit","path":"scripts/FState_Hit/FState_Hit.yy",},},
   ],
   "RoomOrderNodes": [
