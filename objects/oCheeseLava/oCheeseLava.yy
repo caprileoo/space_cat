@@ -9,7 +9,10 @@
     "name": "Decos",
     "path": "folders/Objects/Decos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_spikes",
+    "path": "objects/obj_spikes/obj_spikes.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
