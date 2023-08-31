@@ -71,7 +71,7 @@
     {"name":"c1r27","order":3,"path":"rooms/c1r27/c1r27.yy",},
     {"name":"OMenu","order":2,"path":"objects/OMenu/OMenu.yy",},
     {"name":"OCam","order":1,"path":"objects/OCam/OCam.yy",},
-    {"name":"OMySlave","order":6,"path":"objects/OMySlave/OMySlave.yy",},
+    {"name":"OMySlave","order":5,"path":"objects/OMySlave/OMySlave.yy",},
     {"name":"c1r29","order":4,"path":"rooms/c1r29/c1r29.yy",},
     {"name":"SBigPlasmaIdle","order":6,"path":"sprites/SBigPlasmaIdle/SBigPlasmaIdle.yy",},
     {"name":"SBulletsUI","order":2,"path":"sprites/SBulletsUI/SBulletsUI.yy",},
