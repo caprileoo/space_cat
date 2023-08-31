@@ -124,6 +124,7 @@
     {"name":"SCatShootMidAir","order":3,"path":"sprites/SCatShootMidAir/SCatShootMidAir.yy",},
     {"name":"sWaterfallLines","order":3,"path":"sprites/sWaterfallLines/sWaterfallLines.yy",},
     {"name":"c1r17","order":6,"path":"rooms/c1r17/c1r17.yy",},
+    {"name":"sWaterFallPlacement","order":7,"path":"sprites/sWaterFallPlacement/sWaterFallPlacement.yy",},
     {"name":"c1r04","order":3,"path":"rooms/c1r04/c1r04.yy",},
     {"name":"c1r06","order":5,"path":"rooms/c1r06/c1r06.yy",},
     {"name":"SCatSlashHB3","order":4,"path":"sprites/SCatSlashHB3/SCatSlashHB3.yy",},

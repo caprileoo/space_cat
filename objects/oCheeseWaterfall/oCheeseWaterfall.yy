@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OWaterfallSmall",
+  "name": "oCheeseWaterfall",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
@@ -28,12 +28,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SWaterfallSmall",
-    "path": "sprites/SWaterfallSmall/SWaterfallSmall.yy",
+    "name": "sWaterFallPlacement",
+    "path": "sprites/sWaterFallPlacement/sWaterFallPlacement.yy",
   },
   "spriteMaskId": {
-    "name": "SWaterfallSmall",
-    "path": "sprites/SWaterfallSmall/SWaterfallSmall.yy",
+    "name": "sWaterFallPlacement",
+    "path": "sprites/sWaterFallPlacement/sWaterFallPlacement.yy",
   },
   "visible": true,
 }

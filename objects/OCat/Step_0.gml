@@ -103,7 +103,7 @@ if(place_meeting(x, y, obj_spikes) or place_meeting(x, y, ODeathWall)){
 	state = PSTATE.DEAD;
 }
 
-if(place_meeting(x, y, OWaterfallSmall)){
+if(place_meeting(x, y, oCheeseWaterfall)){
 	vsp = 0.8;
 	hsp *= 0.6;
 	if(key_jump){
