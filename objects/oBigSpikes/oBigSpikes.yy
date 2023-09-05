@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWaterfallBottom",
+  "name": "oBigSpikes",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cheese Waterfall",
-    "path": "folders/Objects/Decos/Cheese Waterfall.yy",
+    "name": "Spikes",
+    "path": "folders/Objects/Decos/Traps/Spikes.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_spikes",
+    "path": "objects/obj_spikes/obj_spikes.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,12 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWaterfallBottom",
-    "path": "sprites/sWaterfallBottom/sWaterfallBottom.yy",
+    "name": "sBigSpikes",
+    "path": "sprites/sBigSpikes/sBigSpikes.yy",
   },
   "spriteMaskId": {
-    "name": "sWaterfallBottom",
-    "path": "sprites/sWaterfallBottom/sWaterfallBottom.yy",
+    "name": "sBigSpikes",
+    "path": "sprites/sBigSpikes/sBigSpikes.yy",
   },
   "visible": true,
 }

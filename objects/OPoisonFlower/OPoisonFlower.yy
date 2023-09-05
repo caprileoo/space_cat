@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OPoisonFlower",
+  "name": "oPoisonFlower",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "OtherEnemies",
-    "path": "folders/Objects/Enemies/OtherEnemies.yy",
+    "name": "Traps",
+    "path": "folders/Objects/Decos/Traps.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -26,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWaterFallPlacement",
-    "path": "sprites/sWaterFallPlacement/sWaterFallPlacement.yy",
+    "name": "SWaterfallBig",
+    "path": "sprites/SWaterfallBig/SWaterfallBig.yy",
   },
   "spriteMaskId": {
-    "name": "sWaterFallPlacement",
-    "path": "sprites/sWaterFallPlacement/sWaterFallPlacement.yy",
+    "name": "SWaterfallBig",
+    "path": "sprites/SWaterfallBig/SWaterfallBig.yy",
   },
   "visible": true,
 }

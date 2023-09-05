@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Decos",
-    "path": "folders/Objects/Decos.yy",
+    "name": "Spikes",
+    "path": "folders/Objects/Decos/Traps/Spikes.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "SSpikes",
-    "path": "sprites/SSpikes/SSpikes.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": {
     "name": "SSpikes",
     "path": "sprites/SSpikes/SSpikes.yy",

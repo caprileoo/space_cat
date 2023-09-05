@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oWaterfallLines",
+  "name": "oSpikes",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Cheese Waterfall",
-    "path": "folders/Objects/Decos/Cheese Waterfall.yy",
+    "name": "Spikes",
+    "path": "folders/Objects/Decos/Traps/Spikes.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_spikes",
+    "path": "objects/obj_spikes/obj_spikes.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,12 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWaterfallLines",
-    "path": "sprites/sWaterfallLines/sWaterfallLines.yy",
+    "name": "SSpikes",
+    "path": "sprites/SSpikes/SSpikes.yy",
   },
   "spriteMaskId": {
-    "name": "sWaterfallLines",
-    "path": "sprites/sWaterfallLines/sWaterfallLines.yy",
+    "name": "SSpikes",
+    "path": "sprites/SSpikes/SSpikes.yy",
   },
   "visible": true,
 }
