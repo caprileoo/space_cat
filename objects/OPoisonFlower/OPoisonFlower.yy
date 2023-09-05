@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPoisonFlower",
-    "path": "sprites/SPoisonFlower/SPoisonFlower.yy",
+    "name": "sPoisonFlowerIdle",
+    "path": "sprites/sPoisonFlowerIdle/sPoisonFlowerIdle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
