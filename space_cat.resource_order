@@ -52,7 +52,6 @@
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"SWaterfallSmall","order":1,"path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},
     {"name":"SPlasmaHB","order":10,"path":"sprites/SPlasmaHB/SPlasmaHB.yy",},
     {"name":"c1r13","order":2,"path":"rooms/c1r13/c1r13.yy",},
     {"name":"PState_Atk_Slash3","order":2,"path":"scripts/PState_Atk_Slash3/PState_Atk_Slash3.yy",},

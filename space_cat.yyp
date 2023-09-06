@@ -115,7 +115,6 @@
   "resources": [
     {"id":{"name":"RangerMouseHit","path":"scripts/RangerMouseHit/RangerMouseHit.yy",},},
     {"id":{"name":"FighterMouseHit","path":"scripts/FighterMouseHit/FighterMouseHit.yy",},},
-    {"id":{"name":"SWaterfallSmall","path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},},
     {"id":{"name":"SPlasmaHB","path":"sprites/SPlasmaHB/SPlasmaHB.yy",},},
     {"id":{"name":"ORanger","path":"objects/ORanger/ORanger.yy",},},
     {"id":{"name":"c1r13","path":"rooms/c1r13/c1r13.yy",},},
