@@ -20,7 +20,7 @@ camera_set_view_size(view_camera[0], cam_width * zoom, cam_height * zoom);
 
 // Edge snapping
 var cam_x = x - cam_width * zoom / 2;
-var cam_y = y - cam_height * zoom * 0.7; // Change this line
+var cam_y = y - cam_height * zoom * 0.6; // Change this line
 
 cam_x = clamp(cam_x, 0, room_width - cam_width * zoom);
 cam_y = clamp(cam_y, 0, room_height - cam_height * zoom);

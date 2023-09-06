@@ -53,6 +53,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"SWaterfallSmall","order":1,"path":"sprites/SWaterfallSmall/SWaterfallSmall.yy",},
+    {"name":"SPlasmaHB","order":10,"path":"sprites/SPlasmaHB/SPlasmaHB.yy",},
     {"name":"c1r39","order":18,"path":"rooms/c1r39/c1r39.yy",},
     {"name":"c1r13","order":2,"path":"rooms/c1r13/c1r13.yy",},
     {"name":"PState_Atk_Slash3","order":2,"path":"scripts/PState_Atk_Slash3/PState_Atk_Slash3.yy",},
@@ -168,7 +169,6 @@
     {"name":"oBigSpikes","order":1,"path":"objects/oBigSpikes/oBigSpikes.yy",},
     {"name":"c1r30","order":9,"path":"rooms/c1r30/c1r30.yy",},
     {"name":"OWall2","order":3,"path":"objects/OWall2/OWall2.yy",},
-    {"name":"sCatStatue","order":2,"path":"sprites/sCatStatue/sCatStatue.yy",},
     {"name":"c1r14","order":3,"path":"rooms/c1r14/c1r14.yy",},
     {"name":"SSpikes","order":1,"path":"sprites/SSpikes/SSpikes.yy",},
     {"name":"c1r31","order":10,"path":"rooms/c1r31/c1r31.yy",},
