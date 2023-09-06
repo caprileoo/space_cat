@@ -91,7 +91,6 @@
     {"name":"oPoisonFlower","order":1,"path":"objects/oPoisonFlower/oPoisonFlower.yy",},
     {"name":"OHearts","order":1,"path":"objects/OHearts/OHearts.yy",},
     {"name":"SHearts","order":1,"path":"sprites/SHearts/SHearts.yy",},
-    {"name":"c1r33","order":12,"path":"rooms/c1r33/c1r33.yy",},
     {"name":"sDeathWall","order":3,"path":"sprites/sDeathWall/sDeathWall.yy",},
     {"name":"SCheesePlasma","order":1,"path":"sprites/SCheesePlasma/SCheesePlasma.yy",},
     {"name":"SCheesePlasmaExplode","order":2,"path":"sprites/SCheesePlasmaExplode/SCheesePlasmaExplode.yy",},
