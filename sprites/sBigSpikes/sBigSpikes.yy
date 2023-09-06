@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Spikes",
-    "path": "folders/Sprites/Decorations/Traps/Spikes.yy",
+    "name": "Poison Leaves",
+    "path": "folders/Sprites/Decorations/Traps/Poison Leaves.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
