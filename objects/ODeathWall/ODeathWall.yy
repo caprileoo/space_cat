@@ -26,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SDeathWall",
-    "path": "sprites/SDeathWall/SDeathWall.yy",
+    "name": "sDeathWall",
+    "path": "sprites/sDeathWall/sDeathWall.yy",
   },
   "spriteMaskId": {
-    "name": "SDeathWall",
-    "path": "sprites/SDeathWall/SDeathWall.yy",
+    "name": "sDeathWall",
+    "path": "sprites/sDeathWall/sDeathWall.yy",
   },
   "visible": false,
 }

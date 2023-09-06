@@ -26,12 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sedge",
-    "path": "sprites/Sedge/Sedge.yy",
+    "name": "sEdge",
+    "path": "sprites/sEdge/sEdge.yy",
   },
   "spriteMaskId": {
-    "name": "Sedge",
-    "path": "sprites/Sedge/Sedge.yy",
+    "name": "sEdge",
+    "path": "sprites/sEdge/sEdge.yy",
   },
   "visible": true,
 }

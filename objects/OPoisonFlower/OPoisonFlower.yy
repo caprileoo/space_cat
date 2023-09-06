@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OPoisonFlower",
+  "name": "oPoisonFlower",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "OtherEnemies",
-    "path": "folders/Objects/Enemies/OtherEnemies.yy",
+    "name": "Traps",
+    "path": "folders/Objects/Decos/Traps.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SPoisonFlower",
-    "path": "sprites/SPoisonFlower/SPoisonFlower.yy",
+    "name": "sPoisonFlowerIdle",
+    "path": "sprites/sPoisonFlowerIdle/sPoisonFlowerIdle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

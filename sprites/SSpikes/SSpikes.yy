@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ae39d4ba-af10-4332-ad65-3d7339ccb98c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e6be4056-89c3-4c42-bc13-02d05d1bf4bc",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e66aaa6-a7a3-4bd0-8622-12635d140fa1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"604d4506-13a8-45dc-b54c-372d7f95b4c2","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Funcionals",
-    "path": "folders/Sprites/Funcionals.yy",
+    "name": "Spikes",
+    "path": "folders/Sprites/Decorations/Traps/Spikes.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ae39d4ba-af10-4332-ad65-3d7339ccb98c","path":"sprites/SSpikes/SSpikes.yy",},},},"Disabled":false,"id":"ca319b3c-ee0d-4480-93c3-f490c35fe731","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e6be4056-89c3-4c42-bc13-02d05d1bf4bc","path":"sprites/SSpikes/SSpikes.yy",},},},"Disabled":false,"id":"23ae2e45-b960-45fc-86b1-7d65351ce530","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
