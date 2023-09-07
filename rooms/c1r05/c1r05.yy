@@ -86,6 +86,10 @@
     {"name":"inst_63818DC1","path":"rooms/c1r05/c1r05.yy",},
     {"name":"inst_333C7E44","path":"rooms/c1r05/c1r05.yy",},
     {"name":"inst_2E069718","path":"rooms/c1r05/c1r05.yy",},
+    {"name":"inst_C06F3DD","path":"rooms/c1r05/c1r05.yy",},
+    {"name":"inst_65D3DA43","path":"rooms/c1r05/c1r05.yy",},
+    {"name":"inst_5AC7D7CD","path":"rooms/c1r05/c1r05.yy",},
+    {"name":"inst_B081E1E","path":"rooms/c1r05/c1r05.yy",},
   ],
   "isDnd": false,
   "layers": [

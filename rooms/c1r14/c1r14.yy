@@ -110,6 +110,8 @@
     {"name":"inst_DC763DF","path":"rooms/c1r14/c1r14.yy",},
     {"name":"inst_563DEC73","path":"rooms/c1r14/c1r14.yy",},
     {"name":"inst_4D78290B","path":"rooms/c1r14/c1r14.yy",},
+    {"name":"inst_49A45976","path":"rooms/c1r14/c1r14.yy",},
+    {"name":"inst_DC763DF","path":"rooms/c1r14/c1r14.yy",},
   ],
   "isDnd": false,
   "layers": [
