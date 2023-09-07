@@ -114,7 +114,7 @@ if(place_meeting(x, y, oCheeseWaterfall)){
 if(place_meeting(x, y, oCheeseLava)){
 	lava_timer++;
 	
-	if(lava_timer == room_speed){
+	if(lava_timer == room_speed * 2){
 		hp -= 1;
 		lava_timer = 0;
 	}
