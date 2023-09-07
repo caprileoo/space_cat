@@ -151,7 +151,6 @@
     {"name":"PState_Atk_Slash2","order":1,"path":"scripts/PState_Atk_Slash2/PState_Atk_Slash2.yy",},
     {"name":"SCatSlashHB1","order":2,"path":"sprites/SCatSlashHB1/SCatSlashHB1.yy",},
     {"name":"SB2","order":1,"path":"sprites/SB2/SB2.yy",},
-    {"name":"c1r24o","order":3,"path":"rooms/c1r24o/c1r24o.yy",},
     {"name":"SCheesePlasmaHB","order":1,"path":"sprites/SCheesePlasmaHB/SCheesePlasmaHB.yy",},
     {"name":"SPlasmaExplode","order":1,"path":"sprites/SPlasmaExplode/SPlasmaExplode.yy",},
     {"name":"SPlasmaIdle","order":7,"path":"sprites/SPlasmaIdle/SPlasmaIdle.yy",},
