@@ -110,7 +110,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.0.98",
   },
   "resources": [
     {"id":{"name":"RangerMouseHit","path":"scripts/RangerMouseHit/RangerMouseHit.yy",},},
@@ -377,6 +377,7 @@
     {"roomId":{"name":"c1r23","path":"rooms/c1r23/c1r23.yy",},},
     {"roomId":{"name":"c1r24","path":"rooms/c1r24/c1r24.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
