@@ -61,7 +61,7 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":50,"TileCompressedData":[
--913,-2147483648,1,23,-6,-2147483648,1,21,-42,-2147483648,1,23,-6,-2147483648,1,21,-42,-2147483648,1,23,-6,-2147483648,1,21,-42,-2147483648,1,23,-6,-2147483648,1,21,-42,-2147483648,1,23,-6,-2147483648,1,21,-42,-2147483648,1,23,-6,-2147483648,1,21,-43,-2147483648,
+-913,-2147483648,1,26,-6,-2147483648,1,38,-42,-2147483648,1,26,-6,-2147483648,1,38,-42,-2147483648,1,26,-6,-2147483648,1,28,-42,-2147483648,1,26,-6,-2147483648,1,28,-42,-2147483648,1,26,-6,-2147483648,1,28,-42,-2147483648,1,26,-6,-2147483648,1,28,-43,-2147483648,
 -6,22,-80,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"HotDirtTiles","path":"tilesets/HotDirtTiles/HotDirtTiles.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":26,"SerialiseWidth":50,"TileCompressedData":[
 -734,-2147483648,1,8,-15,9,-34,-2147483648,1,15,-15,16,-13,9,1,10,-6,-2147483648,1,8,-14,9,-28,16,1,17,-6,-2147483648,1,15,-42,16,1,17,-6,-2147483648,1,15,-42,16,1,17,-6,-2147483648,1,15,-42,16,1,17,
