@@ -38,7 +38,7 @@ function PState_Idle(){
         plasma_timer = 0; // Reset timer when key is released
     }
 	
-	if(place_meeting(x, y, oCheeseWaterfall)){
+	if(place_meeting(x, y, oCheeseWaterfall) or place_meeting(x, y, oCheeseLava)){
 		state = PSTATE.SWIMMING;
 	}
 	

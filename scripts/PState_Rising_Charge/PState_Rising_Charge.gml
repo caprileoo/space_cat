@@ -22,7 +22,7 @@ function PState_Rising_Charge(){
 		state = PSTATE.RISING_RELEASE;
 	}
 	
-	if(place_meeting(x, y, oCheeseWaterfall)){
+	if(place_meeting(x, y, oCheeseWaterfall) or place_meeting(x, y, oCheeseLava)){
 		state = PSTATE.SWIMMING;
 	}
 	

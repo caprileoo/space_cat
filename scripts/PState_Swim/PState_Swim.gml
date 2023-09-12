@@ -9,11 +9,16 @@ function PState_Swim(){
 	vsp = 0.8;
     hsp *= 0.6;
 	
-    if(key_jump){
+    if(key_jump && y > oCheeseWaterfall.y){
         vsp -= 3;
     }
+    
+    if(y <= oCheeseWaterfall.y && key_jump){
+        y = oCheeseWaterfall.y;
+        vsp = 0;
+    }
 	
-	if(!place_meeting(x, y, oCheeseWaterfall)){
+	if(!place_meeting(x, y, oCheeseWaterfall) and !place_meeting(x, y, oCheeseLava)){
 		state = PSTATE.IDLE;
 	}
 	

@@ -95,7 +95,9 @@ switch (state) {
         }
 		break;
 	case PSTATE.SWIMMING:
-		sprite_index = sCatSwim02;
+		if(place_meeting(x, y, oCheeseWaterfall)){
+			sprite_index = sCatSwim02;
+		}
 }
 
 #endregion

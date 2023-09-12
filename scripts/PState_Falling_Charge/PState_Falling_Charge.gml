@@ -37,7 +37,7 @@ function PState_Falling_Charge(){
 		state = PSTATE.FALLING_RELEASE;
 	}
 	
-	if(place_meeting(x, y, oCheeseWaterfall)){
+	if(place_meeting(x, y, oCheeseWaterfall) or place_meeting(x, y, oCheeseLava)){
 		state = PSTATE.SWIMMING;
 	}
 	
