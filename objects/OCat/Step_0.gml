@@ -109,7 +109,7 @@ if(place_meeting(x, y, oCheeseWaterfall)){
 	if(key_jump){
 		vsp -= 3;
 	}
-	sprite_index = sCatSwim03;
+	sprite_index = sCatSwim02;
 }
 
 if(place_meeting(x, y, oCheeseLava)){
