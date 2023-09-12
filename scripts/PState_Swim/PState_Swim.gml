@@ -9,12 +9,15 @@ function PState_Swim(){
 	vsp = 0.8;
     hsp *= 0.6;
 	
-    if(key_jump && y > oCheeseWaterfall.y){
+    var waterfallY = instance_exists(oCheeseWaterfall) ? oCheeseWaterfall.y : -infinity;
+    var lavaY = instance_exists(oCheeseLava) ? oCheeseLava.y : -infinity;
+    
+    if(key_jump and y > max(waterfallY, lavaY)){
         vsp -= 3;
     }
     
-    if(y <= oCheeseWaterfall.y && key_jump){
-        y = oCheeseWaterfall.y;
+    if(y <= max(waterfallY, lavaY) and key_jump){
+        y = max(waterfallY, lavaY);
         vsp = 0;
     }
 	
