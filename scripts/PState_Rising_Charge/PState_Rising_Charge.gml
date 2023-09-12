@@ -22,5 +22,9 @@ function PState_Rising_Charge(){
 		state = PSTATE.RISING_RELEASE;
 	}
 	
+	if(place_meeting(x, y, oCheeseWaterfall)){
+		state = PSTATE.SWIMMING;
+	}
+	
 	move_n_collide(collision_objects);
 }

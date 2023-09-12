@@ -33,5 +33,9 @@ function PState_Rising(){
         plasma_timer = 0; // Reset timer when key is released
     }
 	
+	if(place_meeting(x, y, oCheeseWaterfall)){
+		state = PSTATE.SWIMMING;
+	}
+	
 	move_n_collide(collision_objects);
 }

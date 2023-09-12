@@ -156,6 +156,7 @@
     {"id":{"name":"OPlasma","path":"objects/OPlasma/OPlasma.yy",},},
     {"id":{"name":"sCat","path":"sprites/sCat/sCat.yy",},},
     {"id":{"name":"OCam","path":"objects/OCam/OCam.yy",},},
+    {"id":{"name":"PState_Swim","path":"scripts/PState_Swim/PState_Swim.yy",},},
     {"id":{"name":"PState_Falling","path":"scripts/PState_Falling/PState_Falling.yy",},},
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"OMySlave","path":"objects/OMySlave/OMySlave.yy",},},

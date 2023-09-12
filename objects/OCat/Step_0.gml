@@ -93,6 +93,9 @@ switch (state) {
         } else {
             sprite_index = SCatFall;
         }
+		break;
+	case PSTATE.SWIMMING:
+		sprite_index = sCatSwim02;
 }
 
 #endregion
@@ -103,27 +106,12 @@ if(place_meeting(x, y, obj_spikes) or place_meeting(x, y, ODeathWall)){
 	state = PSTATE.DEAD;
 }
 
-if(place_meeting(x, y, oCheeseWaterfall)){
-	vsp = 0.8;
-	hsp *= 0.6;
-	if(key_jump){
-		vsp -= 3;
-	}
-	sprite_index = sCatSwim02;
-}
-
 if(place_meeting(x, y, oCheeseLava)){
 	lava_timer++;
 	
 	if(lava_timer == room_speed){
 		hp -= 1;
 		lava_timer = 0;
-	}
-	
-	vsp = 0.8;
-	hsp *= 0.6;
-	if(key_jump){
-		vsp -= 3;
 	}
 }
 
@@ -159,6 +147,7 @@ switch(state)
 	case PSTATE.WALK: PState_Walk(); break;
 	case PSTATE.RISING: PState_Rising(); break;
 	case PSTATE.FALLING: PState_Falling(); break;
+	case PSTATE.SWIMMING: PState_Swim(); break;
 	
 	case PSTATE.IDLE_CHARGE: PState_Idle_Charge(); break;
 	case PSTATE.WALK_CHARGE: PState_Walk_Charge(); break;
