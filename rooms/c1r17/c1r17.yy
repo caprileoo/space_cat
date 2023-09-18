@@ -128,15 +128,8 @@
   ],
   "isDnd": false,
   "layers": [
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":15,"SerialiseWidth":43,"TileCompressedData":[
--172,-2147483648,3,20,79,93,-40,-2147483648,2,38,39,-4,-2147483648,4,91,92,92,93,-33,-2147483648,2,38,39,-11,-2147483648,4,91,92,92,93,-26,-2147483648,2,38,39,-41,-2147483648,2,38,39,-18,-2147483648,2,
-19,21,-5,-2147483648,2,19,21,-5,-2147483648,2,19,21,-4,-2147483648,5,19,20,20,38,39,-17,-2147483648,4,19,44,43,21,-3,-2147483648,4,19,44,43,21,-3,-2147483648,4,19,44,43,21,-3,-2147483648,
-5,55,26,38,38,39,-17,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-4,-2147483648,4,37,38,38,39,-17,-2147483648,4,37,38,38,39,-3,-2147483648,
-4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-4,-2147483648,4,37,38,38,39,-17,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-4,-2147483648,4,
-37,38,38,39,-17,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,38,38,39,-4,-2147483648,4,37,38,38,39,-17,-2147483648,4,37,38,38,39,-3,-2147483648,4,37,
-38,38,39,-3,-2147483648,4,37,38,38,39,-4,-2147483648,2,37,38,],"TileDataFormat":1,},"tilesetId":{"name":"ForestSet32","path":"tilesets/ForestSet32/ForestSet32.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"walls","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23A6580A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigWall","path":"objects/oBigWall/oBigWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4FD34292","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigWall","path":"objects/oBigWall/oBigWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5F96C0B0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigWall","path":"objects/oBigWall/oBigWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":160.0,},
@@ -256,11 +249,11 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_726E6B5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oBigWall","path":"objects/oBigWall/oBigWall.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A54B192","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oLvEndY","path":"objects/oLvEndY/oLvEndY.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":1344.0,"y":128.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
-    "name": "c1s2 - Mushroom Scene",
-    "path": "folders/Rooms/Chapter 1 - Forest/c1s2 - Mushroom Scene.yy",
+    "name": "Chapter 1 - Forest",
+    "path": "folders/Rooms/Chapter 1 - Forest.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
