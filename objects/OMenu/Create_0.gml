@@ -16,8 +16,7 @@ menu_committed = -1;
 menu_control = true;
 
 //Text
-menu[2] = "New game";
-menu[1] = "Load";
+menu[1] = "New game";
 menu[0] = "Exit";
 
 menu_items = array_length(menu);

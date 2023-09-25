@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "OTitle",
+  "name": "oEndingTitle",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,12 +26,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "STitle",
-    "path": "sprites/STitle/STitle.yy",
+    "name": "sEnding",
+    "path": "sprites/sEnding/sEnding.yy",
   },
-  "spriteMaskId": {
-    "name": "STitle",
-    "path": "sprites/STitle/STitle.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

@@ -27,7 +27,7 @@ if (menu_committed != -1)
 {
 	switch (menu_committed)
 	{
-		case 2: default: SlideTransition(TRANS_MODE.NEXT); break
+		case 1: default: SlideTransition(TRANS_MODE.NEXT); break
 		case 0: game_end(); break
 	}
 }
