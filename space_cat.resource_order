@@ -13,6 +13,7 @@
     {"name":"Walls","order":6,"path":"folders/Objects/Functional/Platforms/Walls.yy",},
     {"name":"Trigger Objects","order":4,"path":"folders/Objects/Functional/Trigger Objects.yy",},
     {"name":"GUI and HUD","order":4,"path":"folders/Objects/GUI and HUD.yy",},
+    {"name":"Titles","order":4,"path":"folders/Objects/GUI and HUD/Titles.yy",},
     {"name":"Particle Systems","order":5,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":6,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":7,"path":"folders/Rooms.yy",},
@@ -47,7 +48,6 @@
     {"name":"Tilesets","order":3,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
-    {"name":"Titles","order":4,"path":"folders/Objects/GUI and HUD/Titles.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SPlasmaHB","order":10,"path":"sprites/SPlasmaHB/SPlasmaHB.yy",},
