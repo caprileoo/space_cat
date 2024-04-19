@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "FighterProcessAttack",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Fighter",
-    "path": "folders/Scripts/EnemyProcessATK/Fighter.yy",
+  "$GMScript":"",
+  "%Name":"FighterProcessAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"FighterProcessAttack",
+  "parent":{
+    "name":"Fighter",
+    "path":"folders/Scripts/EnemyProcessATK/Fighter.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

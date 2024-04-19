@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "RState_Hit",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Ranger Mouse State",
-    "path": "folders/Scripts/Ranger Mouse State.yy",
+  "$GMScript":"",
+  "%Name":"RState_Hit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RState_Hit",
+  "parent":{
+    "name":"Ranger Mouse State",
+    "path":"folders/Scripts/Ranger Mouse State.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

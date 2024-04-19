@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ProcessAttackToSlime",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Slime",
-    "path": "folders/Scripts/PlayerProcessATK/Slime.yy",
+  "$GMScript":"",
+  "%Name":"ProcessAttackToSlime",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ProcessAttackToSlime",
+  "parent":{
+    "name":"Slime",
+    "path":"folders/Scripts/PlayerProcessATK/Slime.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

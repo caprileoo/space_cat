@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SState_Chase",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Movement",
-    "path": "folders/Scripts/Slime State/Movement.yy",
+  "$GMScript":"",
+  "%Name":"SState_Chase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SState_Chase",
+  "parent":{
+    "name":"Movement",
+    "path":"folders/Scripts/Slime State/Movement.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
