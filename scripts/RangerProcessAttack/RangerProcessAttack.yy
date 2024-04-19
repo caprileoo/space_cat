@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "RangerProcessAttack",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Ranger",
-    "path": "folders/Scripts/EnemyProcessATK/Ranger.yy",
+  "$GMScript":"",
+  "%Name":"RangerProcessAttack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"RangerProcessAttack",
+  "parent":{
+    "name":"Ranger",
+    "path":"folders/Scripts/EnemyProcessATK/Ranger.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PlayerHitByRanger",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/PlayerProcessATK/Player.yy",
+  "$GMScript":"",
+  "%Name":"PlayerHitByRanger",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerHitByRanger",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/PlayerProcessATK/Player.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

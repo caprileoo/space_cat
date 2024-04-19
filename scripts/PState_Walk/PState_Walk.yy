@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "PState_Walk",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Movement",
-    "path": "folders/Scripts/Player States/Movement.yy",
+  "$GMScript":"",
+  "%Name":"PState_Walk",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PState_Walk",
+  "parent":{
+    "name":"Movement",
+    "path":"folders/Scripts/Player States/Movement.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

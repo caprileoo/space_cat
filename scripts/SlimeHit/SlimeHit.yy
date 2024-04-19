@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "SlimeHit",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Slime",
-    "path": "folders/Scripts/EnemyProcessATK/Slime.yy",
+  "$GMScript":"",
+  "%Name":"SlimeHit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SlimeHit",
+  "parent":{
+    "name":"Slime",
+    "path":"folders/Scripts/EnemyProcessATK/Slime.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
